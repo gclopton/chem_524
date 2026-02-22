@@ -8,5 +8,7 @@
   "blue-topaz-theme@@print-h6-color@@dark": "#8400FF",
   "blue-topaz-theme@@accent-strong@@dark": "#0AF4B0",
   "blue-topaz-theme@@accent-strong@@light": "#0039FF",
-  "blue-topaz-theme@@accent-em@@dark": "#4CEFFD"
+  "blue-topaz-theme@@accent-em@@dark": "#4CEFFD",
+  "blue-topaz-theme@@bg-color-highlight-2@@dark": "#B347B96F",
+  "blue-topaz-theme@@bg-color-highlight-2@@light": "#B347B96F"
 }
