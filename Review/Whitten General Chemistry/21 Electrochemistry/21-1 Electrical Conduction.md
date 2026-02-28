@@ -1,0 +1,3 @@
+# 21-1 Electrical Conduction
+
+Electric current represents transfer of charge. Charge can be conducted through metals and through pure liquid electrolytes (that is, molten salts) or solutions containing electrolytes. The former type of conduction is called metallic conduction. It involves the flow of electrons with no similar movement of the atoms of the metal and no obvious changes in the metal (Section 13-17). Ionic, or electrolytic, conduction is the conduction of electric current by the motion of ions through a solution or a pure liquid. Positively charged ions migrate toward the negative electrode, while negatively charged ions move toward the positive electrode. Both kinds of conduction, ionic and metallic, occur in electrochemical cells (Figure 21-1).

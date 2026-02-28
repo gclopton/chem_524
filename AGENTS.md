@@ -6,6 +6,17 @@ Before responding in this repository, read `style.md` and follow it exactly for 
 
 If any instruction in `style.md` conflicts with default assistant conventions, prefer `style.md`. If `style.md` conflicts with a direct user request in the current chat, follow the user request.
 
+# Compiling a Lecture Note to a Chapter
+
+For the full workflow, checklist, and callout/indices standards, follow `Compiling Lecture Notes.md`.
+
+Key invariant while compiling: work only inside `Lecture Notes/` (including `Lecture Notes/images/`) until lecture-derived writeups have been checked for correctness and consistency with the book.
+
+## Callouts (quick rules)
+
+- **Figures:** Open/view the embedded image before writing or revising a caption; captions must be diagnostic (axes, variables, conventions, and what feature to read off).
+- **Draw-it:** Place `> [!draw-it]` immediately before its referenced figure; make prompts self-contained; do not embed answers; avoid filler phrases like “without looking at the figure”; prefix every callout line with `>`.
+
 
 # Rules for Editing Chapters
 
@@ -22,6 +33,8 @@ When editing a passage that includes an equation callout (a block beginning with
 
 When editing or adding equations, prioritize symbolic clarity and consistency over terseness.
 
+Whenever you encounter an equation callout (a block beginning with `> [!equation]`), check whether the chapter text already contains a clear interpretation paragraph immediately after it. If not, add one (outside the callout): “This equation says that …” plus a brief explanation of key terms/chunks and useful special cases, without giving away answers to nearby review questions.
+
 If a symbol is used for more than one quantity within a chapter (for example, $R$ as the gas constant and $R$ as an electrical resistance), treat this as an overloaded symbol that must be disambiguated in the chapter’s `Symbol Index.md`. Do not “merge” meanings into a single row or pack multiple unit systems into a single Units cell.
 
 For constants, record the numerical value in the `Value` column of the chapter symbol index. If multiple unit conventions are commonly useful in the context of the notebook, add an additional row immediately below the constant with the alternative value and units. In that alternative-units row, leave the `Meaning` and `Description` cells blank so the row reads as a unit conversion rather than a second definition.
@@ -32,6 +45,32 @@ Whenever you see an equation callout (a block beginning with `> [!equation]`), t
 
 Each chapter should maintain an `Equation Index.md` file in the chapter folder. When you add or revise an equation callout, copy that equation (keeping the same callout type and title) into the equation index and add a short explanation immediately below the callout. The explanation should, where it makes sense, state the verbal meaning of the equation (“this equation says that …”) and identify the meaning of important chunks (common grouped factors or terms) that help with interpretation or dimensional checking. Keep the equation index in alphabetical order by the callout titles (case-insensitive).
 
+
+## Conventions
+
+Some chapters use convention callouts (blocks beginning with `> [!convention]`) to capture local rules that readers must apply consistently (sign conventions, reference directions, electrode/cell-schematic conventions, “left vs right” definitions, what is held constant, naming/labeling conventions, etc.).
+
+When you see a convention callout, replace any placeholder text with a short, self-contained description of the convention as stated in the immediately surrounding passage. The goal is that a student can apply the convention correctly by reading only the callout.
+
+Write convention callouts in concise prose (or a few short labeled lines) and keep every line inside the callout prefixed with `>`. Do not introduce new conventions that are not supported by the text; if the passage is ambiguous, align with the nearest explicit convention already established in the chapter and add one clarifying sentence that resolves the ambiguity.
+
+If the chapter uses multiple distinct conventions of the same “type” (for example, more than one sign convention depending on a defined direction), make the callout title specific (e.g., `> [!convention] Convention: Cell-reaction sign convention`) so it does not read like a generic “Convention” repeated many times.
+
+## Questions
+
+Some chapters use questions callouts (blocks beginning with `> [!Questions]`) to help students review the key ideas introduced in the passage that follows the callout.
+
+When you see a questions callout, replace placeholder text with a set of short prompts that test recall and light application of the most important principles, assumptions, distinctions, and conventions in the immediately following passage (until the next major break such as a new subsection heading or a shift to a different topic).
+
+Questions must be substantive: they should target transferable takeaways that a student can apply repeatedly when solving problems (assumptions, limiting cases, model-vs-device distinctions, sign/reference conventions, and “how to proceed” rules). Avoid trivia-style prompts that only test memorization (historical asides, citation numbers, incidental adjectives, or details that are not used later for reasoning).
+
+Questions should be self-contained and should not include solutions. Do not introduce new symbols, definitions, or conventions that are not supported by the text that follows the callout; instead, use the chapter’s existing notation and terminology. It is fine for a questions callout to have only 1–3 prompts if that is what the passage warrants.
+
+Do not “give away” the answer inside a review question. In particular, avoid writing the target equation (or a fully evaluated expression) directly in the prompt (e.g., “State Faraday’s law in the form $n(e^-)=Q/F$ …”); instead, ask the student to write the equation and define its symbols. Likewise, avoid repeating Question 1 as the premise of later questions; subsequent questions should build on earlier ones without restating their answers.
+
+When a questions callout contains multiple prompts, number them `1.`, `2.`, `3.`, etc. (with each numbered line still prefixed by `>` so it remains inside the callout).
+
+Use a specific title in the callout header (e.g., `> [!Questions] Questions: NHE as a standard vs. realizable electrodes`) so multiple question callouts do not all read as “Title.” Keep every line inside the callout prefixed with `>`.
 
 
 ## Problem Areas
@@ -77,11 +116,13 @@ Keep the symbol index table sorted in alphabetical order by the symbol as writte
 
 When editing chapters, each exercise must have a self-contained problem statement that reads like a textbook prompt. Write the problem statement inside the exercise callout (the block that begins with `> [!exercise] Exercise N`) and assume the prose and equations that follow the callout are the solution. The statement should supply only the minimum information needed to make the solution well-posed, and it must not include intermediate results or conclusions that the student is supposed to derive.
 
-Match the solution’s notation exactly. Do not introduce new symbols, sign conventions, or reference states unless the solution already defines them. If the solution uses a figure, cell diagram, or reaction already shown immediately below, you may refer to it (e.g., “Figure 1.1.1b” or a tagged equation) rather than re-explaining it. If a numerical value, condition (standard state, temperature, pressure), or polarity assignment is essential to determine directions or signs in the solution, include it explicitly; otherwise omit it.
+Match the solution’s notation exactly. Do not introduce new symbols, sign conventions, or reference states unless the solution already defines them. If the solution uses a figure or cell diagram already shown immediately below, you may refer to it (e.g., “Figure 1.1.1b”) rather than re-explaining it. If a numerical value, condition (standard state, temperature, pressure), or polarity assignment is essential to determine directions or signs in the solution, include it explicitly; otherwise omit it.
 
 Prefer short, direct prompts that specify deliverables: what to compute, what to write (balanced net reaction, half-reactions, direction of electron flow, classification), and under what conditions. Use multipart structure only when the solution naturally breaks into distinct tasks; avoid adding extra subparts that are not used. Avoid hinting language (“show that,” “it can be shown,” “hence”) unless the goal is explicitly to verify a claim already stated in the text.
 
 Formatting rules: every line of the problem statement, including display equations and blank lines, must be prefixed with `>` so it stays inside the callout. Replace placeholder text like “Contents” with the actual prompt. If the question has multiple parts, label them as bold headers on their own lines (e.g., `**Part A:** ...`, `**Part B:** ...`) and include at least one blank callout line (`> `) between parts so the separation is visible at a glance.
+
+Self-contained rule: do not require the student to look below the exercise callout (into the solution) to retrieve essential information. If the prompt references an equation/reaction by number (e.g., “Eq. (2.1.69)”), include the needed equation(s) explicitly inside the callout. Likewise, if a figure or diagram is required for the prompt, include it in the callout (or restate the required information from it) rather than relying on the student to scroll into the solution.
 
 Title rule: every exercise callout must have a skill-focused title in the callout header. Use the format `> [!exercise] Exercise N: <Skill Title>` where `<Skill Title>` is short and names the transferable skill (e.g., “Chemical Reversibility,” “Balancing Half-Reactions,” “Applying the Nernst Equation”), not the specific numerical answer or a reference to “this problem.”
 

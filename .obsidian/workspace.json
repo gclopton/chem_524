@@ -4,98 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "d58d4eb675522435",
+        "id": "7ee230d1f0dd9e5f",
         "type": "split",
         "children": [
           {
-            "id": "ad342ae96255b481",
+            "id": "19e3cfaf6e183607",
             "type": "tabs",
             "children": [
               {
-                "id": "02264df7fea803b9",
+                "id": "ae34713d19d26b78",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.1 Basic Electrochemical Thermodynamics.md",
+                    "file": "Lecture Notes/1.6b Lecture Notes (2026-02-02) Cell Equivalent Circuits; Steps and Ramps.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "2.1 Basic Electrochemical Thermodynamics"
+                  "title": "1.6b Lecture Notes (2026-02-02) Cell Equivalent Circuits; Steps and Ramps"
                 }
               },
               {
-                "id": "fe7299b5ffd0f09b",
+                "id": "62ac8922d147a85f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Book/Chapter 2 Potentials and Thermodynamics of Cells/Glossary.md",
+                    "file": "Lecture Notes/1.6b Lecture Notes (2026-02-02) Cell Equivalent Circuits; Steps and Ramps.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Glossary"
+                  "title": "1.6b Lecture Notes (2026-02-02) Cell Equivalent Circuits; Steps and Ramps"
                 }
               },
               {
-                "id": "1f3f5a1d7b6e8609",
+                "id": "8f3ed019ea11cbff",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "image",
                   "state": {
-                    "file": "Book/Chapter 1 Overview of Electrode Processes/1.6 The ElectrodeSolution Interface and Charging Current.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Lecture Notes/images/Lecture 2026-01-30 Figure 1 i-E conventions and nonfaradaic window.png"
                   },
-                  "icon": "lucide-file",
-                  "title": "1.6 The ElectrodeSolution Interface and Charging Current"
-                }
-              },
-              {
-                "id": "8fe5e7e85bed8fe7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Book/Chapter 2 Potentials and Thermodynamics of Cells/Glossary.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Glossary"
-                }
-              },
-              {
-                "id": "e8773915a4722292",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Book/Chapter 2 Potentials and Thermodynamics of Cells/Glossary.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Glossary"
+                  "icon": "lucide-image",
+                  "title": "Lecture 2026-01-30 Figure 1 i-E conventions and nonfaradaic window"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
-            "id": "0f295f64ec9a1d9c",
+            "id": "11f9b51d9e6560a6",
             "type": "tabs",
             "children": [
               {
-                "id": "40cff6a3ff8c7fa0",
+                "id": "a12d351bbc4cfe12",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/gradyclopton/ObsidianVaults/chem_524/Book/Chapter 2 Potentials and Thermodynamics of Cells",
+                      "cwd": "/Users/gradyclopton/ObsidianVaults/chem_524/Lecture Notes",
                       "focus": false,
                       "profile": {
                         "args": [],
@@ -116,15 +87,15 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 130,
-                        "data": "\u001b[38;5;76m❯\u001b[0m \u001b[32mcd\u001b[0m \u001b[4m../../../\r\n\u001b[38;5;76;24m❯\u001b[0m \u001b[32mls\r\n\u001b[36;1mabstract_algebra\u001b[0m     \u001b[36;1mcurrent_issues_2025\u001b[0m  \u001b[36;1mgym\u001b[0m                  \u001b[36;1mmathematics_1\u001b[0m        \u001b[36;1mpython\u001b[0m               \u001b[36;1mstore\r\nbusiness\u001b[0m             \u001b[36;1melectronic_structure\u001b[0m \u001b[36;1mlinux\u001b[0m                \u001b[36;1mme412\u001b[0m                \u001b[36;1mresearch_2025\u001b[0m        \u001b[36;1mtest_vault\r\nchem_524\u001b[0m             \u001b[36;1mf-block_chemistry\u001b[0m    \u001b[36;1mlms\u001b[0m                  \u001b[36;1mme_510\u001b[0m               \u001b[36;1mscratch\u001b[0m              \u001b[36;1mtodo\r\ncomplex_analysis\u001b[0m     \u001b[36;1mfunctional_analysis\u001b[0m  \u001b[36;1mmac_setup\u001b[0m            \u001b[36;1mpapers_2025\u001b[0m          \u001b[36;1mstatistical_physics\u001b[0m  \u001b[36;1mvasp\r\n\u001b[38;5;76;22m❯\u001b[0m \u001b[32mcd\u001b[0m \u001b[4mchem_524\r\n\r\n\u001b[38;5;244;24m╭─\u001b[38;5;254;44m \u001b[38;5;255;1m~\u001b[38;5;254;22m/ObsidianVaults/\u001b[38;5;255;1mchem_524\u001b[38;5;254;22m \u001b[34;43m\u001b[30m on master !5 ?8 \u001b[33;49m\u001b[38;5;244m───────────────────────────────────────────\u001b[30m\u001b[32;40m ✔ \u001b[34m\u001b[30;44m base  \u001b[36m\u001b[30;46m !6/6  \u001b[37m\u001b[30;47m at 10:51:43 \u001b[38;5;244;49m─╮\r\n╰─\u001b[0m \u001b[32mgit\u001b[0m add \u001b[90m.\u001b[0m                \u001b[99C\u001b[38;5;244m─╯\u001b[118D\u001b[0m",
-                        "rows": 20
+                        "columns": 180,
+                        "data": "\u001b[38;5;76m❯\u001b[0m \u001b[32mcd\u001b[0m \u001b[4m../\r\n\u001b[38;5;76;24m❯\u001b[0m \u001b[32mcd\u001b[0m \u001b[4m../\r\n\u001b[38;5;76;24m❯\u001b[0m \u001b[32mls\r\n\u001b[36;1mabstract_algebra\u001b[0m     \u001b[36;1mcomplex_analysis\u001b[0m     \u001b[36;1mf-block_chemistry\u001b[0m    \u001b[36;1mlinux\u001b[0m                \u001b[36;1mmathematics_1\u001b[0m        \u001b[36;1mpapers_2025\u001b[0m          \u001b[36;1mscratch\u001b[0m              \u001b[36;1mtest_vault\r\nbusiness\u001b[0m             \u001b[36;1mcurrent_issues_2025\u001b[0m  \u001b[36;1mfunctional_analysis\u001b[0m  \u001b[36;1mlms\u001b[0m                  \u001b[36;1mme412\u001b[0m                \u001b[36;1mpython\u001b[0m               \u001b[36;1mstatistical_physics\u001b[0m  \u001b[36;1mtodo\r\nchem_524\u001b[0m             \u001b[36;1melectronic_structure\u001b[0m \u001b[36;1mgym\u001b[0m                  \u001b[36;1mmac_setup\u001b[0m            \u001b[36;1mme_510\u001b[0m               \u001b[36;1mresearch_2025\u001b[0m        \u001b[36;1mstore\u001b[0m                \u001b[36;1mvasp\r\n\u001b[38;5;76;22m❯\u001b[0m \u001b[32mcd\u001b[0m \u001b[4mchem_524\r\n\r\n\u001b[38;5;244;24m╭─\u001b[38;5;254;44m \u001b[38;5;255;1m~\u001b[38;5;254;22m/ObsidianVaults/\u001b[38;5;255;1mchem_524\u001b[38;5;254;22m \u001b[34;43m\u001b[30m on master !16 ?68 \u001b[33;49m\u001b[38;5;244m───────────────────────────────────────────────────────────────────────────────────────────\u001b[30m\u001b[32;40m ✔ \u001b[34m\u001b[30;44m base  \u001b[36m\u001b[30;46m !6/6  \u001b[37m\u001b[30;47m at 12:50:21 \u001b[38;5;244;49m─╮\r\n╰─\u001b[0m \u001b[32mgit\u001b[0m add \u001b[4m.\u001b[0m                \u001b[149C\u001b[38;5;244m─╯\u001b[167D\u001b[0m",
+                        "rows": 28
                       }
                     }
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: gradyclopton@Gradys-MacBook-Pro-M3-5:~/ObsidianVaults/chem_524"
+                  "title": "Terminal: gradyclopton@wirelessprv-10-192-137-92:~/ObsidianVaults/chem_524"
                 }
               }
             ]
@@ -162,8 +133,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "electrochemical potential",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -187,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.50390243530273
+    "width": 436.5
   },
   "right": {
     "id": "0f637f334b76d0a9",
@@ -336,12 +307,52 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections Files"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           },
           {
             "id": "6e1cc9e5d33d817b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "1035aab8c8c02018",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "56470fdec1de5de4",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "53c79af2782438b0",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
+            }
+          },
+          {
+            "id": "2612b01f4bd88b8b",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -351,7 +362,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -376,55 +387,57 @@
       "cloze:Toggle all clozes": false,
       "dbfolder:Create a new database table": false,
       "modalforms:Edit forms": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "40cff6a3ff8c7fa0",
+  "active": "a12d351bbc4cfe12",
   "lastOpenFiles": [
+    "Lecture Notes/1.6b Lecture Notes (2026-02-02) Cell Equivalent Circuits; Steps and Ramps.md",
+    "Pasted image 20260228124916.png",
+    "Pasted image 20260228121828.png",
+    "Pasted image 20260228120518.png",
+    "Pasted image 20260228120507.png",
+    "Pasted image 20260228111900.png",
+    "Pasted image 20260228105939.png",
+    "Pasted image 20260228104200.png",
+    "Pasted image 20260228103904.png",
+    "Pasted image 20260228103810.png",
+    "Pasted image 20260228102301.png",
+    "Lecture Notes/Symbol Index.md",
+    "Lecture Notes/1.6f Lecture Notes (2026-02-16) Cyclic Voltammetry and Cell Reversibility.md",
+    "Lecture Notes/1.6a Lecture Notes (2026-01-30) Faradaic vs Nonfaradaic; IPE; EDL.md",
+    "Lecture Notes/1.6d Lecture Notes (2026-02-09) Steady-State Voltammetry; Half-Wave Potential.md",
+    "Lecture Notes/1.6h Lecture Notes (2026-02-20) Cell Nernst Equation and Standard Cell Potentials.md",
+    "Lecture Notes/1.6g Lecture Notes (2026-02-18) Electrochemical Potentials and Electrode Potentials.md",
+    "Lecture Notes/1.6e Lecture Notes (2026-02-11) Electron-Transfer Mechanisms; Electrochemical vs Chemical Reversibility.md",
+    "Lecture Notes/1.6c Lecture Notes (2026-02-06) Diffusion Layers; Mass Transfer; Limiting Current.md",
+    "Compiling Lecture Notes.md",
+    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.7 Problems.md",
+    "Book/Chapter 1 Overview of Electrode Processes/1.11 Problems.md",
+    "Book/Chapter 1 Overview of Electrode Processes/footnotes.md",
+    "Class Activities/Class activity 02-27 (1) Acti.md",
+    "Class Activities/Class Activity (2026-02-27) ITIES Ion Transfer and Electrochemical Potentials.md",
     "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.1 Basic Electrochemical Thermodynamics.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/Glossary.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/Symbol Index.md",
-    "AGENTS.md",
-    "Pasted image 20260222103124.png",
+    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2 Potentials and Thermodynamics of Cells.md",
+    "Book/Chapter 1 Overview of Electrode Processes/1 Overview of Electrode Processes.md",
+    "Book/Chapter 1 Overview of Electrode Processes/1.4 Semiempirical Treatment of Nernstian Reactions with Coupled Chemical Reactions.md",
+    "Book/Chapter 1 Overview of Electrode Processes/1.3 Mass-Transfer-Controlled Reactions.md",
     "Book/Chapter 1 Overview of Electrode Processes/1.2 Faradaic Processes and Factors Affecting Rates of Electrode Reactions.md",
     "Book/Chapter 1 Overview of Electrode Processes/1.1 Basic Ideas.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.2 A More Detailed View of Interfacial Potential Differences.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222102518.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222102543.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222102450.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222102345.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/Equation Index.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222092314.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222092209.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222092145.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images/Pasted image 20260222091947.png",
-    "temp/Homework 1 Problem 1 Part B Sketch.png",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/images",
-    "temp/3.1.1 Quiz.md",
-    "temp",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.6 References.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.5 Lab Note Practical Use of Reference Electrodes.md",
+    "Lecture Notes/Glossary.md",
     "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.4 Ion-Selective Electrodes.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.3 Liquid Junction Potentials.md",
-    "Book/Chapter 1 Overview of Electrode Processes/1.6 The ElectrodeSolution Interface and Charging Current.md",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2 Potentials and Thermodynamics of Cells.md",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/3.2 Essentials of Electrode Reactions.md",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/3.1 Review of Homogeneous Kinetics.md",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/Quizzes",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/3.3 Butler-Volmer Model of Electrode Kinetics.md",
-    "Homework/Homework 2 Chem 524.md",
-    "Homework/Homework 1.md",
-    "Book/Chapter 4 Mass Transfer by Migration and Diffusion/4.1 General Mass-Transfer Equations.md",
-    "Book/Chapter 4 Mass Transfer by Migration and Diffusion/4 Mass Transfer by Migration and Diffusion.md",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/3 Basic Kinetics of Electrode Reactions.md",
-    "Book/Chapter 1 Overview of Electrode Processes/1 Overview of Electrode Processes.md",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions/3.6 Open-Circuit Potential and Multiple Half-Reactions at an Electrode.md",
-    "Homework/images",
-    "Book/Chapter 4/4 Mass Transfer by Migration and Diffusion.pdf",
-    "Book/Chapter 4 Mass Transfer by Migration and Diffusion",
-    "Book/Chapter 3 Basic Kinetics of Electrode Reactions",
-    "Book/Chapter 2 Potentials and Thermodynamics of Cells",
-    "Class Activities/Class Activity 02-06.pdf",
-    "Book/Chapter 1 Overview of Electrode Processes/images"
+    "Book/Chapter 2 Potentials and Thermodynamics of Cells/2.5 Lab Note Practical Use of Reference Electrodes.md",
+    "Lecture Notes/Untitled.canvas",
+    "temp/feb20_pages",
+    "temp/feb18_crops2",
+    "temp/feb18_crops",
+    "temp/lec_zoom",
+    "temp/lec_feb_extract/_crops",
+    "temp/lec_feb_extract/07_-_Friday_February_20_2026",
+    "temp/lec_feb_extract/06_-_Wednesday_February_18_2026",
+    "temp/lec_feb_extract/05_-_Monday_February_16_2026",
+    "temp/lec_feb_extract/04_-_Wednesday_February_11_2026",
+    "temp/lec_feb_extract/03_-_Monday_February_9_2026"
   ]
 }

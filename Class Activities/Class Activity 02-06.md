@@ -13,7 +13,7 @@ For a one-electron couple $O+e^{-} \rightleftharpoons R$, the Nernst equation re
 # Part A $E=E^{\circ}$
 
 
-> [!question] Surface Equilibrium at $E^{\circ}$
+> [!questio] Surface Equilibrium at $E^{\circ}$
 > What are the surface concentrations $C_O(x=0)$ and $C_R(x=0)$ when the electrode potential equals the formal potential, given the Nernst relation and total concentration $C_O(x=0)+C_R(x=0)= C^*=1 \mathrm{mM}$ ?
 
 
@@ -83,7 +83,7 @@ $$
 # Part B $E=E^{\circ}-0.12 \mathrm{~V}$
 
 
-> [!Question] Cathodic Polarization
+> [!Questio] Cathodic Polarization
 > What are the surface concentrations $C_O(x=0)$ and $C_R(x=0)$ when the electrode potential is 0.12 V below the formal potential, given the Nernst relation and total concentration $C_O(x=0)+C_R(x= 0)=C^*=1 \mathrm{mM}$ ?
 
 
@@ -161,7 +161,7 @@ $$
 # Part C $E=E^{\circ}+0.12 \mathrm{~V}$
 
 
-> [!Question] Anodic Polarization
+> [!Questio] Anodic Polarization
 > What are the surface concentrations $C_O(x=0)$ and $C_R(x=0)$ when the electrode potential is 0.12 V above the formal potential, given the Nernst relation and total concentration $C_O(x=0)+C_R(x= 0)=C^*=1 \mathrm{mM}$ ?
 
 

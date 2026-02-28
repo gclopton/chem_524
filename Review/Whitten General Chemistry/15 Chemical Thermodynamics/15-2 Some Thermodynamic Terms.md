@@ -1,0 +1,24 @@
+# 15-2 Some Thermodynamic Terms
+
+The substances involved in the chemical and physical changes that we are studying are called the system. Everything in the system's environment constitutes its surroundings. The universe is the system plus its surroundings. The system may be thought of as the part of the universe under investigation. The First Law of Thermodynamics tells us that energy is neither created nor destroyed; it is only transferred between the system and its surroundings.
+
+The thermodynamic state of a system is defined by a set of conditions that completely specifies all the properties of the system. This set commonly includes the temperature, pressure, composition (identity and number of moles of each component), and physical state (gas, liquid, or solid) of each part of the system. Once the state has been specified, all other properties-both physical and chemical-are fixed.
+
+The properties of a system-such as $P, V, T$-are called state functions. The value of a state function depends only on the state of the system and not on the way in which the system came to be in that state. A change in a state function describes a difference between the two states. It is independent of the process or pathway by which the change occurs.
+
+For instance, consider a sample of one mole of pure liquid water at $30^{\circ} \mathrm{C}$ and 1 atm pressure. If at some later time the temperature of the sample is $22^{\circ} \mathrm{C}$ at the same pressure, then it is in a different thermodynamic state. We can tell that the net temperature change is $-8^{\circ} \mathrm{C}$. It does not matter whether (1) the cooling took place directly (either slowly or rapidly) from $30^{\circ} \mathrm{C}$ to $22^{\circ} \mathrm{C}$, or (2) the sample was first heated to $36^{\circ} \mathrm{C}$, then cooled to $10^{\circ} \mathrm{C}$, and finally warmed to $22^{\circ} \mathrm{C}$, or (3) any other conceivable path was followed from the initial state to the final state. The change in other properties (e.g., the pressure) of the sample is likewise independent of path.
+
+The most important use of state functions in thermodynamics is to describe changes. We describe the difference in any quantity, $X$, as
+
+> [!equation] Change in a state function (definition)
+> $$
+> \Delta X=X_{\text {final }}-X_{\text {initial }}
+> $$
+
+When $X$ increases, the final value is greater than the initial value, so $\Delta X$ is positive; a decrease in $X$ makes $\Delta X$ a negative value.
+
+You can consider a state function as analogous to a bank account. With a bank account, at any time you can measure the amount of money in your account (your balance) in convenient terms-dollars and cents. Changes in this balance can occur for several reasons, such as deposit of your paycheck, writing of checks, or service charges assessed by the bank. In our analogy these transactions are not state functions, but they do cause changes in the state function (the balance in the account). You can think of the bank balance on a vertical scale; a deposit of $\$ 150$ changes the balance by $+\$ 150$, no matter what it was at the start, just as a withdrawal of $\$ 150$ would change the balance by $-\$ 150$. Similarly, we shall see that the energy of a system is a state function that can be changed-for instance, by an energy "deposit" of heat absorbed or work done on the system, or by an energy "withdrawal" of heat given off or work done by the system.
+
+We can describe differences between levels of a state function, regardless of where the zero level is located. In the case of a bank balance, the "natural" zero level is obviously the point at which we open the account, before any deposits or withdrawals. In contrast, the zero levels on most temperature scales are set arbitrarily. When we say that the temperature of an ice-water mixture is "zero degrees Celsius," we are not saying that the mixture contains no temperature! We have simply chosen to describe this point on the temperature scale by the number zero; conditions of higher temperature are described by positive temperature values, and those of lower temperature have negative values, "below zero." The phrase "15 degrees cooler" has the same meaning anywhere on the scale. Many of the scales that we use in thermodynamics are arbitrarily defined in this way. Arbitrary scales are useful when we are interested only in changes in the quantity being described.
+
+Any property of a system that depends only on the values of its state functions is also a state function. For instance, the volume of a given sample of water depends only on temperature, pressure, and physical state; volume is a state function. We shall encounter other thermodynamic state functions.

@@ -1,0 +1,15 @@
+# 15-6 Standard States and Standard Enthalpy Changes
+
+The thermodynamic standard state of a substance is its most stable pure form under standard pressure (one atmosphere)* and at some specific temperature ( $25^{\circ} \mathrm{C}$ or 298 K unless otherwise specified). Examples of elements in their standard states at $25^{\circ} \mathrm{C}$ are hydrogen, gaseous diatomic molecules, $\mathrm{H}_{2}(\mathrm{~g})$; mercury, a silver-colored liquid metal, $\mathrm{Hg}(\ell)$; sodium, a silvery-white solid metal, $\mathrm{Na}(\mathrm{s})$; and carbon, a grayish-black solid called graphite, C(graphite). We use C(graphite) instead of C(s) to distinguish it from other solid forms of carbon, such as C (diamond). The reaction C (diamond) $\longrightarrow \mathrm{C}$ (graphite) would be exothermic by 1.897 $\mathrm{kJ} /$ mol rxn; C(graphite) is thus more stable than C(diamond). Examples of standard states of compounds include ethanol (ethyl alcohol or grain alcohol), a liquid, $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$; water, a liquid, $\mathrm{H}_{2} \mathrm{O}(\ell)$; calcium carbonate, a solid, $\mathrm{CaCO}_{3}(\mathrm{~s})$; and carbon dioxide, a gas, $\mathrm{CO}_{2}(\mathrm{~g})$. Keep in mind the following conventions for thermochemical standard states.
+
+1. For a pure substance in the liquid or solid phase, the standard state is the pure liquid or solid.
+2. For a gas, the standard state is the gas at a pressure of one atmosphere; in a mixture of gases, its partial pressure must be one atmosphere.
+3. For a substance in solution, the standard state refers to one-molar concentration.
+
+For ease of comparison and tabulation, we often refer to thermochemical or thermodynamic changes "at standard states" or, more simply, to a standard change. To indicate a change at standard pressure, we add a superscript zero. If some temperature other than the standard temperature of $25^{\circ} \mathrm{C}(298 \mathrm{~K})$ is specified, we indicate it with a subscript; if no subscript appears, a temperature of $25^{\circ} \mathrm{C}$ ( 298 K ) is implied.
+
+[^0]The standard enthalpy change, $\Delta \boldsymbol{H}_{\mathrm{rxn}}^{0}$, for a reaction
+reactants ⟶ products
+refers to the $\Delta H$ when the specified number of moles of reactants, all at standard states, are converted completely to the specified number of moles of products, all at standard states.
+
+We allow a reaction to take place, with changes in temperature or pressure if necessary; when the reaction is complete, we return the products to the same conditions of temperature and pressure that we started with, keeping track of energy or enthalpy changes as we do so. When we describe a process as taking place "at constant $T$ and $P$," we mean that the initial and final conditions are the same. Because we are dealing with changes in state functions, the net change is the same as the change we would have obtained hypothetically with $T$ and $P$ actually held constant.

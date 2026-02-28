@@ -34,7 +34,12 @@
       "convention",
       "rule",
       "questions",
-      "aside"
+      "aside",
+      "Output",
+      "caption",
+      "table",
+      "review",
+      "draw-it"
     ],
     "settings": {
       "expansion": [
@@ -396,11 +401,25 @@
             "color": "138, 138, 138"
           }
         }
+      ],
+      "review": [
+        {
+          "changes": {
+            "icon": "lucide-book-open-check",
+            "color": "252, 102, 255"
+          }
+        }
+      ],
+      "draw-it": [
+        {
+          "changes": {
+            "color": "255, 200, 0"
+          }
+        }
       ]
     }
   },
   "calloutDetection": {
-    "obsidianFallbackForced": false,
     "obsidian": true,
     "theme": true,
     "snippet": true

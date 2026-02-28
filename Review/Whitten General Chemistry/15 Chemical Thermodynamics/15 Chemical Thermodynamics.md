@@ -1,0 +1,2947 @@
+# 15 Chemical Thermodynamics
+
+## Outline
+
+**Heat Changes and Thermochemistry**
+
+- 15-1 The First Law of Thermodynamics
+- 15-2 Some Thermodynamic Terms
+- 15-3 Enthalpy Changes
+- 15-4 Calorimetry
+- 15-5 Thermochemical Equations
+- 15-6 Standard States and Standard Enthalpy Changes
+- 15-7 Standard Molar Enthalpies of Formation, $\Delta H_{\mathrm{f}}^{0}$
+- 15-8 Hess's Law
+- 15-9 Bond Energies
+- 15-10 Changes in Internal Energy, $\Delta E$
+- 15-11 Relationship between $\Delta H$ and $\Delta E$
+
+**Spontaneity of Physical and Chemical Changes**
+
+- 15-12 The Two Aspects of Spontaneity
+- 15-13 Dispersal of Energy and Matter
+- 15-14 Entropy, $S$, and Entropy Change, $\Delta S$
+- 15-15 The Second Law of Thermodynamics
+- 15-16 Free Energy Change, $\Delta G$, and Spontaneity
+- 15-17 The Temperature Dependence of Spontaneity
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-01.jpg?height=1023&width=1007&top_left_y=1079&top_left_x=35)
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-01.jpg?height=307&width=351&top_left_y=2099&top_left_x=33)
+> The thermite reaction is a highly exothermic reaction of aluminum powder and iron oxide to produce molten steel (iron) and aluminum oxide. It is being used here to weld steel rails together for a new light rail line in Salt Lake City. (© Steve Griffin/The Salt Lake Tribune)
+
+
+
+## Objectives
+
+**After you have studied this chapter, you should be able to:**
+
+- Understand the terminology of thermodynamics, and the meaning of the signs of changes
+- Use the concept of state functions
+- Carry out calculations of calorimetry to determine changes in energy and enthalpy
+- Use Hess's Law to find the enthalpy change, $\Delta H$, for a reaction by combining thermochemical equations with known $\Delta H$ values
+- Use Hess's Law to find the enthalpy change, $\Delta H$, for a reaction by using tabulated values of standard molar enthalpies of formation
+- Use Hess's Law to find the enthalpy of formation given $\Delta H$ for a reaction and the known enthalpies of formation of the other substances in the reaction
+- Use the First Law of Thermodynamics to relate heat, work, and energy changes
+- Relate the work done on or by a system to changes in its volume
+- Use bond energies to estimate heats of reaction for gas phase reactions; use $\Delta H$ values for gas phase reactions to find bond energies
+- Understand what is meant by a productfavored (spontaneous) process and by a reactant-favored (nonspontaneous) process
+- Understand the relationship of entropy to the dispersal of energy and dispersal of matter (disorder) in a system
+- Use tabulated values of absolute entropies to calculate the entropy change, $\Delta S$
+- Understand how the spontaneity of a process is related to entropy changes-the Second Law of Thermodynamics
+- Calculate changes in Gibbs free energy, $\Delta G$, by two methods: (a) from values of $\Delta H$ and $\Delta S$ and (b) from tabulated values of standard molar free energies of formation; know when to use each type of calculation
+- Use $\Delta G$ to predict whether a process is product-favored (spontaneous) at constant $T$ and $P$
+- Understand how changes in temperature can affect the spontaneity of a process
+- Predict the temperature range of spontaneity of a chemical or physical process
+
+Energy is very important in every aspect of our daily lives. The food we eat supplies the energy to sustain life with all of its activities and concerns. The availability of (still) relatively inexpensive energy is an important factor in our technological society. This is seen in the costs of fuel, heating and cooling of our homes and workplaces, and electricity to power our lights, appliances, and computers. It is also seen in the costs of goods and services we purchase because a substantial part of the cost of production is for energy in one form or another. We must understand the scientific basis of the storage and use of energy to learn how to decrease our dependence on consumable oil and natural gas as our main energy sources. Such understanding will have profound ramifications, ranging from our daily lifestyles to international relations.
+
+The concept of energy is at the very heart of science. All physical and chemical processes, including those in all living systems, are accompanied by the transfer of energy. Because energy cannot be created or destroyed, we must understand how to do the "accounting" of energy transfers from one body or one substance to another, or from one form of energy to another.
+
+In thermodynamics we study the energy changes that accompany physical and chemical processes. These energy changes usually involve beat-hence the "thermo-" part of the term. In this chapter we study the two main aspects of thermodynamics. The first is thermochemistry. This practical subject is concerned with how we observe, measure, and predict energy changes for both physical changes and chemical reactions. The second part of the chapter addresses a more fundamental aspect of thermodynamics. There we will learn to use energy changes to tell whether or not a given process can occur under specified conditions to give predominantly products (or reactants) and how to make a process more (or less) favorable.
+
+> [!note] Online resources
+> OWLSign in to OWL at www.cengage.com/owl to view tutorials and simulations, develop problem-solving skills, and complete online homework assigned by your professor.
+> 
+> Chemistry mini-lecture videos for key concept review and exam prep from OWL or purchase them from www.ichapters.com Companion Website Work online quizzes, view and test yourself on Active Figures, and view Beyond the Textbook questions at www.cengage .com/chemistry/whitten
+
+
+Some forms of energy are potential, kinetic, electrical, nuclear, heat, and light.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-03.jpg?height=598&width=440&top_left_y=408&top_left_x=111)
+> As matter falls from a higher to a lower level, its gravitational potential energy is converted into kinetic energy. A hydroelectric power plant converts the kinetic energy of falling water into electrical (potential) energy.
+
+A hydrocarbon is a binary compound of only hydrogen and carbon. Hydrocarbons may be gaseous, liquid, or solid. All burn.
+
+The amount of heat shown in such an equation always refers to the reaction for the number of moles of reactants and products specified by the coefficients. We call this one mole of reaction.
+
+> [!note] Stop and Think
+> 
+> It is important to specify the physical states of all substances because different physical states have different energy contents.
+
+
+**Heat Changes and Thermochemistry**
+
+# 15-1 The First Law of Thermodynamics
+
+We can define energy as follows.
+
+> [!Definition] Energy
+> Energy is the capacity to do work or to transfer heat.
+
+We classify energy into two general types: kinetic and potential. Kinetic energy is the energy of motion. The kinetic energy of an object is equal to one half its mass, $m$, times the square of its velocity, $v$.
+
+$$
+E_{\text {kinetic }}=\frac{1}{2} m v^{2}
+$$
+
+The heavier a hammer is and the more rapidly it moves, the greater its kinetic energy and the more work it can accomplish.
+
+Potential energy is the energy that a system possesses by virtue of its position or composition. The work that we do to lift an object is stored in the object as energy; we describe this as potential energy. If we drop a hammer, its potential energy is converted into kinetic energy as it falls, and it could do work on something it hits-for example, drive a nail or break a piece of glass. Similarly, an electron in an atom has potential energy because of the electrostatic force on it that is due to the positively charged nucleus and the other electrons in that atom and surrounding atoms. Energy can take many other forms: electrical energy, radiant energy (light), nuclear energy, and chemical energy. At the atomic or molecular level, we can think of each of these as either kinetic or potential energy.
+
+The chemical energy in a fuel or food comes from potential energy stored in atoms due to their arrangements in the molecules. This stored chemical energy can be released when compounds undergo chemical changes, such as those that occur in combustion and metabolism.
+
+Reactions that release energy in the form of heat are called exothermic reactions. Combustion reactions of fossil fuels are familiar examples of exothermic reactions. Hydrocarbons-including methane, the main component of natural gas, and octane, a minor component of gasoline-undergo combustion with an excess of $\mathrm{O}_{2}$ to yield $\mathrm{CO}_{2}$ and $\mathrm{H}_{2} \mathrm{O}$. These reactions release heat energy. The amounts of heat energy released at constant pressure are shown for the reactions of one mole of methane and of two moles of octane.
+
+$$
+\begin{aligned}
+\mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell)+890 \mathrm{~kJ} \\
+2 \mathrm{C}_{8} \mathrm{H}_{18}(\ell)+25 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow 16 \mathrm{CO}_{2}(\mathrm{~g})+18 \mathrm{H}_{2} \mathrm{O}(\ell)+1.090 \times 10^{4} \mathrm{~kJ}
+\end{aligned}
+$$
+
+In such reactions, the total energy of the products is lower than that of the reactants by the amount of energy released, most of which is heat. Some initial activation (e.g., by heat) is needed to get these reactions started. This is shown for $\mathrm{CH}_{4}$ in Figure 15-1. This activation energy plus 890 kJ is released as one mole of $\mathrm{CO}_{2}(\mathrm{~g})$ and two moles of $\mathrm{H}_{2} \mathrm{O}(\ell)$ are formed.
+
+A process that absorbs energy from its surroundings is called endothermic. One such process is shown in Figure 15-2.
+
+Energy changes accompany physical changes, too (Chapter 13). For example, the melting of one mole of ice at $0^{\circ} \mathrm{C}$ at constant pressure must be accompanied by the absorption of 6.02 kJ of energy.
+
+$$
+\mathrm{H}_{2} \mathrm{O}(\mathrm{~s})+6.02 \mathrm{~kJ} \longrightarrow \mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+This tells us that the total energy of the water is raised by 6.02 kJ in the form of heat during the phase change, even though the temperature remains constant.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-04.jpg?height=743&width=914&top_left_y=297&top_left_x=362)
+> Figure 15-1 The difference between the potential energy of the reactants-one mole of $\mathrm{CH}_{4}(\mathrm{~g})$ and two moles of $\mathrm{O}_{2}(\mathrm{~g})$-and that of the products-one mole of $\mathrm{CO}_{2}(\mathrm{~g})$ and two moles of $\mathrm{H}_{2} \mathrm{O}(\ell)$-is the amount of heat evolved in this exothermic reaction at constant pressure. For this reaction, it is $890 \mathrm{~kJ} / \mathrm{mol}$ of reaction. In this chapter, we see how to measure the heat absorbed or released and how to calculate it from other known heat changes. Some initial activation, by heat, for example, is needed to get the reaction started (Section 16-6). In the absence of such activation energy, a mixture of $\mathrm{CH}_{4}$ and $\mathrm{O}_{2}$ can be kept at room temperature for a long time without reacting. For an endothermic reaction, the final level is higher than the initial level.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-04.jpg?height=648&width=1534&top_left_y=1064&top_left_x=96)
+> Active Figure 15-2 An endothermic process. (a) When solid hydrated barium hydroxide, $\mathrm{Ba}(\mathrm{OH})_{2} \cdot 8 \mathrm{H}_{2} \mathrm{O}$, and excess solid ammonium nitrate, $\mathrm{NH}_{4} \mathrm{NO}_{3}$, are mixed, an endothermic reaction occurs.
+
+$$
+\mathrm{Ba}(\mathrm{OH})_{2} \cdot 8 \mathrm{H}_{2} \mathrm{O}(\mathrm{~s})+2 \mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{Ba}\left(\mathrm{NO}_{3}\right)_{2}(\mathrm{~s})+2 \mathrm{NH}_{3}(\mathrm{~g})+10 \mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+The excess ammonium nitrate dissolves in the water produced in the reaction. (b) The dissolution process is also very endothermic. If the flask is placed on a wet wooden block, the water freezes and attaches the block to the flask. Visit this book's companion website at www.cengage.com/chemistry/ whitten to test your understanding of the concepts in this figure.
+
+Some important ideas about energy are summarized in the First Law of Thermodynamics.
+The combined amount of matter and energy in the universe is constant.
+
+The Law of Conservation of Energy is just another statement of the First Law of Thermodynamics.
+
+Energy is neither created nor destroyed in chemical reactions and physical changes.
+
+State functions are represented by capital letters. Here $P$ refers to pressure, $V$ to volume, and $T$ to absolute temperature.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-05.jpg?height=353&width=437&top_left_y=1568&top_left_x=139)
+> Here is a graphical representation of a $\$ 150$ decrease in your bank balance. We express the change in your bank balance as $\Delta \$=\$_{\text {final }}-\$_{\text {initial }}$. Your final balance is less than your initial balance, so the result is negative, indicating a decrease. There are many ways to get this same net changeone large withdrawal or some combination of deposits, withdrawals, interest earned, and service charges. All of the $\Delta$ values we will see in this chapter can be thought of in this way.
+
+# 15-2 Some Thermodynamic Terms
+
+The substances involved in the chemical and physical changes that we are studying are called the system. Everything in the system's environment constitutes its surroundings. The universe is the system plus its surroundings. The system may be thought of as the part of the universe under investigation. The First Law of Thermodynamics tells us that energy is neither created nor destroyed; it is only transferred between the system and its surroundings.
+
+The thermodynamic state of a system is defined by a set of conditions that completely specifies all the properties of the system. This set commonly includes the temperature, pressure, composition (identity and number of moles of each component), and physical state (gas, liquid, or solid) of each part of the system. Once the state has been specified, all other properties-both physical and chemical-are fixed.
+
+The properties of a system-such as $P, V, T$-are called state functions. The value of a state function depends only on the state of the system and not on the way in which the system came to be in that state. A change in a state function describes a difference between the two states. It is independent of the process or pathway by which the change occurs.
+
+For instance, consider a sample of one mole of pure liquid water at $30^{\circ} \mathrm{C}$ and 1 atm pressure. If at some later time the temperature of the sample is $22^{\circ} \mathrm{C}$ at the same pressure, then it is in a different thermodynamic state. We can tell that the net temperature change is $-8^{\circ} \mathrm{C}$. It does not matter whether (1) the cooling took place directly (either slowly or rapidly) from $30^{\circ} \mathrm{C}$ to $22^{\circ} \mathrm{C}$, or (2) the sample was first heated to $36^{\circ} \mathrm{C}$, then cooled to $10^{\circ} \mathrm{C}$, and finally warmed to $22^{\circ} \mathrm{C}$, or (3) any other conceivable path was followed from the initial state to the final state. The change in other properties (e.g., the pressure) of the sample is likewise independent of path.
+
+The most important use of state functions in thermodynamics is to describe changes. We describe the difference in any quantity, $X$, as
+
+> [!equation] Change in a state function (definition)
+> $$
+> \Delta X=X_{\text {final }}-X_{\text {initial }}
+> $$
+
+When $X$ increases, the final value is greater than the initial value, so $\Delta X$ is positive; a decrease in $X$ makes $\Delta X$ a negative value.
+
+You can consider a state function as analogous to a bank account. With a bank account, at any time you can measure the amount of money in your account (your balance) in convenient terms-dollars and cents. Changes in this balance can occur for several reasons, such as deposit of your paycheck, writing of checks, or service charges assessed by the bank. In our analogy these transactions are not state functions, but they do cause changes in the state function (the balance in the account). You can think of the bank balance on a vertical scale; a deposit of $\$ 150$ changes the balance by $+\$ 150$, no matter what it was at the start, just as a withdrawal of $\$ 150$ would change the balance by $-\$ 150$. Similarly, we shall see that the energy of a system is a state function that can be changed-for instance, by an energy "deposit" of heat absorbed or work done on the system, or by an energy "withdrawal" of heat given off or work done by the system.
+
+We can describe differences between levels of a state function, regardless of where the zero level is located. In the case of a bank balance, the "natural" zero level is obviously the point at which we open the account, before any deposits or withdrawals. In contrast, the zero levels on most temperature scales are set arbitrarily. When we say that the temperature of an ice-water mixture is "zero degrees Celsius," we are not saying that the mixture contains no temperature! We have simply chosen to describe this point on the temperature scale by the number zero; conditions of higher temperature are described by positive temperature values, and those of lower temperature have negative values, "below zero." The phrase "15 degrees cooler" has the same meaning anywhere on the scale. Many of the scales that we use in thermodynamics are arbitrarily defined in this way. Arbitrary scales are useful when we are interested only in changes in the quantity being described.
+
+Any property of a system that depends only on the values of its state functions is also a state function. For instance, the volume of a given sample of water depends only on temperature, pressure, and physical state; volume is a state function. We shall encounter other thermodynamic state functions.
+
+# 15-3 Enthalpy Changes
+
+Most chemical reactions and physical changes occur at constant (usually atmospheric) pressure.
+
+The quantity of heat transferred into or out of a system as it undergoes a chemical or physical change at constant pressure, $q_{\mathrm{p}}$, is defined as the enthalpy change, $\Delta \boldsymbol{H}$, of the process.
+
+An enthalpy change is sometimes loosely referred to as a heat change or a heat of reaction. The enthalpy change is equal to the enthalpy or "heat content," $H$, of the substances produced minus the enthalpy of the substances consumed.
+
+> [!equation] Enthalpy change (definition)
+> $$
+> \Delta H=H_{\text {final }}-H_{\text {initial }} \quad \text { or } \quad \Delta H=H_{\text {substances produced }}-H_{\text {substances consumed }}
+> $$
+
+It is impossible to know the absolute enthalpy (heat content) of a system. Enthalpy is a state function, however, and it is the change in enthalpy in which we are interested; this can be measured for many processes. In the next several sections, we focus on chemical reactions and the enthalpy changes that occur in these processes. We first discuss the experimental determination of enthalpy changes.
+
+# 15-4 Calorimetry
+
+We can determine the energy change associated with a chemical or physical process by using an experimental technique called calorimetry. This technique is based on observing the temperature change when a system absorbs or releases energy in the form of heat. The experiment is carried out in a device called a calorimeter, in which the temperature change of a known amount of substance (often water) of known specific heat is measured. The temperature change is caused by the absorption or release of heat by the chemical or physical process under study. A review of calculations involved with heat transfer (Sections 1-14, 13-9, and 13-11) will help you understand this section.
+
+A "coffee-cup" calorimeter (Figure 15-3) is often used in laboratory classes to measure "heats of reaction" at constant pressure, $q_{\mathrm{p}}$, in aqueous solutions. Reactions are chosen so that there are no gaseous reactants or products. Thus, all reactants and products remain in the vessel throughout the experiment. Such a calorimeter could be used to measure the amount of heat absorbed or released when a reaction takes place in aqueous solution. We can consider the reactants and products as the system and the calorimeter plus the solution (mostly water) as the surroundings. For an exothermic reaction, the amount of heat evolved by the reaction can be calculated from the amount by which it causes the temperature of the calorimeter and the solution to rise. The heat can be visualized as divided into two parts.
+
+> [!equation] Calorimetry heat balance (reaction vs. surroundings)
+> $$
+> \binom{\text { amount of heat }}{\text { released by reaction }}=\binom{\text { amount of heat absorbed }}{\text { by calorimeter }}+\binom{\text { amount of heat }}{\text { absorbed by solution }}
+> $$
+
+The amount of heat absorbed by a calorimeter is sometimes expressed as the heat capacity of the calorimeter, in joules per degree. The heat capacity of a calorimeter is determined by adding a known amount of heat and measuring the rise in temperature of the calorimeter and of the solution it contains. This heat capacity of a calorimeter is sometimes called its calorimeter constant.
+
+The symbol $q$ represents the amount of heat absorbed by the system. The subscript p indicates a constant-pressure process.
+
+The polystyrene insulation of the simple coffee-cup calorimeter ensures that little heat escapes from or enters the container.
+
+One way to add heat is to use an electric heater.
+
+> [!note] Stop and Think
+> Note that, because we are using the change in temperature ( $\Delta T$ ) in this example, temperatures can be expressed as ${ }^{\circ} \mathrm{C}$ or K . That is because the magnitude of $a$ change of $1^{\circ} \mathrm{C}$ is equal to 1 K . In this problem $\Delta T=14.40^{\circ} \mathrm{C}=$ 14.40 K . But, when working with mathematical equations that use absolute temperatures $T$ (not $\Delta T!)$, it is important to express temperatures in kelvins. In this chapter, we will see mathematical formulas that use $T$ and $\Delta T$, so it is important to keep track of which is being used.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-07.jpg?height=819&width=548&top_left_y=305&top_left_x=596)
+> Figure 15-3 A coffee-cup calorimeter. The stirring rod is moved up and down to ensure thorough mixing and uniform heating of the solution during reaction. The polystyrene walls and top provide insulation so that very little heat escapes. This kind of calorimeter measures $q_{p}$, the heat transfer due to a reaction occurring at constant pressure.
+
+> [!example] Example 15-1: Heat Capacity of a Calorimeter
+> 
+> We add 3.358 kJ of heat to a calorimeter that contains 50.00 g of water. The temperature of the water and the calorimeter, originally at $22.34^{\circ} \mathrm{C}$, increases to $36.74^{\circ} \mathrm{C}$. Calculate the heat capacity of the calorimeter in $\mathrm{J} /{ }^{\circ} \mathrm{C}$. The specific heat of water is $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$.
+
+**Plan**
+
+We first calculate the amount of heat gained by the water in the calorimeter. The rest of the heat must have been gained by the calorimeter, so we can determine the heat capacity of the calorimeter.
+
+**Solution**
+
+$$
+50.00 \mathrm{~g} \mathrm{H}_{2} \mathrm{O}(\ell) \text { at } 22.34^{\circ} \mathrm{C} \longrightarrow 50.00 \mathrm{~g} \mathrm{H}_{2} \mathrm{O}(\ell) \text { at } 36.74^{\circ} \mathrm{C}
+$$
+
+The temperature change is $(36.74-22.34)^{\circ} \mathrm{C}=14.40^{\circ} \mathrm{C}$.
+
+$$
+\text { ? } \mathrm{J}=50.00 \mathrm{~g} \times \frac{4.184 \mathrm{~J}}{\mathrm{~g} \cdot{ }^{\circ} \mathrm{C}} \times 14.40^{\circ} \mathrm{C}=3.012 \times 10^{3} \mathrm{~J}
+$$
+
+The total amount of heat added was 3.358 kJ or $3.358 \times 10^{3} \mathrm{~J}$. The difference between these heat values is the amount of heat absorbed by the calorimeter.
+? $\mathrm{J}=3.358 \times 10^{3} \mathrm{~J}-3.012 \times 10^{3} \mathrm{~J}=0.346 \times 10^{3} \mathrm{~J}$, or 346 J absorbed by the calorimeter
+To obtain the heat capacity of the calorimeter, we divide the amount of heat absorbed by the calorimeter, 346 J , by its temperature change.
+
+$$
+? \frac{\mathrm{~J}}{{ }^{\circ} \mathrm{C}}=\frac{346 \mathrm{~J}}{14.40^{\circ} \mathrm{C}}=24.0 \mathrm{~J} /{ }^{\circ} \mathrm{C}
+$$
+
+The calorimeter absorbs 24.0 J of heat for each degree Celsius increase in its temperature.
+
+**You should now work Exercise 60.**
+
+
+> [!example] Example 15-2: Heat Measurements Using a Calorimeter
+> 
+> A $50.0-\mathrm{mL}$ sample of $0.400 M$ copper(II) sulfate solution at $23.35^{\circ} \mathrm{C}$ is mixed with 50.0 mL of 0.600 M sodium hydroxide solution, also at $23.35^{\circ} \mathrm{C}$, in the coffee-cup calorimeter of Example 15-1. After the reaction occurs, the temperature of the resulting mixture is measured to be $25.23^{\circ} \mathrm{C}$. The density of the final solution is $1.02 \mathrm{~g} / \mathrm{mL}$. Calculate the amount of heat evolved. Assume that the specific heat of the solution is the same as that of pure water, $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$.
+> 
+> $$
+> \mathrm{CuSO}_{4}(\mathrm{aq})+2 \mathrm{NaOH}(\mathrm{aq}) \longrightarrow \mathrm{Cu}(\mathrm{OH})_{2}(\mathrm{~s})+\mathrm{Na}_{2} \mathrm{SO}_{4}(\mathrm{aq})
+> $$
+
+**Plan**
+
+The amount of heat released by the reaction is absorbed by the calorimeter and by the solution. To find the amount of heat absorbed by the solution, we must know the mass of solution; to find that, we assume that the volume of the reaction mixture is the sum of the volumes of the original solutions.
+
+**Solution**
+
+The mass of solution is
+
+$$
+\underline{\mathrm{g}} \text { soln }=(50.0+50.0) \mathrm{mL} \times \frac{1.02 \mathrm{~g} \text { soln }}{\mathrm{mL}}=102 \mathrm{~g} \text { soln }
+$$
+
+The amount of heat absorbed by the calorimeter plus the amount absorbed by the solution is
+
+$$
+\begin{aligned}
+\underline{\underline{?}} \mathrm{~J} & =\overbrace{\frac{24.0 \mathrm{~J}}{{ }^{\circ} \mathrm{C}} \times(25.23-23.35)^{\circ} \mathrm{C}}^{\begin{array}{c}
+\text { amount of heat } \\
+\text { absorbed by calorimeter }
+\end{array}}+\overbrace{102 \mathrm{~g} \times \frac{4.18 \mathrm{~J}}{\mathrm{~g} \cdot{ }^{\circ} \mathrm{C}} \times(25.23-23.35)^{\circ} \mathrm{C}}^{\begin{array}{c}
+\text { amount of heat } \\
+\text { absorbed by calorimeter }
+\end{array}} \\
+& =45 \mathrm{~J}+801 \mathrm{~J}=846 \mathrm{~J} \text { absorbed by solution plus calorimeter }
+\end{aligned}
+$$
+
+Thus, the reaction must have liberated 846 J , or 0.846 kJ , of heat.
+
+**You should now work Exercise 64(a).**
+
+
+# 15-5 Thermochemical Equations
+
+A balanced chemical equation, written together with a description of the corresponding heat change, is called a thermochemical equation. For example,
+
+$$
+\underset{1 \mathrm{~mol}}{\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)}+\underset{3 \mathrm{~mol}}{3 \mathrm{O}_{2}(\mathrm{~g})} \longrightarrow \underset{2 \mathrm{~mol}}{2 \mathrm{CO}_{2}(\mathrm{~g})}+\underset{3 \mathrm{~mol}}{2 \mathrm{H}_{2} \mathrm{O}(\ell)}+1367 \mathrm{~kJ}
+$$
+
+is a thermochemical equation that describes the combustion (burning) of one mole of liquid ethanol at a particular temperature and pressure. The coefficients in a balanced thermochemical equation must be interpreted as numbers of moles of each reactant and product. Thus, 1367 kJ of heat is released when one mole of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ reacts with three moles of $\mathrm{O}_{2}(\mathrm{~g})$ to give two moles of $\mathrm{CO}_{2}(\mathrm{~g})$ and three moles of $\mathrm{H}_{2} \mathrm{O}(\ell)$. We refer to this amount of reaction as one mole of reaction, which we abbreviate "mol rxn." This interpretation allows us to write various unit factors as desired.
+
+$$
+\frac{1 \mathrm{~mol} \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)}{1 \mathrm{~mol} \mathrm{rxn}}, \frac{2 \mathrm{~mol} \mathrm{CO}_{2}(\mathrm{~g})}{1 \mathrm{~mol} \mathrm{rxn}}, \frac{1367 \mathrm{~kJ} \text { of heat released }}{1 \mathrm{~mol} \mathrm{rxn}} \text {, and so on }
+$$
+
+The thermochemical equation is more commonly written as
+
+$$
+\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) \quad \Delta H=-1367 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+$$
+
+The negative sign indicates that this is an exothermic reaction (i.e., it gives off heat).
+
+When dilute aqueous solutions are mixed, their volumes are very nearly additive.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-08.jpg?height=461&width=433&top_left_y=914&top_left_x=1281)
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-08.jpg?height=461&width=427&top_left_y=1426&top_left_x=1283)
+> The heat released by the reaction of $\mathrm{HCl}(\mathrm{aq})$ with $\mathrm{NaOH}(\mathrm{aq})$ causes the temperature of the solution to rise.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-08.jpg?height=347&width=440&top_left_y=2029&top_left_x=1302)
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-09.jpg?height=389&width=438&top_left_y=1709&top_left_x=113)
+> The launch of the space shuttle requires about $2 \\times 10^{10}$ kilojoules of energy. About one-sixth of this comes from the reaction of hydrogen, $\\mathrm{H}_{2}$, and oxygen, $\\mathrm{O}_{2}$. The rest comes from the explosive decomposition of ammonium perchlorate, $\\mathrm{NH}_{4} \\mathrm{ClO}_{4}$, in solid-fuel rockets.
+
+
+
+> [!example] Example 15-3: Thermochemical Equations
+> 
+> To interpret what a value of $\Delta H$ means, we must know the balanced chemical equation to which it refers.
+> 
+> When 2.61 grams of dimethyl ether, $\mathrm{CH}_{3} \mathrm{OCH}_{3}$, is burned at constant pressure, 82.5 kJ of heat is given off. Find $\Delta H$ for the reaction.
+> 
+> $$
+> \mathrm{CH}_{3} \mathrm{OCH}_{3}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell)
+> $$
+
+**Plan**
+
+We scale the amount of heat given off in the experiment to correspond to the amount of $\mathrm{CH}_{3} \mathrm{OCH}_{3}$ shown in the balanced equation.
+
+4．The value of $\Delta H$ usually does not change significantly with moderate changes in temperature．
+3．The physical states of all species are important and must be specified．Heat is given off or absorbed when phase changes occur，so different amounts of heat could be involved in a reaction depending on the phases of reactants and products．
+The coefficients in a balanced thermochemical equation refer to the numbers of moles of reactants and products involved．In the thermodynamic interpretation of equations， we never interpret the coefficients as numbers of molecules．Thus，it is acceptable to write coefficients as fractions rather than as integers，when convenient．But most chemists prefer to use the smallest integer values for the coefficients．
+
+2．The numerical value of $\Delta H$（or any other thermodynamic change）is specific to the number of moles of substances specified by the balanced equation．This amount of change is called one mole of reaction，so we can express $\Delta H$ in units of energy $/ \mathrm{mol}$ rxn． For brevity，the units of $\Delta H$ are sometimes written $\mathrm{kJ} / \mathrm{mol}$ or even just kJ ．No matter what units are used，be sure that you interpret the thermodynamic change per mole of reaction for the balanced chemical equation to which it refers．If a different amount of material is involved in the reaction，then the $\Delta H$（or other change）must be scaled accordingly．
+It is important to remember the following conventions regarding thermochemical equations：
+
+1．The coefficients in a balanced thermochemical equation refer to the numbers of moles The reverse reaction would require the absorption of 1367 kJ under the same conditions．
+
+$$
+1367 \mathrm{~kJ}+2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g})
+$$
+
+That is，it is endothermic，with $\Delta H=+1367 \mathrm{~kJ}$ ．
+
+$$
+2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) \quad \Delta H=+1367 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+$$
+
+It is important to remember the following conventions regarding thermochemical
+We can then use several unit factors to interpret this thermochemical equation．
+
+$$
+\begin{aligned}
+\frac{1367 \mathrm{~kJ} \text { given off }}{\text { mol of reaction }} & =\frac{1367 \mathrm{~kJ} \text { given off }}{\mathrm{mol} \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell) \text { consumed }}=\frac{1367 \mathrm{~kJ} \text { given off }}{3 \mathrm{~mol} \mathrm{O}_{2}(\mathrm{~g}) \text { consumed }} \\
+& =\frac{1367 \mathrm{~kJ} \text { given off }}{2 \mathrm{~mol} \mathrm{CO}_{2}(\mathrm{~g}) \text { formed }}=\frac{1367 \mathrm{~kJ} \text { given off }}{3 \mathrm{~mol} \mathrm{H}_{2} \mathrm{O}(\ell) \text { formed }}
+\end{aligned}
+$$
+
+can then use several unit factors to interpret this thermochemical equation．
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-09.jpg?height=36&width=119&top_left_y=902&top_left_x=1612)
+
+We always interpret $\Delta H$ as the enthalpy change for the reaction as written；that is，as （enthalpy change）／（mole of reaction），where the denominator means＂for the number of moles of each substance shown by the coefficients in the balanced equation．＂
+
+**Solution**
+
+$$
+\begin{aligned}
+\frac{\text { ? } \mathrm{kJ} \text { given off }}{\mathrm{mol} \mathrm{rxn}} & =\frac{82.5 \mathrm{~kJ} \text { given off }}{2.61 \mathrm{~g} \mathrm{CH}_{3} \mathrm{OCH}_{3}} \times \frac{46.0 \mathrm{~g} \mathrm{CH}_{3} \mathrm{OCH}_{3}}{\mathrm{~mol} \mathrm{CH}_{3} \mathrm{OCH}_{3}} \times \frac{1 \mathrm{~mol} \mathrm{CH}_{3} \mathrm{OCH}_{3}}{\mathrm{~mol} \mathrm{rxn}} \\
+& =1450 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+Because heat is given off, we know that the reaction is exothermic so the value of $\Delta H$ should be negative.
+
+$$
+\Delta H=-1450 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+$$
+
+**You should now work Exercise 21.**
+
+
+> [!example] Example 15-4: Thermochemical Equations
+> 
+> Write the thermochemical equation for the reaction in Example 15-2.
+
+**Plan**
+
+We must determine how much reaction occurred-that is, how many moles of reactants were consumed. We first multiply the volume, in liters, of each solution by its concentration in $\mathrm{mol} / \mathrm{L}$ (molarity) to determine the number of moles of each reactant mixed. Then we identify the limiting reactant. We scale the amount of heat released in the experiment to correspond to the number of moles of that reactant shown in the balanced equation.
+
+**Solution**
+
+Using the data from Example 15-2,
+
+$$
+\begin{aligned}
+& \underline{?} \mathrm{~mol} \mathrm{CuSO}_{4}=0.0500 \mathrm{~L} \times \frac{0.400 \mathrm{~mol} \mathrm{CuSO}_{4}}{1.00 \mathrm{~L}}=0.0200 \mathrm{~mol} \mathrm{CuSO}_{4} \\
+& \underline{?} \mathrm{~mol} \mathrm{NaOH}=0.0500 \mathrm{~L} \times \frac{0.600 \mathrm{~mol} \mathrm{NaOH}}{1.00 \mathrm{~L}}=0.0300 \mathrm{~mol} \mathrm{NaOH}
+\end{aligned}
+$$
+
+**Required Ratio**
+
+$$
+\frac{1 \mathrm{~mol} \mathrm{CuSO}_{4}}{2 \mathrm{~mol} \mathrm{NaOH}}=\frac{0.500 \mathrm{~mol} \mathrm{CuSO}_{4}}{1.00 \mathrm{~mol} \mathrm{NaOH}}
+$$
+
+We determine which is the limiting reactant (review Section 3-3).
+
+**Available Ratio**
+
+$\frac{0.0200 \mathrm{~mol} \mathrm{CuSO}}{0.0300 \mathrm{~mol} \mathrm{NaOH}}=\frac{0.667 \mathrm{~mol} \mathrm{CuSO} \mathrm{Cu}_{4}}{1.00 \mathrm{~mol} \mathrm{NaOH}}$
+
+More $\mathrm{CuSO}_{4}$ is available than is required to react with the NaOH . Thus, 0.846 kJ of heat was given off during the consumption of 0.0300 mol of NaOH . The amount of heat given off per "mole of reaction" is
+
+$$
+\xlongequal[\mathrm{mol} \mathrm{rxn}]{\stackrel{?}{\mathrm{~kJ}} \text { released }}=\frac{0.846 \mathrm{~kJ} \text { given off }}{0.0300 \mathrm{~mol} \mathrm{NaOH}} \times \frac{2 \mathrm{~mol} \mathrm{NaOH}}{\mathrm{~mol} \mathrm{rxn}}=\frac{56.4 \mathrm{~kJ} \text { given off }}{\mathrm{mol} \mathrm{rxn}}
+$$
+
+Thus, when the reaction occurs to the extent indicated by the balanced chemical equation, 56.4 kJ is released. Remembering that exothermic reactions have negative values of $\Delta H_{\mathrm{rxn}}$, we write
+
+$$
+\mathrm{CuSO}_{4}(\mathrm{aq})+2 \mathrm{NaOH}(\mathrm{aq}) \longrightarrow \mathrm{Cu}(\mathrm{OH})_{2}(\mathrm{~s})+\mathrm{Na}_{2} \mathrm{SO}_{4}(\mathrm{aq}) \quad \Delta H_{\mathrm{rxn}}=-56.4 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+$$
+
+You should now work Exercise 64(b).
+
+
+> [!example] Example 15-5: Amount of Heat Produced
+> 
+> When aluminum metal is exposed to atmospheric oxygen (as in aluminum doors and windows), it is oxidized to form aluminum oxide. How much heat is released by the complete oxidation of 24.2 grams of aluminum at $25^{\circ} \mathrm{C}$ and 1 atm ? The thermochemical equation is
+> 
+> $$
+> 4 \mathrm{Al}(\mathrm{~s})+3 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{Al}_{2} \mathrm{O}_{3}(\mathrm{~s}) \quad \Delta H=-3352 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+> $$
+
+> [!note] Stop and Think
+> 
+> 
+> The value of $\Delta H$ must be scaled to correspond to a particular amount of reaction, described by the balanced thermochemical equation.
+
+> [!note] Stop and Think
+> 
+> 
+> Write complete units, including substance formulas. Then remember to scale the heat change to the amount of reaction described in the balanced thermochemical equation. Heat is released, so this is an exothermic reaction and has a negative value of $\Delta H_{\mathrm{rxn}}$.
+
+> [!note] Stop and Think
+> 
+> 
+> The sign tells us that heat was released, but it would be grammatical nonsense to say in words that " -751 kJ of heat was released." As an analogy, suppose you give your friend $\$ 5$. Your $\Delta$ is $-\$ 5$, but in describing the transaction you would not say "I gave her minus five dollars." Instead, you would say, "I gave her five dollars."
+
+A temperature of $25^{\circ} \mathrm{C}$ is $77^{\circ} \mathrm{F}$. This is slightly above typical room temperature. Notice that these thermodynamic "standard conditions" are not the same as the "standard temperature and pressure (STP)" that we used in gas calculations involving standard molar volume (Chapter 12).
+
+If the substance exists in several different forms, the form that is most stable at $25^{\circ} \mathrm{C}$ and 1 atm is the standard state.
+
+For gas laws (Chapter 12), standard temperature is taken as $0^{\circ} \mathrm{C}$. For thermodynamics, it is taken as $25^{\circ} \mathrm{C}$.
+
+**Plan**
+
+The thermochemical equation tells us that 3352 kJ of heat is released for every mole of reaction, that is, for every 4 moles of Al that reacts. We convert 24.2 g of Al to moles and then calculate the number of kilojoules corresponding to that number of moles of Al , using the unit factors
+
+$$
+\frac{-3352 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{rxn}} \quad \text { and } \quad \frac{1 \mathrm{~mol} \mathrm{rxn}}{4 \mathrm{~mol} \mathrm{Al}}
+$$
+
+**Solution**
+
+For 24.2 g Al ,
+
+$$
+\text { ? } \mathrm{kJ}=24.2 \mathrm{~g} \mathrm{Al} \times \frac{1 \mathrm{~mol} \mathrm{Al}}{27.0 \mathrm{~g} \mathrm{Al}} \times \frac{1 \mathrm{~mol} \mathrm{rxn}}{4 \mathrm{~mol} \mathrm{Al}} \times \frac{-3352 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{rxn}}=-751 \mathrm{~kJ}
+$$
+
+This tells us that 751 kJ of heat is released to the surroundings during the oxidation of 24.2 grams of aluminum.
+
+**You should now work Exercises 16 and 17.**
+
+> [!tip] Problem-Solving Tip: Mole of Reaction
+> Remember that a thermochemical equation can have different coefficients (numbers of moles) of different reactants or products, which need not equal one. In Example 15-5 one mole of reaction corresponds to 4 moles of $\mathrm{Al}(\mathrm{s}), 3$ moles of $\mathrm{O}_{2}(\mathrm{~g})$, and 2 moles of $\mathrm{Al}_{2} \mathrm{O}_{3}(\mathrm{~s})$.
+
+
+# 15-6 Standard States and Standard Enthalpy Changes
+
+The thermodynamic standard state of a substance is its most stable pure form under standard pressure (one atmosphere)* and at some specific temperature ( $25^{\circ} \mathrm{C}$ or 298 K unless otherwise specified). Examples of elements in their standard states at $25^{\circ} \mathrm{C}$ are hydrogen, gaseous diatomic molecules, $\mathrm{H}_{2}(\mathrm{~g})$; mercury, a silver-colored liquid metal, $\mathrm{Hg}(\ell)$; sodium, a silvery-white solid metal, $\mathrm{Na}(\mathrm{s})$; and carbon, a grayish-black solid called graphite, C(graphite). We use C(graphite) instead of C(s) to distinguish it from other solid forms of carbon, such as C (diamond). The reaction C (diamond) $\longrightarrow \mathrm{C}$ (graphite) would be exothermic by 1.897 $\mathrm{kJ} /$ mol rxn; C(graphite) is thus more stable than C(diamond). Examples of standard states of compounds include ethanol (ethyl alcohol or grain alcohol), a liquid, $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$; water, a liquid, $\mathrm{H}_{2} \mathrm{O}(\ell)$; calcium carbonate, a solid, $\mathrm{CaCO}_{3}(\mathrm{~s})$; and carbon dioxide, a gas, $\mathrm{CO}_{2}(\mathrm{~g})$. Keep in mind the following conventions for thermochemical standard states.
+
+1. For a pure substance in the liquid or solid phase, the standard state is the pure liquid or solid.
+2. For a gas, the standard state is the gas at a pressure of one atmosphere; in a mixture of gases, its partial pressure must be one atmosphere.
+3. For a substance in solution, the standard state refers to one-molar concentration.
+
+For ease of comparison and tabulation, we often refer to thermochemical or thermodynamic changes "at standard states" or, more simply, to a standard change. To indicate a change at standard pressure, we add a superscript zero. If some temperature other than the standard temperature of $25^{\circ} \mathrm{C}(298 \mathrm{~K})$ is specified, we indicate it with a subscript; if no subscript appears, a temperature of $25^{\circ} \mathrm{C}$ ( 298 K ) is implied.
+
+[^0]The standard enthalpy change, $\Delta \boldsymbol{H}_{\mathrm{rxn}}^{0}$, for a reaction
+reactants ⟶ products
+refers to the $\Delta H$ when the specified number of moles of reactants, all at standard states, are converted completely to the specified number of moles of products, all at standard states.
+
+We allow a reaction to take place, with changes in temperature or pressure if necessary; when the reaction is complete, we return the products to the same conditions of temperature and pressure that we started with, keeping track of energy or enthalpy changes as we do so. When we describe a process as taking place "at constant $T$ and $P$," we mean that the initial and final conditions are the same. Because we are dealing with changes in state functions, the net change is the same as the change we would have obtained hypothetically with $T$ and $P$ actually held constant.
+
+# 15-7 Standard Molar Enthalpies of Formation, $\boldsymbol{\Delta} \boldsymbol{H}_{\mathrm{f}}^{0}$
+
+It is not possible to determine the total enthalpy content of a substance on an absolute scale. Because we need to describe only changes in this state function, we can define an arbitrary scale as follows.
+
+> The standard molar enthalpy of formation, $\Delta \boldsymbol{H}_{\mathbf{f}}^{\mathbf{0}}$, of a substance is the enthalpy change for the reaction in which one mole of the substance in a specified state is formed from its elements in their standard states. By convention, the $\Delta H_{\mathrm{f}}^{0}$ value for any element in its standard state is zero.
+
+Standard molar enthalpy of formation is often called standard molar heat of formation or, more simply, heat of formation. The superscript zero in $\Delta H_{\mathrm{f}}^{0}$ signifies standard pressure, 1 atmosphere. Negative values for $\Delta H_{\mathrm{f}}^{0}$ describe exothermic formation reactions, whereas positive values for $\Delta H_{\mathrm{f}}^{0}$ describe endothermic formation reactions.
+
+The enthalpy change for a balanced equation that gives a compound from its elements does not necessarily give a molar enthalpy of formation for the compound. Consider the following exothermic reaction at standard conditions.
+
+$$
+\mathrm{H}_{2}(\mathrm{~g})+\mathrm{Br}_{2}(\ell) \longrightarrow 2 \mathrm{HBr}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0}=-72.8 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+$$
+
+We see that two moles of $\operatorname{HBr}(\mathrm{g})$ are formed in the reaction as written. Half as much energy, 36.4 kJ , is liberated when one mole of $\mathrm{HBr}(\mathrm{g})$ is produced from its constituent elements in their standard states. For $\operatorname{HBr}(\mathrm{g}), \Delta H_{\mathrm{f}}^{0}=-36.4 \mathrm{~kJ} / \mathrm{mol}$. This can be shown by dividing all coefficients in the balanced equation by 2 .
+
+$$
+\begin{aligned}
+\frac{1}{2} \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{Br}_{2}(\ell) \longrightarrow \mathrm{HBr}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0} & =-36.4 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\Delta H_{\mathrm{fHBr}(\mathrm{~g})}^{0} & =-36.4 \mathrm{~kJ} / \mathrm{mol} \mathrm{HBr}(\mathrm{~g})
+\end{aligned}
+$$
+
+Standard heats of formation of some common substances are tabulated in Table 15-1. Appendix K contains a more extensive listing.
+
+When referring to a thermodynamic quantity for a substance, we often omit the description of the substance from the units. Units for tabulated $\Delta H_{\mathrm{f}}^{0}$ values are given as " $\mathrm{kJ} / \mathrm{mol}$ "; we must interpret this as "per mole of the substance in the specified state." For instance, for
+$\operatorname{HBr}(\mathrm{g})$ the tabulated $\Delta H_{\mathrm{f}}^{0}$ value of $-36.4 \mathrm{~kJ} / \mathrm{mol}$ should be interpreted as $\frac{-36.4 \mathrm{~kJ}}{\operatorname{mol} \operatorname{HBr}(\mathrm{~g})}$.
+
+This is sometimes referred to as the standard heat of reaction.
+
+We can think of $\Delta H_{\mathrm{f}}^{0}$ as the enthalpy content of each substance, in its standard state, relative to the enthalpy content of the elements, in their standard states. This is why $\Delta H_{\mathrm{f}}^{0}$ for an element in its standard state is zero.
+
+The coefficients $\frac{1}{2}$ preceding $\mathrm{H}_{2}(\mathrm{~g})$ and $\mathrm{Br}_{2}(\ell)$ do not imply half a molecule of each. In thermochemical equations, the coefficients always refer to the number of moles under consideration.
+
+> [!note] Stop and Think
+> 
+> The $\Delta H_{\mathrm{f}}^{0}$ values of $\mathrm{Br}_{2}(\mathrm{~g})$ and C (diamond) are not equal to 0 at 298 K . This is because the standard states of these elements are $\mathrm{Br}_{2}(\ell)$ and C (graphite), respectively.
+
+
+Table 15-1 Selected Standard Molar Enthalpies of Formation at 298 K
+
+| Substance | $\boldsymbol{\Delta} \boldsymbol{H}_{\mathbf{f}}^{\boldsymbol{0}} \boldsymbol{(} \mathbf{k J} \boldsymbol{/} \mathbf{m o l} \boldsymbol{)}$ | Substance | $\Delta H_{\mathrm{f}}^{0}(\mathrm{~kJ} / \mathrm{mol})$ |
+| :--- | :--- | :--- | :--- |
+| $\mathrm{Br}_{2}(\ell)$ | 0 | $\mathrm{HgS}(\mathrm{s})$ red | -58.2 |
+| $\mathrm{Br}_{2}(\mathrm{~g})$ | 30.91 | $\mathrm{H}_{2}(\mathrm{~g})$ | 0 |
+| C(diamond) | 1.897 | $\mathrm{HBr}(\mathrm{g})$ | -36.4 |
+| C(graphite) | 0 | $\mathrm{H}_{2} \mathrm{O}(\ell)$ | -285.8 |
+| $\mathrm{CH}_{4}(\mathrm{~g})$ | -74.81 | $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ | -241.8 |
+| $\mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})$ | 52.26 | NO(g) | 90.25 |
+| $\mathrm{C}_{6} \mathrm{H}_{6}(\ell)$ | 49.03 | $\mathrm{Na}(\mathrm{s})$ | 0 |
+| $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ | -277.7 | NaCl(s) | -411.0 |
+| $\mathrm{CO}(\mathrm{g})$ | -110.5 | $\mathrm{O}_{2}(\mathrm{~g})$ | 0 |
+| $\mathrm{CO}_{2}(\mathrm{~g})$ | -393.5 | $\mathrm{SO}_{2}(\mathrm{~g})$ | -296.8 |
+| $\mathrm{CaO}(\mathrm{s})$ | -635.5 | $\mathrm{SiH}_{4}(\mathrm{~g})$ | 34.0 |
+| $\mathrm{CaCO}_{3}(\mathrm{~s})$ | -1207.0 | $\mathrm{SiCl}_{4}(\mathrm{~g})$ | -657.0 |
+| $\mathrm{Cl}_{2}(\mathrm{~g})$ | 0 | $\mathrm{SiO}_{2}(\mathrm{~s})$ | -910.9 |
+
+
+> [!example] Example 15-6: Interpretation of $\Delta H_{\mathrm{f}}^{0}$
+> 
+> The standard molar enthalpy of formation of ethanol, $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$, is $-277.7 \mathrm{~kJ} / \mathrm{mol}$. Write the thermochemical equation for the reaction for which $\Delta H_{\mathrm{rxn}}^{0}=-277.7 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}$.
+
+**Plan**
+
+The definition of $\Delta H_{\mathrm{f}}^{0}$ of a substance refers to a reaction in which one mole of the substance in a specified state is formed from the elements in their standard states. We put one mole of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ on the right side of the chemical equation and put the appropriate elements in their standard states on the left. We balance the equation without changing the coefficient of the product, even if we must use fractional coefficients on the left.
+
+**Solution**
+
+$$
+2 \mathrm{C} \text { (graphite) }+3 \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell) \quad \Delta H=-277.7 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+$$
+
+**You should now work Exercise 28.**
+
+> [!tip] Problem-Solving Tip: Interpreting fractional coefficients
+> Remember that we always interpret the coefficients in thermochemical equations as numbers of moles of reactants or products. The $\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g})$ in the answer to Example 15-6 refers to $\frac{1}{2}$ mole of $\mathrm{O}_{2}$ molecules, or
+> 
+> $$
+> \frac{1}{2} \mathrm{~mol} \mathrm{O}_{2} \times \frac{32.0 \mathrm{~g} \mathrm{O}_{2}}{\mathrm{~mol} \mathrm{O}_{2}}=16.0 \mathrm{~g} \mathrm{O}_{2}
+> $$
+> 
+> It is important to realize that this is not the same as one mole of O atoms (though that would also weigh 16.0 g ).
+> 
+> Similarly, the fractional coefficients in
+> 
+> $$
+> \frac{1}{2} \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{Br}_{2}(\ell) \longrightarrow \mathrm{HBr}(\mathrm{~g})
+> $$
+> 
+> refer to
+> 
+> $$
+> \frac{1}{2} \mathrm{~mol} \mathrm{H}_{2} \times \frac{2.0 \mathrm{~g} \mathrm{H}_{2}}{\mathrm{~mol} \mathrm{H}_{2}}=1.0 \mathrm{~g} \mathrm{H}_{2}
+> $$
+> 
+> and
+> 
+> $$
+> \frac{1}{2} \mathrm{~mol} \mathrm{Br}_{2} \times \frac{159.8 \mathrm{~g} \mathrm{Br}_{2}}{\mathrm{~mol} \mathrm{Br}_{2}}=79.9 \mathrm{~g} \mathrm{Br}_{2}
+> $$
+
+
+# 15-8 Hess's Law
+
+In 1840, G. H. Hess (1802-1850) published his law of heat summation, which he derived on the basis of numerous thermochemical observations.
+
+The enthalpy change for a reaction is the same whether it occurs by one step or by any series of steps.
+
+Enthalpy is a state function. Its change is therefore independent of the pathway by which a reaction occurs. We do not need to know whether the reaction does, or even can, occur by the series of steps used in the calculation. The steps must (if only "on paper") result in the overall reaction. Hess's Law lets us calculate enthalpy changes for reactions for which the changes could be measured only with difficulty, if at all. In general terms, Hess's Law of heat summation may be represented as
+
+> [!equation] Hess's law (enthalpy additivity)
+> $$
+> \Delta H_{\mathrm{rxn}}^{0}=\Delta H_{\mathrm{a}}^{0}+\Delta H_{\mathrm{b}}^{0}+\Delta H_{\mathrm{c}}^{0}+\cdots
+> $$
+
+Here $\mathrm{a}, \mathrm{b}, \mathrm{c}, \ldots$ refer to balanced thermochemical equations that can be summed to give the equation for the desired reaction.
+
+Consider the following reaction.
+
+$$
+\mathrm{C} \text { (graphite) }+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0}=?
+$$
+
+The enthalpy change for this reaction cannot be measured directly. Even though $\mathrm{CO}(\mathrm{g})$ is the predominant product of the reaction of graphite with a limited amount of $\mathrm{O}_{2}(\mathrm{~g})$, some $\mathrm{CO}_{2}(\mathrm{~g})$ is always produced as well. The following reactions do go to completion with excess $\mathrm{O}_{2}(\mathrm{~g})$; therefore, $\Delta H^{0}$ values have been measured experimentally for them. (Pure $\mathrm{CO}(\mathrm{g})$ is readily available.)
+
+$$
+\begin{aligned}
+\mathrm{C} \text { (graphite) }+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g}) & \Delta H_{\mathrm{rxn}}^{0}=-393.5 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\mathrm{CO}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g}) & \Delta H_{\mathrm{rxn}}^{0}=-283.0 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+We can "work backward" to find out how to combine these two known equations to obtain the desired equation. We want one mole of CO on the right, so we reverse equation (2) [designated below as (-2)]; heat is then absorbed instead of released, so we must change the sign of its $\Delta H^{0}$ value. Then we add it to equation (1), canceling equal numbers of moles of the same species on each side. This gives the equation for the reaction we want. Adding the corresponding enthalpy changes gives the enthalpy change we seek.
+
+$$
+\begin{array}{rr} 
+& \Delta \boldsymbol{H}^{0} \\
+\text { C(graphite) }+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g}) & -393.5 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}) \\
+\mathrm{CO}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & -(-283.0 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}) \\
+\hline \text { C(graphite) }+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}(\mathrm{~g}) & \Delta H_{\mathrm{rxn}}^{0}=-110.5 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{array}
+$$
+
+This equation shows the formation of one mole of $\mathrm{CO}(\mathrm{g})$ in its standard state from the elements in their standard states. In this way, we determine that $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{CO}(\mathrm{g})$ is $-110.5 \mathrm{~kJ} / \mathrm{mol}$.
+
+> [!example] Example 15-7: Combining Thermochemical Equations: Hess's Law
+> 
+> Use the thermochemical equations shown here to determine $\Delta H_{\mathrm{rxn}}^{0}$ at $25^{\circ} \mathrm{C}$ for the following reaction.
+> 
+> As an analogy, consider traveling from Kansas City (elevation 884 ft above sea level) to Denver (elevation 5280 ft ). The change in elevation is $(5280-884) \mathrm{ft}=4396 \mathrm{ft}$, regardless of the route taken.
+> 
+> You are familiar with the addition and subtraction of algebraic equations. This method of combining thermochemical equations is analogous.
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-14.jpg?height=355&width=480&top_left_y=1899&top_left_x=1302)
+> 
+> Above is a schematic representation of the enthalpy changes for the reaction C (graphite) $+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}(\mathrm{g})$. The $\Delta H$ value for each step is based
+> 
+> These are combustion reactions, for which $\Delta \boldsymbol{H}_{\mathrm{rxn}}^{0}$ values can be readily determined from calorimetry experiments.
+
+> [!note] Stop and Think
+> 
+> 
+> We have used a series of reactions for which $\Delta H^{0}$ values can be easily measured to calculate $\Delta H^{0}$ for a reaction that cannot be carried out.
+
+Active Figure Visit this book's companion website at www .cengage.com/chemistry/whitten for an Active Figure on Enthalpy
+Diagrams to test your understanding of the concepts in the figure.
+
+> [!note] Stop and Think
+> 
+> 
+> If you reverse a chemical equation, remember to switch the sign of its $\Delta H_{\mathrm{rxn}}^{0}$.
+
+$$
+\Delta \boldsymbol{H}^{0}
+$$
+
+$$
+\begin{aligned}
+\text { C(graphite) }+\mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{CO}_{2}(\mathrm{~g}) & -393.5 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{H}_{2} \mathrm{O}(\ell) & -285.8 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) & -890.3 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+**Plan**
+
+(i) We want one mole of C (graphite) as reactant, so we write down equation (1).
+(ii) We want two moles of $\mathrm{H}_{2}(\mathrm{~g})$ as reactants, so we multiply equation (2) by 2 [designated below as $2 \times(2)$ ].
+(iii) We want one mole of $\mathrm{CH}_{4}(\mathrm{~g})$ as product, so we reverse equation (3) to give ( -3 ).
+(iv) We do the same operations on each $\Delta H^{0}$ value.
+(v) Then we add these equations term by term. The result is the desired thermochemical equation, with all unwanted substances canceling. The sum of the $\Delta H^{0}$ values is the $\Delta H^{0}$ for the desired reaction.
+
+**Solution**
+
+|  | $\Delta \boldsymbol{H}^{0}$ |  |  |
+| ---: | :--- | ---: | ---: |
+| C(graphite) $+\mathrm{O}_{2}(\mathrm{~g})$ | $\longrightarrow \mathrm{CO}_{2}(\mathrm{~g})$ | $-393.5 \mathrm{~kJ} / \mathrm{mol}$ rxn $)$ | $(1)$ |
+| $2 \mathrm{H}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})$ | $\longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\ell)$ | $2(-285.8 \mathrm{~kJ} / \mathrm{mol}$ rxn $)$ | $2 \times(2)$ |
+| $\mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell)$ | $\longrightarrow \mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g})$ | $+890.3 \mathrm{~kJ} / \mathrm{mol}$ rxn $)$ | $(-3)$ |
+| C(graphite) $+2 \mathrm{H}_{2}(\mathrm{~g})$ | $\longrightarrow \mathrm{CH}_{4}(\mathrm{~g})$ | $\Delta H_{\mathrm{rxn}}^{0}=-74.8 \mathrm{~kJ} / \mathrm{mol}$ rxn $)$ |  |
+
+$\mathrm{CH}_{4}(\mathrm{~g})$ cannot be formed directly from $\mathrm{C}($ graphite $)$ and $\mathrm{H}_{2}(\mathrm{~g})$, so its $\Delta H_{\mathrm{f}}^{0}$ value cannot be measured directly. The result of this example tells us that this value is $-74.8 \mathrm{~kJ} / \mathrm{mol}$.
+
+
+> [!example] Example 15-8: Combining Thermochemical Equations: Hess's Law
+> 
+> Given the following thermochemical equations, calculate the heat of reaction at 298 K for the reaction of ethylene with water to form ethanol.
+> 
+> $$
+> \mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)
+> $$
+> 
+> $$
+> \Delta H^{0}
+> $$
+> 
+> $$
+> \begin{array}{rll}
+> \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) & -1367 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\
+> \mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+3 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) & -1411 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+> \end{array}
+> $$
+
+**Plan**
+
+We reverse equation (1) to give ( -1 ); when the equation is reversed, the sign of $\Delta H^{0}$ is changed because the reverse of an exothermic reaction is endothermic. Then we add it to equation (2).
+
+**Solution**
+
+$$
+\begin{array}{rlrl} 
+& \Delta \boldsymbol{H}^{0} \\
+2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) & \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) & +1367 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+3 \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) & -1411 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+\hline \mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\ell) & \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell) & \Delta H_{\mathrm{rxn}}^{0}=-44 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{array}
+$$
+
+**You should now work Exercises 32 and 34.**
+
+**Problem Solving Tip $\Delta H_{\mathrm{f}}^{0}$ Refers to a Specific Reaction**
+
+The $\Delta H^{0}$ for the reaction in Example 15-8 is -44 kJ for each mole of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ formed. This reaction, however, does not involve formation of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ from its constituent elements; therefore, $\Delta H_{\mathrm{rxn}}^{0}$ is not $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$. We have seen the reaction for $\Delta H_{\mathrm{f}}^{0}$ of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$ in Example 15-6.
+
+Similarly, the $\Delta H_{\mathrm{rxn}}^{0}$ for
+
+$$
+\mathrm{CO}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})
+$$
+
+is not $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{CO}_{2}(\mathrm{~g})$.
+
+Another interpretation of Hess's Law lets us use tables of $\Delta H_{\mathrm{f}}^{0}$ values to calculate the enthalpy change for a reaction. Let us consider again the reaction of Example 15-8.
+
+$$
+\mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)
+$$
+
+A table of $\Delta H_{\mathrm{f}}^{0}$ values (Appendix K) gives $\Delta H_{\mathrm{f}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)}^{0}=-277.7 \mathrm{~kJ} / \mathrm{mol}, \Delta H_{\mathrm{f}_{2} \mathrm{H}_{4}(\mathrm{~g})}^{0}= 52.3 \mathrm{~kJ} / \mathrm{mol}$, and $\Delta H_{\mathrm{f}_{\mathrm{H}_{2} \mathrm{O}}(\ell)}^{0}=-285.8 \mathrm{~kJ} / \mathrm{mol}$. We may express this information in the form of the following thermochemical equations.
+
+$$
+\Delta H^{0}
+$$
+
+$$
+\begin{aligned}
+2 \mathrm{C}(\text { graphite })+3 \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell) \\
+2 \mathrm{C}(\text { graphite })+2 \mathrm{H}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g}) \\
+\mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{H}_{2} \mathrm{O}(\ell)
+\end{aligned}
+$$
+
+$$
+\begin{array}{r}
+-277.7 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+52.3 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \\
+-285.8 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{array}
+$$
+
+We may generate the equation for the desired net reaction by adding equation (1) to the reverse of equations (2) and (3). The value of $\Delta H^{0}$ for the desired reaction is then the sum of the corresponding $\Delta H^{0}$ values.
+$\begin{array}{rlrr} & & \Delta \boldsymbol{H}^{0} & \\ 2 \mathrm{C}(\text { graphite })+3 \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell) & -277.7 \mathrm{~kJ} / \mathrm{mol} \text { rxn } & (1) \\ \mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g}) & \longrightarrow & 2 \mathrm{C}(\text { graphite })+2 \mathrm{H}_{2}(\mathrm{~g}) & -52.3 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\ & \mathrm{H}_{2} \mathrm{O}(\ell) & \longrightarrow \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) & +285.8 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\ & & (-3)\end{array}$
+We see that $\Delta H^{0}$ for this reaction is given by
+
+$$
+\Delta H_{\mathrm{rxn}}^{0}=\Delta H_{(1)}^{0}+\Delta H_{(-2)}^{0}+\Delta H_{(-3)}^{0}
+$$
+
+or by
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-16.jpg?height=129&width=660&top_left_y=1838&top_left_x=375)
+
+In general terms this is a very useful form of Hess's Law.
+
+> [!equation] Hess's law (using formation enthalpies)
+> $$
+> \Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta H_{\mathrm{f} \text { reactants }}^{0}
+> $$
+
+The standard enthalpy change of a reaction is equal to the sum of the standard molar enthalpies of formation of the products, each multiplied by its coefficient, $n$, in the balanced equation, minus the corresponding sum of the standard molar enthalpies of formation of the reactants.
+
+The capital Greek letter sigma ( $\Sigma$ ) is read "the sum of." The $\Sigma n$ means that the $\Delta H_{\mathrm{f}}^{0}$ value of each product and reactant must be multiplied by its coefficient, $n$, in the balanced equation. The resulting values are then added.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-17.jpg?height=365&width=425&top_left_y=316&top_left_x=143)
+Figure 15-4 A schematic representation of Hess's Law. The red arrow represents the direct path from reactants to products. The series of blue arrows is a path (hypothetical) in which reactants are converted to elements, and they in turn are converted to products-all in their standard states.
+
+$\mathrm{O}_{2}(\mathrm{~g})$ is an element in its standard state, so its $\Delta H_{\mathrm{f}}^{0}$ is zero.
+
+We will consult Appendix K to check the answer only after working the problem.
+
+In effect this form of Hess's Law supposes that the reaction occurs by converting reactants to the elements in their standard states, then converting these to products (Figure 15-4). Few, if any, reactions actually occur by such a pathway. Nevertheless, the $\Delta H^{0}$ for this hypothetical pathway for reactants ⟶ products would be the same as that for any other pathway-including the one by which the reaction actually occurs.
+
+
+> [!example] Example 15-9: Using $\Delta H_{\mathrm{f}}^{0}$ Values: Hess's Law
+> 
+> Calculate $\Delta H_{\mathrm{rxn}}^{0}$ for the following reaction at 298 K .
+> 
+> $$
+> \mathrm{SiH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{SiO}_{2}(\mathrm{~s})+2 \mathrm{H}_{2} \mathrm{O}(\ell)
+> $$
+
+**Plan**
+
+We apply Hess's Law in the form $\Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta H_{\mathrm{f} \text { reactants, so we use the }}^{0} \Delta H_{\mathrm{f}}^{0}$ values tabulated in Appendix K.
+
+**Solution**
+
+We can first list the $\Delta H_{\mathrm{f}}^{0}$ values we obtain from Appendix K:
+
+|  | $\mathrm{SiH}_{4}(\mathrm{~g})$ | $\mathrm{O}_{2}(\mathrm{~g})$ | $\mathrm{SiO}_{2}(\mathrm{~s})$ | $\mathrm{H}_{2} \mathrm{O}(\ell)$ |
+| :---: | :---: | :---: | :---: | :---: |
+| $\Delta H_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}:$ | 34.3 | 0 | -910.9 | -285.8 |
+
+$\Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta H_{\mathrm{f} \text { reactants }}^{0}$
+$\Delta H_{\mathrm{rxn}}^{0}=\left[\Delta H_{\mathrm{f} \mathrm{SiO}_{2}(\mathrm{~s})}^{0}+2 \Delta H_{\mathrm{fH}_{2} \mathrm{O}(\ell)}^{0}\right]-\left[\Delta H_{\mathrm{f} \mathrm{SiH}_{4}(\mathrm{~g})}^{0}+2 \Delta H_{\mathrm{f}_{2}(\mathrm{~g})}^{0}\right]$
+$\Delta H_{\mathrm{rxn}}^{0}=\left[\frac{1 \mathrm{~mol} \mathrm{SiO}_{2}(\mathrm{~s})}{\mathrm{mol} \mathrm{rxn}} \times \frac{-910.9 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{SiO}_{2}(\mathrm{~s})}+\frac{2 \mathrm{~mol} \mathrm{H}_{2} \mathrm{O}(\ell)}{\mathrm{mol} \mathrm{rxn}} \times \frac{-285.8 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{H}_{2} \mathrm{O}(\ell)}\right]$
+
+$$
+-\left[\frac{1 \mathrm{~mol} \mathrm{SiH}_{4}(\mathrm{~g})}{\mathrm{mol} \mathrm{rxn}} \times \frac{+34.3 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{SiH}_{4}(\mathrm{~g})}+\frac{2 \mathrm{~mol} \mathrm{O}_{2}(\mathrm{~g})}{\mathrm{mol} \mathrm{rxn}} \times \frac{0 \mathrm{~kJ}}{\mathrm{~mol} \mathrm{O}_{2}(\mathrm{~g})}\right]
+$$
+
+$\Delta H_{\mathrm{rxn}}^{0}=-1516.8 \mathrm{~kJ} / \mathrm{mol}$ rxn
+
+**You should now work Exercise 38.**
+
+Each term in the sums on the right-hand side of the solution in Example 15-9 has the units
+
+$$
+\frac{\text { mol substance }}{\text { mol rxn }} \times \frac{\mathrm{kJ}}{\text { mol substance }} \quad \text { or } \quad \frac{\mathrm{kJ}}{\text { mol rxn }}
+$$
+
+For brevity, we shall omit units in the intermediate steps of calculations of this type, and just assign the proper units to the answer. Be sure that you understand how these units arise.
+
+Suppose we measure $\Delta H_{\mathrm{rxn}}^{0}$ at 298 K and know all but one of the $\Delta H_{\mathrm{f}}^{0}$ values for reactants and products. We can then calculate the unknown $\Delta H_{\mathrm{f}}^{0}$ value.
+
+
+> [!example] Example 15-10: Using $\Delta H_{\mathrm{f}}^{0}$ Values: Hess's Law
+> 
+> Use the following information to determine $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{PbO}(\mathrm{s}$, yellow).
+> 
+> $$
+> \begin{gathered}
+> \mathrm{PbO}(\mathrm{~s}, \text { yellow })+\mathrm{CO}(\mathrm{~g}) \longrightarrow \mathrm{Pb}(\mathrm{~s})+\mathrm{CO}_{2}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0}=-65.69 \mathrm{~kJ} \\
+> \Delta H_{\mathrm{f}}^{0}=\text { for } \mathrm{CO}_{2}(\mathrm{~g})=-393.5 \mathrm{~kJ} / \mathrm{mol} \quad \text { and } \quad \Delta H_{\mathrm{f}}^{0} \text { for } \mathrm{CO}(\mathrm{~g})=-110.5 \mathrm{~kJ} / \mathrm{mol}
+> \end{gathered}
+> $$
+
+**Plan**
+
+We again use Hess's Law in the form $\Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta H_{\mathrm{f} \text { reactants }}^{0}$. The standard state of lead is $\mathrm{Pb}(\mathrm{s})$, so $\Delta H_{\mathrm{f} \mathrm{Pb}(\mathrm{s})}^{0}=0 \mathrm{~kJ} / \mathrm{mol}$. Now we are given $\Delta H_{\mathrm{rxn}}^{0}$ and the $\Delta H_{\mathrm{f}}^{0}$ values for all substances except $\mathrm{PbO}(\mathrm{s}$, yellow). We can solve for this unknown.
+
+**Solution**
+
+We list the known $\Delta H_{\mathrm{f}}^{0}$ values:
+
+|  | $\mathrm{PbO}(\mathrm{s}$, yellow $)$ | $\mathrm{CO}(\mathrm{g})$ | $\mathrm{Pb}(\mathrm{s})$ | $\mathrm{CO}_{2}(\mathrm{~g})$ |
+| :--- | :--- | :--- | :--- | :--- |
+| $\Delta H_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}:$ | $\Delta H_{\mathrm{fPbO}_{2}(\mathrm{~s}, \text { yellow })}^{0}$ | -110.5 | 0 | -393.5 |
+
+$$
+\begin{aligned}
+& \Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0} \quad-\Sigma n \Delta H_{\mathrm{f} \text { reactants }}^{0} \\
+& \Delta H_{\mathrm{rxn}}^{0}=\Delta H_{\mathrm{fPb}(\mathrm{~s})}^{0}+\Delta H_{\mathrm{f} \mathrm{CO}_{2}(\mathrm{~g})}^{0}-\left[\Delta H_{\mathrm{fPbO}(\mathrm{~s}, \text { yellow })}^{0}+\Delta H_{\mathrm{fCO}(\mathrm{~g})}^{0}\right]
+\end{aligned}
+$$
+
+Substituting values stated in the problem gives
+
+$$
+-65.69=0 \quad+(-393.5)-\left[\Delta H_{\mathrm{f} \mathrm{PbO}(\mathrm{~s}, \text { yellow })}^{0}+(-110.5)\right]
+$$
+
+Rearranging to solve for, $\Delta H_{\mathrm{f} \mathrm{PbO}(\mathrm{s}, \text { yellow })}^{0}$, we have
+
+$$
+\Delta H_{\mathrm{f} \mathrm{PbO}(\mathrm{~s}, \text { yellow })}^{0}=65.69-393.5+110.5=-217.3 \mathrm{~kJ} / \mathrm{mol} \text { of } \mathrm{PbO}
+$$
+
+**You should now work Exercise 44.**
+
+> [!tip] Problem-Solving Tip: $\Delta H_{\mathrm{f}}^{0}$ for elements
+> In Example 15-10, we were not given the value of $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{Pb}(\mathrm{s})$. We should know without reference to tables that $\Delta H_{\mathrm{f}}^{0}$ for an element in its most stable form is exactly $0 \mathrm{~kJ} / \mathrm{mol}$. But the element must be in its most stable form. Thus, $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{O}_{2}(\mathrm{~g})$ is zero, because ordinary oxygen is gaseous and diatomic. We would not assume that $\Delta H_{\mathrm{f}}^{0}$ would be zero for oxygen atoms, $\mathrm{O}(\mathrm{g})$, or for ozone, $\mathrm{O}_{3}(\mathrm{~g})$. Similarly, $\Delta H_{\mathrm{f}}^{0}$ is zero for $\mathrm{Cl}_{2}(\mathrm{~g})$ and for $\mathrm{Br}_{2}(\ell)$, but not for $\mathrm{Br}_{2}(\mathrm{~g})$. Recall that bromine is one of the few elements that is liquid at room temperature and 1 atm pressure.
+
+
+# 15-9 Bond Energies
+
+Chemical reactions involve the breaking and making of chemical bonds. Energy is always required to break a chemical bond (Section 7-4). Often this energy is supplied in the form of heat.
+
+The bond energy (B.E.) is the amount of energy necessary to break one mole of bonds in a gaseous covalent substance to form products in the gaseous state at constant temperature and pressure.
+
+The greater the bond energy, the more stable (stronger) the bond is, and the harder it is to break. Thus bond energy is a measure of bond strengths.
+
+Consider the following reaction.
+
+$$
+\mathrm{H}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0}=\Delta H_{\mathrm{H}-\mathrm{H}}=+436 \mathrm{~kJ} / \mathrm{mol} \mathrm{H}-\mathrm{H} \text { bonds }
+$$
+
+The bond energy of the hydrogen-hydrogen bond is $436 \mathrm{~kJ} / \mathrm{mol}$ of bonds. In other words, 436 kJ of energy must be absorbed for every mole of $\mathrm{H}-\mathrm{H}$ bonds that are broken. This endothermic reaction ( $\Delta H_{\text {rxn }}^{0}$ is positive) can be written
+
+$$
+\mathrm{H}_{2}(\mathrm{~g})+436 \mathrm{~kJ} \longrightarrow 2 \mathrm{H}(\mathrm{~g})
+$$
+
+For all practical purposes, the bond energy is the same as bond enthalpy. Tabulated values of average bond energies are actually average bond enthalpies. We use the term "bond energy" rather than "bond enthalpy" because it is common practice to do so.
+
+We have discussed these changes in terms of absorption or release of heat. Another way of breaking bonds is by absorption of light energy (Chapter 4). Bond energies can be determined from the energies of the photons that cause bond dissociation.
+
+> [!note] Stop and Think
+> 
+> Remember that this equation involves bond energies of reactants minus bond energies of products.
+
+
+Table 15-2 Some Average Single Bond Energies (kJ/mol of bonds)
+
+| H | C | N | O | F | Si | P | S | Cl | Br | I |  |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 436 | 413 | 391 | 463 | 565 | 318 | 322 | 347 | 432 | 366 | 299 | H |
+|  | 346 | 305 | 358 | 485 |  |  | 272 | 339 | 285 | 213 | C |
+|  |  | 163 | 201 | 283 |  |  |  | 192 |  |  | N |
+|  |  |  | 146 | 190 | 452 | 335 |  | 218 | 201 | 201 | O |
+|  |  |  |  | 155 | 565 | 490 | 284 | 253 | 249 | 278 | F |
+|  |  |  |  |  | 222 |  | 293 | 381 | 310 | 234 | Si |
+|  |  |  |  |  |  | 201 |  | 326 |  | 184 | P |
+|  |  |  |  |  |  |  | 226 | 255 |  |  | S |
+|  |  |  |  |  |  |  |  | 242 | 216 | 208 | Cl |
+|  |  |  |  |  |  |  |  |  | 193 | 175 | Br |
+|  |  |  |  |  |  |  |  |  |  | 151 | I |
+
+
+Table 15-3 Comparison of Some Average Single and Multiple Bond Energies (kJ/mol of bonds)
+
+| Single Bonds |  | Double Bonds |  | Triple Bonds |  |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| C-C | 346 | $\mathrm{C}=\mathrm{C}$ | 602 | $\mathrm{C} \equiv \mathrm{C}$ | 835 |
+| $\mathrm{N}-\mathrm{N}$ | 163 | $\mathrm{N}=\mathrm{N}$ | 418 | $\mathrm{N} \equiv \mathrm{N}$ | 945 |
+| $\mathrm{O}-\mathrm{O}$ | 146 | $\mathrm{O}=\mathrm{O}$ | 498 |  |  |
+| $\mathrm{C}-\mathrm{N}$ | 305 | $\mathrm{C}=\mathrm{N}$ | 615 | $\mathrm{C} \equiv \mathrm{N}$ | 887 |
+| $\mathrm{C}-\mathrm{O}$ | 358 | $\mathrm{C}=\mathrm{O}$ | 732* | $\mathrm{C} \equiv \mathrm{O}$ | 1072 |
+
+
+*Except in $\mathrm{CO}_{2}$, where it is $799 \mathrm{~kJ} / \mathrm{mol}$.
+
+Some average bond energies are listed in Tables 15-2 and 15-3. We see from Table 15-3 that for any combination of elements, a triple bond is stronger than a double bond, which in turn is stronger than a single bond. Bond energies for double and triple bonds are not simply two or three times those for the corresponding single bonds. A single bond is a $\sigma$ bond, whereas double and triple bonds involve a combination of $\sigma$ and $\pi$ bonding. The bond energy measures the difficulty of overcoming the orbital overlap, and we should not expect the strength of a $\pi$ bond to be the same as that of a $\sigma$ bond between the same two atoms.
+
+We should keep in mind that each of the values listed is the average bond energy from a variety of compounds. The average $C-H$ bond energy is $413 \mathrm{~kJ} / \mathrm{mol}$ of bonds. Average $\mathrm{C}-\mathrm{H}$ bond energies differ slightly from compound to compound, as in $\mathrm{CH}_{4}, \mathrm{CH}_{3} \mathrm{Cl}$, $\mathrm{CH}_{3} \mathrm{NO}_{2}$, and so on. Nevertheless, they are sufficiently constant to be useful in estimating thermodynamic data that are not readily available by another approach. Values of $\Delta H_{\mathrm{rxn}}^{0}$ estimated in this way are not as reliable as those obtained from $\Delta H_{\mathrm{f}}^{0}$ values for the substances involved in the reaction.
+
+A special case of Hess's Law involves the use of bond energies to estimate heats of reaction. Consider the enthalpy diagrams in Figure 15-5. In general terms, $\Delta H_{\mathrm{rxn}}^{0}$ is related to the bond energies of the reactants and products in gas phase reactions by the following version of Hess's Law.
+
+> [!equation] Bond-energy estimate of reaction enthalpy (gas phase)
+> $$
+> \Delta H_{\mathrm{rxn}}^{0}=\Sigma \mathrm{B} . \mathrm{E}_{. \text {reactants }}-\Sigma \mathrm{B} . \mathrm{E}_{. \text {products }} \quad \text { in gas phase reactions only }
+> $$
+
+The net enthalpy change of a reaction is the amount of energy required to break all the bonds in reactant molecules minus the amount of energy required to break all the bonds in product molecules. Stated in another way, the amount of energy released when a
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-20.jpg?height=736&width=1554&top_left_y=295&top_left_x=122)
+> Figure 15-5 A schematic representation of the relationship between bond energies and $\Delta H_{\mathrm{rxn}}$ for gas phase reactions. (a) For a general reaction (exothermic). (b) For the gas phase reaction
+
+$$
+\mathrm{H}_{2}(\mathrm{~g})+\mathrm{Br}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HBr}(\mathrm{~g})
+$$
+
+As usual for such diagrams, the value shown for each change refers to the number of moles of substances or bonds indicated in the diagram.
+bond is formed is equal to the amount absorbed when the same bond is broken. The heat of reaction for a gas phase reaction can be described as the amount of energy released in forming all the bonds in the products minus the amount of energy released in forming all the bonds in the reactants (Figure 15-5). This heat of reaction can be estimated using the average bond energies in Tables 15-2 and 15-3.
+
+The definition of bond energies is limited to the bond-breaking process only, and does not include any provision for changes of state. Thus, it is valid only for substances in the gaseous state. The calculations of this section therefore apply only when all substances in the reaction are gases. If liquids or solids were involved, then additional information such as heats of vaporization and fusion would be needed to account for phase changes.
+
+> [!example] Example 15-11: Bond Energies
+> 
+> Use the bond energies listed in Table 15-2 to estimate the heat of reaction at 298 K for the following reaction.
+> 
+> $$
+> \mathrm{N}_{2}(\mathrm{~g})+3 \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{NH}_{3}(\mathrm{~g})
+> $$
+
+**Plan**
+
+Each $\mathrm{NH}_{3}$ molecule contains three N - H bonds, so two moles of $\mathrm{NH}_{3}$ contain six moles of $\mathrm{N}-\mathrm{H}$ bonds. Three moles of $\mathrm{H}_{2}$ contain a total of three moles of $\mathrm{H}-\mathrm{H}$ bonds, and one mole of $\mathrm{N}_{2}$ contains one mole of $\mathrm{N} \equiv \mathrm{N}$ bonds. From this we can estimate the heat of reaction.
+
+**Solution**
+
+Using the bond energy form of Hess's Law,
+
+$$
+\begin{aligned}
+\Delta H_{\mathrm{rxn}}^{0} & =\left[\Delta H_{\mathrm{N} \equiv \mathrm{~N}}+3 \Delta H_{\mathrm{H}-\mathrm{H}}\right]-\left[6 \Delta H_{\mathrm{N}-\mathrm{H}}\right] \\
+& =945+3(436)-6(361)=-93 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+**You should now work Exercise 48.**
+
+
+For each term in the sum, the units are
+
+$$
+\frac{\text { mol bonds }}{\text { mol rxn }} \times \frac{\mathrm{kJ}}{\mathrm{~mol} \text { bonds }}
+$$
+
+
+> [!example] Example 15-12: Bond Energies
+
+> [!note] Stop and Think
+> 
+> 
+> We would get the same value for $\Delta H_{\mathrm{rxn}}^{0}$ if we used the full bond energy form of Hess's Law and assumed that all bonds in reactants were broken and then all bonds in products were formed. In such a calculation the bond energies for the unchanged bonds would cancel. Why? Try it!
+
+Internal energy is a state function, so it is represented by a capital letter.
+
+Use the bond energies listed in Table 15-2 to estimate the heat of reaction at 298 K for the following reaction.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-21.jpg?height=214&width=872&top_left_y=480&top_left_x=735)
+
+**Plan**
+
+Two moles of $\mathrm{C}-\mathrm{C}$ bonds and seven moles of $\mathrm{C}-\mathrm{H}$ bonds are the same before and after reaction, so we do not need to include them in the bond energy calculation. The only reactant bonds that are broken are one mole of $\mathrm{C}-\mathrm{H}$ bonds and one mole of $\mathrm{Cl}-\mathrm{Cl}$ bonds. On the product side, the only new bonds formed are one mole of $\mathrm{C}-\mathrm{Cl}$ bonds and one mole of $\mathrm{H}-\mathrm{Cl}$ bonds. We need to take into account only the bonds that are different on the two sides of the equation. As before, we add and subtract the appropriate bond energies, using values from Table 15-2.
+
+**Solution**
+
+$$
+\begin{aligned}
+\Delta H_{\mathrm{rxn}}^{0} & =\left[\Delta H_{\mathrm{C}-\mathrm{H}}+\Delta H_{\mathrm{Cl}-\mathrm{Cl}}\right]-\left[\Delta H_{\mathrm{C}-\mathrm{Cl}}+\Delta H_{\mathrm{H}-\mathrm{Cl}}\right] \\
+& =[413+242]-[339+432]=-116 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+**You should now work Exercises 50 and 52.**
+
+
+# 15-10 Changes in Internal Energy, $\Delta E$
+
+The internal energy, $\boldsymbol{E}$, of a specific amount of a substance represents all the energy contained within the substance. It includes such forms as kinetic energies of the molecules; energies of attraction and repulsion among subatomic particles, atoms, ions, or molecules; and other forms of energy. The internal energy of a collection of molecules is a state function. The difference between the internal energy of the products and the internal energy of the reactants of a chemical reaction or physical change, $\Delta E$, is given by the equation
+
+> [!equation] First law (internal energy balance)
+> $$
+> \Delta E=E_{\text {final }}-E_{\text {initial }}=E_{\text {products }}-E_{\text {reactants }}=q+w
+> $$
+
+The terms $q$ and $w$ represent heat and work, respectively. These are two ways in which energy can flow into or out of a system. Work involves a change of energy in which a body is moved through a distance, $d$, against some force, $f$; that is, $w=f d$.
+
+$$
+\Delta E=\text { (amount of heat absorbed by system) }+ \text { (amount of work done on system) }
+$$
+
+> [!note] Sign conventions for heat and work
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-21.jpg?height=281&width=454&top_left_y=2082&top_left_x=940)
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-22.jpg?height=336&width=1124&top_left_y=299&top_left_x=105)
+> 
+> The following conventions apply to the signs of $q$ and $w$.
+> 
+> $q$ is positive: Heat is absorbed by the system from the surroundings (endothermic).
+> 
+> $q$ is negative: Heat is released by the system to the surroundings (exothermic).
+> 
+> $w$ is positive: Work is done on the system by the surroundings.
+> 
+> $w$ is negative: Work is done by the system on the surroundings.
+
+Whenever a given amount of energy is added to or removed from a system, either as heat or as work, the energy of the system changes by that same amount. The equation $\Delta E=q+w$ is another way of expressing the First Law of Thermodynamics (Section 15-1).
+
+The only type of work involved in most chemical and physical changes is pressurevolume work. From dimensional analysis we can see that the product of pressure and volume is work. Pressure is the force exerted per unit area, where area is distance squared, $d^{2}$; volume is distance cubed, $d^{3}$. Thus, the product of pressure and volume is force times distance, which is work. An example of a physical change (a phase change) in which the system expands and thus does work as it absorbs heat is shown in Figure 15-6. Even if the book had not been present, the expanding system pushing against the atmosphere would have done work for the expansion.
+
+When energy is released by a reacting system, $\Delta E$ is negative; energy can be written as a product in the equation for the reaction. When the system absorbs energy from the surroundings, $\Delta E$ is positive; energy can be written as a reactant in the equation.
+
+For example, the complete combustion of $\mathrm{CH}_{4}$ at constant volume at $25^{\circ} \mathrm{C}$ releases energy.
+
+$$
+\mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+\underset{\text { indicates release of energy }}{2 \mathrm{H}_{2} \mathrm{O}(\ell)+887 \mathrm{~kJ}}
+$$
+
+We can write the change in energy that accompanies this reaction as
+
+$$
+\mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \quad \Delta E=-887 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+$$
+
+As discussed in Section 15-2, the negative sign indicates a decrease in energy of the system, or a release of energy by the system.
+
+The reverse of this reaction absorbs energy. It can be written as
+or
+
+$$
+\mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell)+887 \mathrm{~kJ} \longrightarrow \mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g})
+$$
+
+indicates absorption of energy
+
+$$
+\mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{CH}_{4}(\mathrm{~g})+2 \mathrm{O}_{2}(\mathrm{~g}) \quad \Delta E=+887 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+$$
+
+If the latter reaction could be forced to occur, the system would have to absorb 887 kJ of energy per mole of reaction from its surroundings.
+
+When a gas is produced against constant external pressure, such as in an open vessel at atmospheric pressure, the gas does work as it expands against the pressure of the atmosphere. If no heat is absorbed during the expansion, the result is a decrease in the internal
+
+> [!figure]
+> Active Figure 15-6 A system that absorbs heat and does work. (a) Some powdered dry ice (solid $\mathrm{CO}_{2}$ ) is placed into a flexible bag, which is then sealed. (b) As the dry ice absorbs heat from the surroundings, some solid $\mathrm{CO}_{2}$ sublimes to form gaseous $\mathrm{CO}_{2}$. The larger volume of the gas causes the bag to expand. The expanding gas does the work of raising a book that has been placed on the bag. Work would be done by the expansion, even if the book were not present, as the bag pushes against the surrounding atmosphere. The heat absorbed by such a process at constant pressure, $q_{p}$, is equal to $\Delta H$ for the process. Visit this book's companion website at www.cengage .com/chemistry/whitten to test your understanding of the concepts in this figure.
+
+$$
+\begin{gathered}
+\frac{F}{d^{2}} \times d^{3}=F d=w \\
+\uparrow \\
+P \quad \uparrow \\
+V
+\end{gathered}
+$$
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-23.jpg?height=922&width=922&top_left_y=299&top_left_x=598)
+> Figure 15-7 An illustration of the one-third decrease in volume that accompanies the reaction of $\mathrm{H}_{2}$ with $\mathrm{O}_{2}$ at constant temperature. The temperature is above $100^{\circ} \mathrm{C}$.
+> 
+> At $25^{\circ}$ the change in internal energy for the combustion of methane is $-887 \mathrm{~kJ} / \mathrm{mol} \mathrm{CH}_{4}$. The change in heat content is $-890 \mathrm{~kJ} / \mathrm{mol} \mathrm{CH}_{4}$ (Section 15-1). The small difference is due to work done on the system as it is compressed by the atmosphere.
+> 
+> $V_{2}$ is the final volume, and $V_{1}$ is the initial volume.
+Let us illustrate the latter case. Consider the complete reaction of a 2:1 mole ratio of $\mathrm{H}_{2}$ and $\mathrm{O}_{2}$ to produce steam at some constant temperature above $100^{\circ} \mathrm{C}$ and at one atmosphere pressure (Figure 15-7).
+
+$$
+2 \mathrm{H}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\mathrm{~g})+\text { heat }
+$$
+
+Assume that the constant-temperature bath surrounding the reaction vessel completely absorbs all the evolved heat so that the temperature of the gases does not change. The volume of the system decreases by one third ( 3 mol gaseous reactants $\rightarrow 2 \mathrm{~mol}$ gaseous products). The surroundings exert a constant pressure of one atmosphere and do work on the system by compressing it. The internal energy of the system increases by an amount equal to the amount of work done on it.
+
+The work done on or by a system depends on the external pressure and the volume. When the external pressure is constant during a change, the amount of work done is equal to this pressure times the change in volume. The work done on a system equals $-P \Delta V$ or $-P\left(V_{2}-V_{1}\right)$.
+
+| Compression (volume decreases) | Expansion (volume increases) |
+| :--- | :--- |
+| Work is done $b y$ the surroundings on the system, so the sign of $w$ is positive | Work is done by the system on the surroundings, so the sign of $w$ is negative |
+| $V_{2}$ is less than $V_{1}$, so $\Delta V=\left(V_{2}-V_{1}\right)$ is negative | $V_{2}$ is greater than $V_{1}$, so $\Delta V=\left(V_{2}-V_{1}\right)$ is positive |
+| Can be due to a decrease in number of moles of gas ( $\Delta n$ negative) | Can be due to an increase in number of moles of gas ( $\Delta n$ positive) |
+
+We substitute $-P \Delta V$ for $w$ in the equation $\Delta E=q+w$ to obtain
+
+> [!equation] Internal energy change with pressure–volume work
+> $$
+> \Delta E=q-P \Delta V
+> $$
+
+In constant-volume reactions, no $P \Delta V$ work is done. Volume does not change, so nothing "moves through a distance," and $d=0$ and $f d=0$. The change in internal energy of the system is just the amount of heat absorbed or released at constant volume, $q_{\mathrm{v}}$.
+
+> [!equation] Internal energy change at constant volume
+> $$
+> \Delta E=q_{\mathrm{v}}
+> $$
+
+Figure 15-8 shows the same phase change process as in Figure 15-6, but at constant volume condition, so no work is done.
+
+Solids and liquids do not expand or contract significantly when the pressure changes $(\Delta V \approx 0)$. In reactions in which equal numbers of moles of gases are produced and consumed at constant temperature and pressure, essentially no work is done. By the ideal gas equation, $P \Delta V=(\Delta n) R T$ and $\Delta n=0$, where $\Delta n$ equals the number of moles of gaseous products minus the number of moles of gaseous reactants. Thus, the work term $w$ has a significant value at constant pressure only when there are different numbers of moles of gaseous products and reactants so that the volume of the system changes.
+
+> [!example] Example 15-13: Predicting the Sign of Work
+> 
+> For each of the following chemical reactions carried out at constant temperature and constant pressure, predict the sign of $w$ and tell whether work is done on or $b y$ the system. Consider the reaction mixture to be the system.
+> (a) Ammonium nitrate, commonly used as a fertilizer, decomposes explosively.
+> 
+> $$
+> 2 \mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s}) \longrightarrow 2 \mathrm{~N}_{2}(\mathrm{~g})+4 \mathrm{H}_{2} \mathrm{O}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})
+> $$
+> 
+> This reaction was responsible for an explosion in 1947 that destroyed nearly the entire port of Texas City, Texas, and killed 576 people.
+> (b) Hydrogen and chlorine combine to form hydrogen chloride gas.
+> 
+> $$
+> \mathrm{H}_{2}(\mathrm{~g})+\mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HCl}(\mathrm{~g})
+> $$
+> 
+> (c) Sulfur dioxide is oxidized to sulfur trioxide, one step in the production of sulfuric acid.
+> 
+> $$
+> 2 \mathrm{SO}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{SO}_{3}(\mathrm{~g})
+> $$
+
+**Plan**
+
+For a process at constant pressure, $w=-P \Delta V=-(\Delta n) R T$. For each reaction, we evaluate $\Delta n$, the change in the number of moles of gaseous substances in the reaction.
+
+$$
+\Delta n=\text { (no. of moles of gaseous products) }- \text { (no. of moles of gaseous reactants) }
+$$
+
+Because both $R$ and $T$ (on the Kelvin scale) are positive quantities, the sign of $w$ is opposite from that of $\Delta n$; it tells us whether the work is done $o n(w=+)$ or $b y(w=-)$ the system.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-24.jpg?height=429&width=675&top_left_y=1951&top_left_x=107)
+The decomposition of $\mathrm{NH}_{4} \mathrm{NO}_{3}$ produces large amounts of gas, which expands rapidly as the very fast reaction occurs. This explosive reaction was the main cause of the destruction of the Federal Building in Oklahoma City in 1995.
+
+Do not make the error of setting work equal to $V \Delta P$.
+
+A subscript v indicates a constantvolume process; a subscript p indicates a constant-pressure process.
+
+Active Figure 15-8 A system that absorbs heat at constant volume. Some dry ice $\left[\mathrm{CO}_{2}(\mathrm{~s})\right]$ is placed into a rigid flask, which is then sealed. As the dry ice absorbs heat from the surroundings, some $\mathrm{CO}_{2}$ (s) sublimes to form $\mathrm{CO}_{2}(\mathrm{~g})$. In contrast to the case in Figure 15-6, this system cannot expand ( $\Delta V=0$ ), so no work is done, and the pressure in the flask increases. Thus, the heat absorbed at constant volume, $q_{\mathrm{v}}$, is equal to $\Delta E$ for the process. Visit this book's companion website at www .cengage.com/chemistry/whitten to test your understanding of the concepts in this figure.
+$\Delta n$ refers to the balanced equation.
+
+Here there are no gaseous reactants.
+
+> [!note] Stop and Think
+> 
+> 
+> When the number of moles of gas increases, work is done by the system, so $w$ is negative. When the number of moles of gas decreases, work is done on the system, so $w$ is positive.
+
+The "calorie content" of a food can be determined by burning it in excess oxygen inside a bomb calorimeter and determining the heat released. 1 "nutritional Calorie" = $1 \mathrm{kcal}=$ 4.184 kJ .
+
+Benzoic acid, $\mathrm{C}_{6} \mathrm{H}_{5} \mathrm{COOH}$, is often used to determine the heat capacity of a calorimeter. It is a solid that can be compressed into pellets. Its heat of combustion is accurately known: $3227 \mathrm{~kJ} / \mathrm{mol}$ benzoic acid, or $26.46 \mathrm{~kJ} / \mathrm{g}$ benzoic acid. Another way to measure the heat capacity of a calorimeter is to add a known amount of heat electrically.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-25.jpg?height=395&width=428&top_left_y=2015&top_left_x=118)
+
+**Solution**
+
+(a) $\Delta n=\left[2 \mathrm{~mol} \mathrm{~N}_{2}(\mathrm{~g})+4 \mathrm{~mol} \mathrm{H}_{2} \mathrm{O}(\mathrm{g})+1 \mathrm{~mol} \mathrm{O}_{2}(\mathrm{~g})\right]-0 \mathrm{~mol}$
+
+$$
+=7 \mathrm{~mol}-0 \mathrm{~mol}=+7 \mathrm{~mol}
+$$
+
+$\Delta n$ is positive, so $w$ is negative. This tells us that work is done $b y$ the system. The large amount of gas formed by the reaction pushes against the surroundings (as happened with devastating effect in the Texas City disaster).
+(b) $\Delta n=[2 \mathrm{~mol} \mathrm{HCl}(\mathrm{g})]-\left[1 \mathrm{~mol} \mathrm{H}_{2}(\mathrm{~g})+1 \mathrm{~mol} \mathrm{Cl}_{2}(\mathrm{~g})\right]$
+
+$$
+=2 \mathrm{~mol}-2 \mathrm{~mol}=0 \mathrm{~mol}
+$$
+
+Thus, $w=0$, and no work is done as the reaction proceeds. We can see from the balanced equation that for every two moles (total) of gas that react, two moles of gas are formed, so the volume neither expands nor contracts as the reaction occurs.
+(c) $\Delta n=\left[2 \mathrm{~mol} \mathrm{SO}_{3}(\mathrm{~g})\right]-\left[2 \mathrm{~mol} \mathrm{SO}_{2}(\mathrm{~g})+1 \mathrm{~mol} \mathrm{O}_{2}(\mathrm{~g})\right]$
+
+$$
+=2 \mathrm{~mol}-3 \mathrm{~mol}=-1 \mathrm{~mol}
+$$
+
+$\Delta n$ is negative, so $w$ is positive. This tells us that work is done on the system as the reaction proceeds. The surroundings push against the diminishing volume of gas.
+
+**You should now work Exercises 77 and 78.**
+
+A bomb calorimeter is a device that measures the amount of heat evolved or absorbed by a reaction occurring at constant volume (Figure 15-9). A strong steel vessel (the bomb) is immersed in a large volume of water. As heat is produced or absorbed by a reaction inside the steel vessel, the heat is transferred to or from the large volume of water. Thus, only rather small temperature changes occur. For all practical purposes, the energy changes associated with the reactions are measured at constant volume and constant temperature. No work is done when a reaction is carried out in a bomb calorimeter, even if gases are involved, because $\Delta V=0$. Therefore,
+
+$$
+\Delta E=q_{\mathrm{v}} \quad \text { (constant volume) }
+$$
+
+
+> [!example] Example 15-14: Bomb Calorimeter
+> 
+> A 1.000-gram sample of ethanol, $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}$, was burned in a bomb calorimeter whose heat capacity had been determined to be $2.71 \mathrm{~kJ} /{ }^{\circ} \mathrm{C}$. The temperature of 3000 grams of water rose from $24.284^{\circ} \mathrm{C}$ to $26.225^{\circ} \mathrm{C}$. Determine $\Delta E$ for the reaction in joules per gram of ethanol, and then in kilojoules per mole of ethanol. The specific heat of water is $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$. The combustion reaction is
+> 
+> $$
+> \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell)
+> $$
+
+**Plan**
+
+The amount of heat given off by the system (in the sealed compartment) raises the temperature of the calorimeter and its water. The amount of heat absorbed by the water can be calculated using the specific heat of water; similarly, we use the heat capacity of the calorimeter to find the amount of heat absorbed by the calorimeter. The sum of these two amounts of heat is the total amount of heat released by the combustion of 1.000 gram of ethanol. We must then scale that result to correspond to one mole of ethanol.
+
+**Solution**
+
+The increase in temperature is
+
+$$
+?{ }^{\circ} \mathrm{C}=26.225^{\circ} \mathrm{C}-24.284^{\circ} \mathrm{C}=1.941^{\circ} \mathrm{C} \text { rise }
+$$
+
+The amount of heat responsible for this increase in temperature of 3000 grams of water is
+
+$$
+\text { heat to warm water }=1.941^{\circ} \mathrm{C} \times \frac{4.184 \mathrm{~J}}{\sim} \times 3000 \mathrm{~g}=2.436 \times 10^{4} \mathrm{~J}=24.36 \mathrm{~kJ}
+$$
+
+The amount of heat responsible for the warming of the calorimeter is
+
+$$
+\text { heat to warm calorimeter }=1.941^{\circ} \mathrm{C} \times \frac{2.71 \mathrm{~kJ}}{{ }^{\circ} \mathrm{C}}=5.26 \mathrm{~kJ}
+$$
+
+The total amount of heat absorbed by the calorimeter and by the water is
+
+$$
+\text { total amount of heat }=24.36 \mathrm{~kJ}+5.26 \mathrm{~kJ}=29.62 \mathrm{~kJ}
+$$
+
+Combustion of one gram of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}$ liberates 29.62 kJ of energy in the form of heat, that is
+
+$$
+\Delta E=q_{\mathrm{v}}=-29.62 \mathrm{~kJ} / \mathrm{g} \text { ethanol }
+$$
+
+The negative sign indicates that energy is released by the system to the surroundings. Now we may evaluate $\Delta E$ in $\mathrm{kJ} / \mathrm{mol}$ of ethanol by converting grams of $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}$ to moles.
+
+$$
+\begin{aligned}
+\frac{? \mathrm{~kJ}}{\text { mol ethanol }} & =\frac{-29.62 \mathrm{~kJ}}{\mathrm{~g}} \times \frac{46.07 \mathrm{~g} \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}}{1 \mathrm{~mol} \mathrm{C}_{2} \mathrm{H}_{2} \mathrm{OH}}=-1365 \mathrm{~kJ} / \mathrm{mol} \text { ethanol } \\
+\Delta E & =-1365 \mathrm{~kJ} / \mathrm{mol} \text { ethanol }
+\end{aligned}
+$$
+
+This calculation shows that for the combustion of ethanol at constant temperature and constant volume, the change in internal energy is $-1365 \mathrm{~kJ} / \mathrm{mol}$ ethanol.
+
+You should now work Exercises 66 and 67.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-26.jpg?height=479&width=471&top_left_y=303&top_left_x=1294)
+Active Figure 15-9 A bomb calorimeter measures $q_{\mathrm{v}}$, the amount of heat given off or absorbed by a reaction occurring at constant volume. The amount of energy introduced via the ignition wires is measured and taken into account. Visit this book's companion website at www.cengage.com/chemistry/ whitten to test your understanding of the concepts in this figure.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-26.jpg?height=1028&width=1675&top_left_y=1188&top_left_x=92)
+
+The balanced chemical equation involves one mole of ethanol, so we can write the unit factor $\frac{1 \mathrm{~mol} \text { ethanol }}{1 \mathrm{~mol} \text { rxn }}$. Then we express the result of Example 15-14 as
+
+> [!note] Stop and Think
+> 
+> 
+> As usual, $\Delta n$ refers to the number of moles of gaseous products minus the number of moles of gaseous reactants in the balanced chemical equation.
+
+
+# 15-11 Relationship Between $\Delta H$ and $\Delta E$
+
+The fundamental definition of enthalpy, $H$, is
+
+> [!equation] Enthalpy (definition)
+> $$
+> H=E+P V
+> $$
+
+For a process at constant temperature and pressure,
+
+> [!equation] Enthalpy change vs. internal energy change (constant $T$, $P$)
+> $$
+> \Delta H=\Delta E+P \Delta V \quad(\text { constant } T \text { and } P)
+> $$
+
+From Section 15-10, we know that $\Delta E=q+w$, so
+
+$$
+\Delta H=q+w+P \Delta V \quad(\text { constant } T \text { and } P)
+$$
+
+At constant pressure, $w=-P \Delta V$, so
+
+$$
+\Delta H=q+(-P \Delta V)+P \Delta V
+$$
+
+> [!equation] Enthalpy change equals heat at constant pressure
+> $$
+> \Delta H=q_{p} \quad(\text { constant } T \text { and } P)
+> $$
+
+The difference between $\Delta E$ and $\Delta H$ is the amount of expansion work ( $P \Delta V$ work) that the system can do. Unless there is a change in the number of moles of gas present, this difference is extremely small and can usually be neglected. For an ideal gas, $P V=n R T$. At constant temperature and constant pressure, $P \Delta V=(\Delta n) R T$, a work term. Substituting gives
+
+> [!equation] $\Delta H$–$\Delta E$ relation for reactions involving gases (ideal gas, constant $T$, $P$)
+> $$
+> \Delta H=\Delta E+(\Delta n) R T \quad \text { or } \quad \Delta E=\Delta H-(\Delta n) R T \quad(\text { constant } T \text { and } P)
+> $$
+
+
+> [!tip] Problem-Solving Tip: Two equations relate $\Delta H$ and $\Delta E$
+> The relationship $\Delta H=\Delta E+P \Delta V$ is valid for any process that takes place at constant temperature and pressure. It is very useful for physical changes that involve volume changes, such as expansion or compression of a gas.
+> 
+> When a chemical reaction occurs and causes a change in the number of moles of gas, it is more convenient to use the relationship in the form $\Delta H=\Delta E+(\Delta n) R T$. You should always remember that $\Delta n$ refers to the change in the number of moles of gas in the balanced chemical equation.
+
+In Example 15-14 we found that the change in internal energy, $\Delta E$, for the combustion of ethanol is $-1365 \mathrm{~kJ} / \mathrm{mol}$ ethanol at 298 K . Combustion of one mole of ethanol at 298 K and constant pressure releases 1367 kJ of heat. Therefore (Section 15-5)
+
+$$
+\Delta H=-1367 \frac{\mathrm{~kJ}}{\mathrm{~mol} \text { ethanol }}
+$$
+
+The difference between $\Delta H$ and $\Delta E$ is due to the work term, $-P \Delta V$ or $-(\Delta n) R T$. In this balanced equation there are fewer moles of gaseous products than of gaseous reactants: $\Delta n=2-3=-1$.
+
+$$
+\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)+3 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+Thus, the atmosphere does work on the system (compresses it). Let us find the work done on the system per mole of reaction.
+
+$$
+\begin{aligned}
+w & =-P \Delta V=-(\Delta n) R T \\
+& =-(-1 \mathrm{~mol})\left(\frac{8.314 \mathrm{~J}}{\mathrm{~mol} \cdot \mathrm{~K}}\right)(298 \mathrm{~K})=+2.48 \times 10^{3} \mathrm{~J} \\
+w & =+2.48 \mathrm{~kJ} \quad \text { or } \quad(\Delta n) R T=-2.48 \mathrm{~kJ}
+\end{aligned}
+$$
+
+We can now calculate $\Delta E$ for the reaction from $\Delta H$ and $(\Delta n) R T$ values.
+
+$$
+\Delta E=\Delta H-(\Delta n) R T=[-1367-(-2.48)]=-1365 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+$$
+
+This value agrees with the result that we obtained in Example 15-14. The size of the work term ( +2.48 kJ ) is very small compared with $\Delta H(-1367 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn})$. This is true for many reactions. Of course, if $\Delta n=0$, then $\Delta H=\Delta E$, and the same amount of heat would be absorbed or given off by the reaction whether it is carried out at constant pressure or at constant volume.
+
+---
+
+**Spontaneity of Physical and Chemical Changes**
+
+Another major concern of thermodynamics is predicting whether a particular process can occur under specified conditions to give predominantly products. We may summarize this concern in the question "Which would be more stable at the given conditions-the reactants or the products?" A change for which the collection of products is thermodynamically more stable than the collection of reactants under the given conditions is said to be product-favored, or spontaneous, under those conditions. A change for which the products are thermodynamically less stable than the reactants under the given conditions is described as reactant-favored, or nonspontaneous, under those conditions. Some changes are spontaneous under all conditions; others are nonspontaneous under all conditions. The great majority of changes, however, are spontaneous under some conditions but not under others. We use thermodynamics to predict conditions for which the latter type of reactions can occur to give predominantly products.
+
+The concept of spontaneity has a specific interpretation in thermodynamics. A spontaneous chemical reaction or physical change is one that can happen without any continuing outside influence. Examples are the loss of heat by a hot metal to its cooler surroundings, the rusting of a piece of iron, the expansion of a gas into a larger volume, or the melting of ice at room temperature. Such changes have a tendency to occur without being driven by an external influence. We can think of a spontaneous process as one for which products are favored over reactants at the specified conditions. The reverse of each of the spontaneous changes just listed is nonspontaneous at the same conditions, that is, it does not occur naturally. We can, however, cause some nonspontaneous changes to occur. For example, forcing an electric current through a block of metal can heat it to a temperature higher than that of its surroundings. We can compress a gas into a smaller volume by pressing on it with a piston. But to cause a process to occur in its nonspontaneous direction, we must influence it from outside the system; that is, work must be done on the system.
+
+Although a spontaneous reaction might occur rapidly, thermodynamic spontaneity is not related to speed. The fact that a process is spontaneous does not mean that it will occur at an observable rate. It may occur rapidly, at a moderate rate, or very slowly. The rate at which a spontaneous reaction occurs is addressed by kinetics (Chapter 16).
+
+We now study the factors that influence spontaneity of a physical or chemical change.
+
+# 15-12 The Two Aspects of Spontaneity
+
+Many product-favored reactions are exothermic. For instance, the combustion (burning) reactions of hydrocarbons such as methane and octane are all exothermic and highly product-favored (spontaneous). The total enthalpy content of the products is lower than that of the reactants. Not all exothermic changes are spontaneous, however, nor are all spontaneous changes exothermic. As an example, consider the freezing of water, which is an exothermic process (heat is released). This process is spontaneous at temperatures below $0^{\circ} \mathrm{C}$, but we know it is not spontaneous at temperatures above $0^{\circ} \mathrm{C}$. Likewise, we know there are conditions at which the melting of ice, an endothermic
+
+The positive sign for $w$ is consistent with the fact that work is done on the system. The balanced equation involves one mole of ethanol, so this is the amount of work done when one mole of ethanol undergoes combustion.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-29.jpg?height=484&width=412&top_left_y=307&top_left_x=151)
+> Figure 15-10 The diffusion of two gases into one another is spontaneous. (a) A sample of gas in which all molecules of one gas are in one bulb and all molecules of the other gas are in the other bulb. (b) A sample of gas that contains the same number of each kind of molecule as in (a), but with the two kinds randomly mixed in the two bulbs. Sample (b) has greater dispersal of both matter and energy, and is thus more probable.
+
+Recall that the temperature of a sample is a measure of the average kinetic energy of its particles.
+process, is spontaneous. Spontaneity is favored but not required when heat is released during a chemical reaction or a physical change.
+
+There is another factor that also plays a fundamental role in determining spontaneity. Let's think about two spontaneous processes. Figure 15-10 shows what happens when two gas samples at the same pressure are allowed to mix. The molecules move randomly throughout the two containers to mix the gases (a spontaneous process). We don't expect the more homogeneous sample in Figure 15-10b to spontaneously "unmix" to give the arrangement in Figure 15-10a (a nonspontaneous process).
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-29.jpg?height=591&width=1156&top_left_y=659&top_left_x=592)
+> A hot piece of metal is placed into cooler water. Heat is transferred spontaneously from the hotter metal to the cooler water, until the two are at the same temperature (the condition of thermal equilibrium).
+> 
+> As a hot metal cools, some of the energy of its vibrating atoms is transferred to the surroundings (a spontaneous process). This warms the surroundings until the two temperatures are equal. We do not expect to observe the reverse process in which energy is transferred from the surroundings to a block of metal, originally at the same temperature, to raise the temperature of the metal (a nonspontaneous process).
+
+In these examples, we see that energy and matter tend to become dispersed (spread out). We shall see that this dispersal is a fundamental driving force that affects the spontaneity of any process.
+
+Two factors affect the spontaneity of any physical or chemical change:
+
+1. Spontaneity is favored when heat is released during the change (exothermic).
+2. Spontaneity is favored when the change causes an increase in the dispersal of energy and matter.
+
+The balance of these two effects is considered in Section 15-16.
+
+# 15-13 Dispersal of Energy and Matter
+
+## Dispersal of Energy
+
+The dispersal of energy in a system results in the energy being spread over many particles rather than being concentrated in just a few.
+
+To understand this concept, think about a system consisting of just two molecules, A and B , with a total of two units of energy. Denoting one unit of energy with an*, we can list the three ways to distribute these two energy units over the two molecules as
+
+A** (Molecule A has two units of energy, B has none.)
+A*B* (Each molecule has one unit of energy.)
+B** (Molecule B has two units of energy, A has none.)
+Suppose these two molecules are mixed with two other molecules, C and D, that initially have no energy. When collisions occur, energy can be transferred from one molecule to another. Now the energy can be dispersed among the four molecules in ten different ways:
+
+$$
+\mathrm{A}^{* *} \mathrm{~B}^{* *} \mathrm{C}^{* *} \mathrm{D}^{* *} \mathrm{~A}^{*} \mathrm{~B}^{*} \mathrm{~A}^{*} \mathrm{C}^{*} \mathrm{~A}^{*} \mathrm{D}^{*} \mathrm{~B}^{*} \mathrm{C}^{*} \mathrm{~B}^{*} \mathrm{D}^{*} \mathrm{C}^{*} \mathrm{D}^{*}
+$$
+
+Now there are obviously more ways (ten) the energy can be dispersed than before. In only three of these ways would all of the energy be distributed as before-A**, $\mathrm{A}^{*} \mathrm{~B}^{*}$, and $\mathrm{B}^{* *}$. Put another way, there is only a $3 / 10$ probability that the energy will be restricted to the original molecules, A and B. There are seven ways out of ten, or a probability of 7/10, that at least some of the energy has been transferred to C or D.
+
+What would happen if large numbers of molecules were present, as in any real sample? The probability that the energy is dispersed would be huge, and there would be only an infinitesimally small chance that all of the energy would be concentrated in one or a few molecules. This reasoning leads us to an important conclusion.
+
+If energy can be dispersed over a larger number of particles, it will be.
+
+To see what happens if there is more energy to distribute (as at a higher temperature), let's consider another system with four molecules, but with two of the molecules (A and B) initially having three units of energy and the other two (C and D) initially with no energy, as shown in Figure 15-11a. When these molecules are brought together and allowed to exchange energy by colliding, the energy can be distributed in a total of 84 different ways,
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-30.jpg?height=773&width=1260&top_left_y=1618&top_left_x=134)
+> Figure 15-11 Possible ways of distributing six quanta of energy among four molecules. (a) Initially four molecules are separated from each other. Two molecules each have three quanta of energy, and the other two have none. A total of six quanta of energy will be distributed once the molecules interact. (b) Once the molecules begin to interact, there are nine ways to distribute the six available quanta. Each of these arrangements will have multiple ways of distributing the energy among the four molecules. (c) The six different ways to arrange four molecules (A, B, C, and D) such that two molecules have two quanta of energy and the other two have one quanta of energy.
+
+as shown in Figure 15-11b. For example, one molecule can have all six units of energy and the other three have no energy, as shown in the leftmost drawing of Figure 15-11b; the six-unit molecule could be any one of the four, so there are four ways to achieve this arrangement. Thus, the probability is only $4 / 84$ (or $1 / 21$ ) that all of the energy of the system is concentrated in one molecule. There are six ways to distribute the energy to arrive at the rightmost drawing (Figure 15-11c). Some of the other energy distributions can be achieved in many more ways, leading to a much higher probability for their occurrence. This leads to a broader statement of our earlier conclusion.
+
+The greater the number of molecules and the higher the total energy of the system, the less likely the energy will be concentrated in a few molecules. Therefore, the energy will be more dispersed.
+
+This generalization provides the molecular explanation behind the Maxwellian distribution of molecular speeds (kinetic energies) that was discussed in Section 12-13 (Active Figure 12-9) and in relation to evaporation and vapor pressures of liquids in Sections 13-6 and 13-7.
+
+## Dispersal of Matter
+
+Let us apply the idea of dispersal to the arrangements of matter and its molecules. Our experience tells us that a gas originally confined in a bulb (Figure 15-12a) will expand freely into a vacuum (Figure 15-12b). We don't expect the gas then to condense spontaneously into only one bulb. We can consider this expansion from the molecular point of view.
+
+Suppose there are four molecules of gas in the two-part container of Figure 15-13. The probability that a particular molecule is on the left at any given time is $\frac{1}{2}$. A second specific molecule has its own probability of $\frac{1}{2}$ of being on the left, so the probability that both of these are on the left at the same time is $\frac{1}{2} \times \frac{1}{2}=\frac{1}{4}$. There are 16 ways that the molecules can be arranged in this container. But in only one of these arrangements are all four molecules in the left-hand portion of the container. The probability of that "condensed" arrangement is
+
+$$
+\frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} \times \frac{1}{2}=\left(\frac{1}{2}\right)^{4}=\frac{1}{16}
+$$
+
+We see that there is only a small likelihood that this gas would spontaneously condense to the left side of the container.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-31.jpg?height=235&width=577&top_left_y=1800&top_left_x=602)
+> (a)
+> 
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-31.jpg?height=239&width=577&top_left_y=2112&top_left_x=602)
+> (b)
+> 
+> Figure 15-12 The expansion of a gas into a vacuum. (a) The stopcock is closed, keeping all of the gas in the left bulb; the right bulb is empty (a vacuum). (b) When the stopcock is opened, the gas expands to fill the entire available volume, with half of the gas in each bulb.
+
+Similar reasoning shows that the probability of one mole, or $6.0 \times 10^{23}$ molecules, spontaneously condensing into the left-hand bulb of Figure 15-12 would be
+
+$$
+\frac{1}{2} \times \frac{1}{2} \times \ldots \times \frac{1}{2}=\left(\frac{1}{2}\right)^{6.0 \times 10^{23}}=\frac{1}{2^{6.0 \times 10^{23}}}
+$$
+
+Without writing the number in the denominator explicitly, we can mention that it is larger than the number of molecules in the entire universe! Thus there is virtually no chance that all $6.0 \times 10^{23}$ molecules in a mole of gas would spontaneously condense to half the available volume, leaving no molecules in the other half.
+
+The dispersal of matter, as in the expansion of a gas, also often contributes to energy dispersal. Consider the expansion of a gas into a vacuum, as shown in Figure 15-14. When the gas is allowed to occupy the larger volume in Figure 15-14b, its energy levels become closer together than in the smaller volume of Figure 15-14a. This means that there are even more ways for the expanded gas to disperse its energy to arrive at the same total energy. The concept of dispersal of energy thus also predicts that the gas is far more likely to exist in the expanded state of Figure 15-14b, and we would not expect it to condense spontaneously to occupy only one chamber as in Figure 15-14a. Similar reasoning helps us to describe the spontaneous mixing of two gases in Figure 15-10. Each gas can have its energy more dispersed in its own more closely spaced energy levels when expanded into both containers. But in addition, the molecules of one gas can transfer energy to the molecules of the other gas by collision. This results in an even larger number of ways for the total energy of the mixture to be dispersed, leading to a much higher probability that the gases will be mixed (Figure 15-10a) than unmixed (Figure 15-10b). Thus the spatial dispersal of matter also results in a greater dispersal of energy.
+
+When a soluble substance dissolves in a liquid, the solute particles become dispersed in the solvent (Sections 14-1 through 14-4). This allows the particles to transfer energy to one another, giving a larger number of ways of distributing the same total energy than if the substances remained in separate phases. In this case, too, dispersal of the two kinds of matter in one another allows more dispersal of energy. In more general terms, we often describe the dispersal of matter as an increase in disorder.
+
+To summarize the conclusions of this section:
+The final state of a system can be more probable than its initial state (spontaneous, product-favored) in either or both of two ways:
+
+1. Energy can be dispersed over a greater number and variety of molecules.
+2. The particles of the system can be more dispersed (more disordered).
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-32.jpg?height=1006&width=420&top_left_y=299&top_left_x=1311)
+> Figure 15-13 The 16 possible ways of arranging four molecules in a twopart container. Only one of these arrangements has all four molecules on the left side, so the probability of that arrangement is $1 / 16$.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-32.jpg?height=618&width=1142&top_left_y=1724&top_left_x=134)
+> Figure 15-14 Larger gas volumes give more energy levels.
+
+Enthalpies are measured only as differences with respect to an arbitrary standard state. Entropies, in contrast, are defined relative to an absolute zero level. In either case, the per mole designation means per mole of substance in the specified state.
+
+The $\Sigma n$ means that each $S^{0}$ value must be multiplied by the appropriate coefficient, $n$, from the balanced equation. These values are then added.
+
+Table 15-4 Absolute Entropies at 298 K for a Few Common Substances
+
+| Substance | $\boldsymbol{S}^{\mathbf{0}}(\mathbf{J} / \mathbf{m o l} \cdot \mathbf{K})$ |
+| :--- | :---: |
+| $\mathrm{C}($ diamond $)$ | 2.38 |
+| $\mathrm{C}(\mathrm{g})$ | 158.0 |
+| $\mathrm{H}_{2} \mathrm{O}(\ell)$ | 69.91 |
+| $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ | 188.7 |
+| $\mathrm{I}_{2}(\mathrm{~s})$ | 116.1 |
+| $\mathrm{I}_{2}(\mathrm{~g})$ | 260.6 |
+
+
+# 15-14 Entropy, $S$, and Entropy Change, $\Delta S$
+
+The dispersal of energy and matter is described by the thermodynamic state function entropy, $\boldsymbol{S}$. In the most fundamental description, the greater the energy dispersal in a system, the higher is its entropy. We have said that greater disorder (dispersal of matter, both in space and in variety) can lead to greater dispersal of energy, and hence to higher entropy. This connection allows us to discuss many entropy changes in terms of increases or decreases in the disorder and the energy dispersal of the system. Let us first see how entropy is tabulated and how entropy changes are calculated.
+
+The Third Law of Thermodynamics establishes the zero of the entropy scale.
+
+> The entropy of a pure, perfect crystalline substance (perfectly ordered) is zero at absolute zero ( 0 K ).
+
+As the temperature of a substance increases, the particles vibrate more vigorously, so the entropy increases (Figure 15-15). Further heat input causes either increased temperature (still higher entropy) or phase transitions (melting, sublimation, or boiling) that also result in higher entropy. The entropy of a substance at any condition is its absolute entropy, also called standard molar entropy. Consider the absolute entropies at 298 K listed in Table 15-4. At 298 K , any substance is more disordered than if it were in a perfect crystalline state at absolute zero, so tabulated $S_{298}^{0}$ values for compounds and elements are always positive. Notice especially that $S_{298}^{0}$ of an element, unlike its $\Delta H_{\mathrm{f}}^{0}$, is not equal to zero. The reference state for absolute entropy is specified by the Third Law of Thermodynamics. It is different from the reference state for $\Delta H_{\mathrm{f}}^{0}$ (Section 15-7). The absolute entropies, $S_{298}^{0}$, of various substances under standard conditions are tabulated in Appendix K.
+
+Just as for other thermodynamic quantities, the entropy change for a system, $\Delta S_{\text {system }}$, is the difference between final and initial states:
+
+> [!equation] Entropy change (definition)
+> $$
+> \Delta S_{\text {system }}=S_{\text {system, final }}-S_{\text {system, initial }}
+> $$
+
+The standard entropy change, $\Delta \boldsymbol{S}^{0}$, of a reaction can be determined from the absolute entropies of reactants and products. The relationship is analogous to Hess's Law.
+
+> [!equation] Standard reaction entropy from absolute entropies
+> $$
+> \Delta S_{\mathrm{rxn}}^{0}=\Sigma n S_{\text {products }}^{0}-\Sigma n S_{\text {reactants }}^{0}
+> $$
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-33.jpg?height=357&width=851&top_left_y=1673&top_left_x=598)
+> Figure 15-15 (a) A simplified representation of a side view of a "perfect" crystal of a polar substance at 0 K . Note the perfect alignment of the dipoles in all molecules in a perfect crystal. This causes its entropy to be zero at 0 K . There are no perfect crystals, however, because even the purest substances that scientists have prepared are contaminated by traces of impurities that occupy a few of the positions in the crystal structure. Additionally, there are some vacancies in the crystal structures of even very highly purified substances such as those used in semiconductors (Section 13-17). (b) A simplified representation of the same "perfect" crystal at a temperature above 0 K . Vibrations of the individual molecules within the crystal cause some dipoles to be oriented in directions other than those in a perfect arrangement. The entropy of such a crystalline solid is greater than zero because there is disorder in the crystal. Many different arrangements are possible for such a disordered array,
+
+$S^{0}$ values are tabulated in units of $\mathrm{J} / \mathrm{mol} \cdot \mathrm{K}$ rather than the larger units involving kilojoules that are used for enthalpy changes. The "mol" term in the units for a substance refers to a mole of the substance, whereas for a reaction it refers to a mole of reaction. Each term in the sums on the right-hand side of the equation has the units
+
+$$
+\frac{\text { mol substance }}{\mathrm{mol} \mathrm{rxn}} \times \frac{\mathrm{J}}{(\mathrm{~mol} \text { substance }) \cdot \mathrm{K}}=\frac{\mathrm{J}}{(\mathrm{~mol} \mathrm{rxn}) \cdot \mathrm{K}}
+$$
+
+The result is usually abbreviated as $\mathrm{J} / \mathrm{mol} \cdot \mathrm{K}$, or sometimes even as $\mathrm{J} / \mathrm{K}$. As before, we will usually omit units in intermediate steps and then apply appropriate units to the result.
+
+We now illustrate this calculation for a phase change and for a chemical reaction.
+
+> [!example] Example 15-15: Calculation of $\Delta S^{0}$ for a Phase Change
+> 
+> Use the values of standard molar entropies in Appendix K to calculate the entropy change for the vaporization of one mole of bromine at $25^{\circ} \mathrm{C}$.
+> 
+> $$
+> \mathrm{Br}_{2}(\ell) \longrightarrow \mathrm{Br}_{2}(\mathrm{~g})
+> $$
+
+**Plan**
+
+We use the equation for standard entropy change to calculate $\Delta S^{0}$ from the tabulated values of standard molar entropies, $S^{0}$, for the final and initial states shown in the process.
+
+**Solution**
+
+We list the $\Delta S_{298}^{0}$ values from Appendix K:
+
+$$
+\begin{aligned}
+& \quad \mathrm{Br}_{2}(\ell) \quad \mathrm{Br}_{2}(\mathrm{~g}) \\
+& S^{0}, \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}: \quad 152.2 \quad 245.4 \\
+& \begin{aligned}
+\Delta S^{0} & =\Sigma n S_{\text {products }}^{0}-\Sigma n S_{\text {reactants }}^{0} \\
+& =1(245.4)-1(152.2)=93.2 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}
+\end{aligned}
+\end{aligned}
+$$
+
+The "mol" designation for $\mathrm{J} / \mathrm{mol} \cdot \mathrm{K}$ refers to a mole of reaction. The reaction as written shows one mole of $\mathrm{Br}_{2}$, so this is the entropy change for the vaporization of one mole of $\mathrm{Br}_{2}$. It can be called the molar entropy of vaporization of $\mathrm{Br}_{2}$ at $25^{\circ} \mathrm{C}$.
+
+
+> [!example] Example 15-16: Calculation of $\Delta S_{\mathrm{rxn}}^{0}$
+> 
+> Use the values of standard molar entropies in Appendix K to calculate the entropy change at $25^{\circ} \mathrm{C}$ and one atmosphere pressure for the reaction of hydrazine with hydrogen peroxide. This explosive reaction has been used for rocket propulsion. Do you think the reaction is spontaneous? The balanced equation for the reaction is
+> 
+> $$
+> \mathrm{N}_{2} \mathrm{H}_{4}(\ell)+2 \mathrm{H}_{2} \mathrm{O}_{2}(\ell) \longrightarrow \mathrm{N}_{2}(\mathrm{~g})+4 \mathrm{H}_{2} \mathrm{O}(\mathrm{~g}) \quad \Delta H_{\mathrm{rxn}}^{0}=-642.2 \mathrm{~kJ} / \mathrm{mol} \text { reaction }
+> $$
+
+**Plan**
+
+We use the equation for standard entropy change to calculate $\Delta S_{\mathrm{rxn}}^{0}$ from the tabulated values of standard molar entropies, $S_{298}^{0}$, for the substances in the reaction.
+
+**Solution**
+
+We can list the $S_{298}^{0}$ values that we obtain from Appendix K for each substance:
+
+|  | $\mathrm{N}_{2} \mathrm{H}_{4}(\ell)$ | $\mathrm{H}_{2} \mathrm{O}_{2}(\ell)$ | $\mathrm{N}_{2}(\mathrm{~g})$ | $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ |
+| :--- | :---: | :---: | :---: | :---: |
+| $S^{0}, \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}:$ | 121.2 | 109.6 | 191.5 | 188.7 |
+
+$$
+\begin{aligned}
+\Delta S_{\mathrm{rxn}}^{0} & =\Sigma n S_{\text {products }}^{0}-\Sigma n S_{\text {reactants }}^{0} \\
+& =\left[S_{\mathrm{N}_{2}(\mathrm{~g})}^{0}+4 S_{\mathrm{H}_{2} \mathrm{O}(\mathrm{~g})}^{0}\right]-\left[S_{\mathrm{N}_{2} \mathrm{H}_{4}(\ell)}^{0}+2 S_{\mathrm{H}_{2} \mathrm{O}_{2}(\ell)}^{0}\right] \\
+& =[1(191.5)+4(188.7)]-[1(121.2)+2(109.6)] \\
+\Delta S_{\mathrm{rxn}}^{0} & =+605.9 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}
+\end{aligned}
+$$
+
+> [!note] Stop and Think
+> 
+> 
+> The matter in a gaseous sample is far more greatly dispersed than in a liquid. Thus vaporization is always accompanied by an increase in entropy ( $\Delta S>0$ ).
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-34.jpg?height=360&width=433&top_left_y=1590&top_left_x=1285)
+
+Small booster rockets adjust the course of a satellite in orbit. Some of these small rockets are powered by the $\mathrm{N}_{2} \mathrm{H}_{4}-\mathrm{H}_{2} \mathrm{O}_{2}$ reaction.
+
+> [!note] Stop and Think
+> 
+> 
+> In this reaction, liquid reactants are converted into a larger number of moles of gaseous products. Thus it is reasonable that entropy increases ( $\Delta S^{0}>0$ ).
+
+The "mol" designation for $\Delta S_{\text {rxn }}^{0}$ refers to a mole of reaction, that is, one mole of $\mathrm{N}_{2} \mathrm{H}_{4}(\ell)$, two moles of $\mathrm{H}_{2} \mathrm{O}_{2}(\ell)$, and so on. Although it may not appear to be, $+605.9 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ is a relatively large value of $\Delta S_{\text {sys }}^{0}$. The positive entropy change favors spontaneity. This reaction is also exothermic ( $\Delta H^{0}$ is negative). As we shall see, this reaction must be spontaneous, because both factors are favorable: the reaction is exothermic ( $\Delta H_{\mathrm{rxn}}^{0}$ is negative) and the disorder of the system increases ( $\Delta S_{\mathrm{rxn}}^{0}$ is positive).
+
+**You should now work Exercise 104.**
+
+Because changes in the thermodynamic quantity entropy may be understood in terms of changes in energy dispersal and molecular disorder, we can often predict the sign of $\Delta S_{\text {sys }}$. The following illustrations emphasize several common types of processes that result in predictable entropy changes for the system.
+
+Phase changes. In a solid, the molecules are in an ordered arrangement, where they can vibrate only around their relatively fixed positions. In a liquid, the molecules are more disordered, so they exchange energy much more freely, and the entropy is higher than in the solid. Similarly, gas molecules are in a much larger volume, and they are far less restrained than in the liquid. In the gas, they move even more randomly, both in direction and in speed; this gives any substance a much higher entropy as a gas than as a liquid or a solid (Figure 15-16). Thus the processes of melting, vaporization, and sublimation are always accompanied by an increase in entropy (Figure 15-17). The reverse processes of freezing, condensation, and deposition always correspond to a decrease in entropy.
+
+For any substance, entropy increases in the order solid $<$ liquid $<$ gas.
+Melting, vaporization, and sublimation always have $S_{\text {system }}>0$.
+Freezing, condensation, and deposition always have $S_{\text {system }}<0$.
+
+Temperature changes. As the temperature of any sample increases, its molecules have increased total kinetic energy; this higher energy can be dispersed among these molecules in more ways, increasing the entropy of the sample. Furthermore, the greater motion of the molecules (translational for gases and liquids, vibrational for solids) corresponds to a state of greater matter dispersal. The increased dispersal of matter and energy leads to the following result.
+
+The entropy of any sample increases as its temperature increases.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-35.jpg?height=591&width=1148&top_left_y=1713&top_left_x=596)
+Figure 15-16 As a sample changes from solid to liquid to gas, its particles become increasingly more disordered, allowing greater dispersal of energy, so its entropy increases.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-36.jpg?height=599&width=979&top_left_y=314&top_left_x=107)
+Figure 15-17 The vaporization of bromine, $\mathrm{Br}_{2}(\ell) \rightarrow \mathrm{Br}_{2}(\mathrm{~g})$ (left) and the sublimation of iodine, $\mathrm{I}_{2}(\mathrm{~s}) \rightarrow \mathrm{I}_{2}(\mathrm{~g})$ (right) both lead to an increase in disorder, so $\Delta S_{\text {sys }}>0$ for each process. Which do you think results in the more positive $\Delta S$ ? Carry out the calculation using values from Appendix K to check whether your prediction was correct.
+
+Volume changes. When the volume of a sample of gas increases, the molecules can occupy more positions, and hence are more randomly arranged (greater dispersal of matter). As pointed out in Section 15-13, the energy levels available to the molecules are closer together in the larger volume, leading to more ways to distribute the same total energy (greater dispersal of energy). Thus a gas has higher entropy at higher volume.
+
+The entropy of a gas increases as its volume increases.
+For an increase in gas volume, $S_{\text {system }}>0$.
+
+Mixing of substances, even without chemical reaction. Situations in which particles of more than one kind are "mixed up" are more disordered (greater dispersal of matter) and can exchange energy among both like and unlike particles (greater dispersal of energy). The entropy of the mixture is thus greater than that of the individual substances. This increase in entropy favors processes such as the mixing of gases (Figure 15-10) and the dissolving of solid and liquid solutes in liquid solvents (Figures 15-18 and 15-19; see also Section 14-2). For example, when one mole of solid NaCl dissolves in water, $\mathrm{NaCl}(\mathrm{s}) \longrightarrow \mathrm{NaCl}(\mathrm{aq})$, the entropy (Appendix K) increases from $72.4 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ to $115.5 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$, or $\Delta S^{0}= +43.1 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$. The term "mixing" can be interpreted rather liberally. For example, the reaction $\mathrm{H}_{2}(\mathrm{~g})+\mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HCl}(\mathrm{g})$ has $\Delta S^{0}>0$; in the reactants, each atom is bonded to an identical atom, a less "mixed-up" situation than in the products, where unlike atoms are bonded together.
+
+Mixing of substances or dissolving a solid in a liquid causes an increase in entropy, $S_{\text {system }}>0$.
+
+Changes in the number of particles, as in the dissociation of a diatomic gas such as $\mathrm{F}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{~F}(\mathrm{~g})$. Any process in which the number of particles increases results in an increase in entropy, $\Delta S_{\text {sys }}>0$. Values of $\Delta S^{0}$ calculated for several reactions of this type are given in Table 15-5. As you can see, the $\Delta S^{0}$ values for the dissociation process $\mathrm{X}_{2} \longrightarrow 2 \mathrm{X}$ are all similar for $\mathrm{X}=\mathrm{H}, \mathrm{F}, \mathrm{Cl}$, and N . Why is the value given in Table 15-5 so much larger for $\mathrm{X}=\mathrm{Br}$ ? This process starts with liquid $\mathrm{Br}_{2}$. The total process
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-36.jpg?height=600&width=334&top_left_y=1597&top_left_x=1351)
+Figure 15-18 As particles leave a crystal to go into solution, they become more disordered and energy dispersal increases. This favors dissolution of the solid.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-37.jpg?height=903&width=1671&top_left_y=303&top_left_x=113)
+Figure 15-19 When water, $\mathrm{H}_{2} \mathrm{O}$, and propyl alcohol, $\mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{CH}_{2} \mathrm{OH}$ (left) are mixed to form a solution (right), disorder increases. $\Delta S>0$ for the mixing of any two molecular substances.
+
+Table 15-5 Entropy Changes for Some Processes $X_{2} \longrightarrow 2 X$
+
+| Reaction | $\Delta S^{0}$ $\left(\mathrm{J}\,\mathrm{mol}^{-1}\,\mathrm{K}^{-1}\right)$ |
+| :--- | ---: |
+| $\mathrm{H}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{H}(\mathrm{g})$ | 98.0 |
+| $\mathrm{N}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{N}(\mathrm{g})$ | 114.9 |
+| $\mathrm{O}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{O}(\mathrm{g})$ | 117.0 |
+| $\mathrm{F}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{F}(\mathrm{g})$ | 114.5 |
+| $\mathrm{Cl}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{Cl}(\mathrm{g})$ | 107.2 |
+| $\mathrm{Br}_{2}(\ell) \longrightarrow 2\,\mathrm{Br}(\mathrm{g})$ | 197.6 |
+| $\mathrm{I}_{2}(\mathrm{s}) \longrightarrow 2\,\mathrm{I}(\mathrm{g})$ | 245.3 |
+
+
+Do you think that the reaction
+
+$$
+2 \mathrm{H}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+would have a higher or lower value of $\Delta S^{0}$ than when the water is in the gas phase? Confirm by calculation.
+$\mathrm{Br}_{2}(\ell) \longrightarrow 2 \mathrm{Br}(\mathrm{g})$, for which $\Delta S^{0}=197.6 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$, can be treated as the result of two processes. The first of these is vaporization, $\operatorname{Br}_{2}(\ell) \longrightarrow \operatorname{Br}_{2}(\mathrm{~g})$, for which $\Delta S^{0}=93.2 \mathrm{J} / \mathrm{mol} \cdot \mathrm{K}$. The second step is the dissociation of gaseous bromine, $\mathrm{Br}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{Br}(\mathrm{g})$, for which $\Delta S^{0}=104.4 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$; this entropy increase is about the same as for the other processes that involve only dissociation of a gaseous diatomic species. Can you rationalize the even higher value given in the table for the process $\mathrm{I}_{2}(\mathrm{~s}) \longrightarrow 2 \mathrm{I}(\mathrm{g})$ ?
+
+Increasing the number of particles causes an increase in entropy, $S_{\text {system }}>0$.
+
+Changes in the number of moles of gaseous substances. Processes that result in an increase in the number of moles of gaseous substances have $\Delta S_{\text {sys }}>0$. Example 15-16 illustrates this. There are no gaseous reactants, but the products include five moles of gas. Conversely, we would predict that the process $2 \mathrm{H}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ has a negative $\Delta S^{0}$ value; here, three moles of gas is consumed while only two moles is produced, for a net decrease in the number of moles in the gas phase. You should be able to calculate the value of $\Delta S^{0}$ for this reaction from the values in Appendix K.
+
+An increase in the number of moles of gaseous substances causes an increase in entropy, $S_{\text {system }}>0$.
+
+The following guidelines for absolute entropy (standard molar entropy) for individual substances can also be helpful in predicting entropy changes.
+
+Molecular size and complexity. For molecules with similar formulas, absolute entropies usually increase with increasing molecular weight. For instance, the entropies of the
+gaseous hydrogen halide increase in the order $\mathrm{HF}(173.7 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})<\mathrm{HCl}(186.8 \mathrm{J} / \mathrm{mol} \cdot \mathrm{K})<\mathrm{HBr}(198.59 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})<\mathrm{HI}(206.5 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})$. In more complicated molecular structures, there are more ways for the atoms to move about in three-dimensional space, so there is greater entropy. This trend is especially strong for a series of related compounds. For instance, the absolute entropy of liquid hydrogen peroxide, $\mathrm{H}_{2} \mathrm{O}_{2}(109.6 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ ), is greater than that of liquid water, $\mathrm{H}_{2} \mathrm{O}(69.91 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})$. Gaseous $\mathrm{PCl}_{5}$ has a greater absolute entropy ( $353 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ ) than gaseous $\mathrm{PCl}_{3}(311.7 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ ).
+
+Ionic compounds with similar formulas but different charges. Stronger ionic attractions (due to higher charges or closer approach) hold the ions more tightly in their crystal positions, so they vibrate less, leading to lower entropy. For instance, CaS and KCl have similar formula weights; but CaS ( $2+$ and $2-$ ionic charges ) has stronger ionic attractive forces than $\mathrm{KCl}(1+, 1-$ charges $)$, consistent with their relative entropies $\mathrm{CaS}(56.5 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})<\mathrm{KCl} (82.6 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K})$.
+
+
+> [!example] Example 15-17: Predicting the Sign of $\Delta S^{0}$
+> 
+> Without doing a calculation, predict whether the entropy change will be positive or negative when each reaction occurs in the direction it is written.
+> (a) $\mathrm{C}_{2} \mathrm{H}_{6}(\mathrm{~g})+\frac{7}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 3 \mathrm{H}_{2} \mathrm{O}(\mathrm{g})+2 \mathrm{CO}_{2}(\mathrm{~g})$
+> (b) $3 \mathrm{C}_{2} \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{C}_{6} \mathrm{H}_{6}(\ell)$
+> (c) $\mathrm{C}_{6} \mathrm{H}_{12} \mathrm{O}_{6}(\mathrm{~s})+6 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 6 \mathrm{CO}_{2}(\mathrm{~g})+6 \mathrm{H}_{2} \mathrm{O}(\ell)$
+
+**Plan**
+
+We use the qualitative guidelines described above to predict whether entropy increases or decreases.
+
+**Solution**
+
+(a) In this reaction, $9 / 2$ moles $(4.5$ moles $)$ of gaseous reactants produce 5 moles of gaseous products. This increase in number of moles of gas leads to an increase in entropy, $\Delta S^{0}>0$.
+(b) Here 3 moles of gaseous reactants produce only liquid product. This decrease in number of moles of gas leads to a decrease in entropy, $\Delta S^{0}<0$.
+(c) In this reaction, there are 6 moles of gaseous reactants and the same number of moles of gaseous products, so the prediction cannot be made on this basis. One of the reactants, $\mathrm{C}_{6} \mathrm{H}_{12} \mathrm{O}_{6}$, is a solid. The total entropy of one mole of solid and six moles of gas (reactants) is less than the total entropy of six moles of gas and six moles of liquid (products), so we predict an increase in entropy, $\Delta S^{0}>0$.
+
+**You should now work Exercise 100.**
+
+> [!tip] Problem-Solving Tip
+> Of the factors just listed, changes in number of particles and changes in number of moles of gas are usually the most important factors in predicting the sign of an entropy change.
+
+> [!note] Stop and Think
+> 
+> 
+> You can apply this kind of reasoning to help you judge whether a calculated entropy change has the correct sign.
+
+
+> [!example] Example 15-18: Predicting the Order of Absolute Entropies
+> 
+> Rank each group of substances in order of increasing absolute entropy at $25^{\circ} \mathrm{C}$. Give reasons for your ranking.
+> (a) $\mathrm{Hg}(\ell), \mathrm{Hg}(\mathrm{s}), \mathrm{Hg}(\mathrm{g})$
+> (b) $\mathrm{C}_{2} \mathrm{H}_{6}(\mathrm{~g}), \mathrm{CH}_{4}(\mathrm{~g}), \mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})$
+> (c) $\mathrm{CaS}(\mathrm{s}), \mathrm{CaO}(\mathrm{s})$
+
+**Plan**
+
+We use the qualitative comparisons of this section to rank the absolute entropies within each group.
+
+You can check the rankings in Example $15-18$ by comparing the $S^{0}$ values listed in Appendix K.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-39.jpg?height=307&width=298&top_left_y=1070&top_left_x=118)
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-39.jpg?height=387&width=305&top_left_y=1420&top_left_x=111)
+
+**Solution**
+
+(a) For any substance, entropy increases in the order solid $<$ liquid $<$ gas, so we predict the absolute entropies to increase as $\mathrm{Hg}(\mathrm{s})<\mathrm{Hg}(\ell)<\mathrm{Hg}(\mathrm{g})$.
+(b) Entropy increases with molecular complexity, so we predict the absolute entropies to increase in the order $\mathrm{CH}_{4}(\mathrm{~g})<\mathrm{C}_{2} \mathrm{H}_{6}(\mathrm{~g})<\mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})$.
+(c) Both of these ionic compounds contain $2+$ and $2-$ ions, so charge differences alone will not allow us to rank them. But $\mathrm{O}^{2-}$ ions are smaller than $\mathrm{S}^{2-}$ ions, so they are held closer to the $\mathrm{Ca}^{2+}$ ions, giving a stronger attraction in CaO and hence lower entropy. We expect the absolute entropies to increase in the order $\mathrm{CaO}(\mathrm{s})<\mathrm{CaS}(\mathrm{s})$.
+
+**You should now work Exercise 98.**
+
+
+# 15-15 The Second Law of Thermodynamics
+
+We now know that two factors determine whether a reaction is spontaneous under a given set of conditions. The effect of the first factor, the enthalpy change, is that spontaneity is favored (but not required) by exothermicity, and nonspontaneity is favored (but not required) by endothermicity. The effect of the other factor is summarized by the Second Law of Thermodynamics.
+
+In any spontaneous change, the universe tends toward a state of increasing entropy, $\Delta S_{\text {universe }}>0$.
+
+The Second Law of Thermodynamics is based on our experiences, as seen by the following examples. Gases mix spontaneously. When a drop of food coloring is added to a glass of water, it diffuses until a homogeneously colored solution results. When a truck is driven down the street, it consumes fuel and oxygen, producing carbon dioxide, water vapor, and other emitted substances.
+
+The reverse of any spontaneous change is nonspontaneous, because if it did occur, the universe would tend toward a state of lower entropy (greater order, more concentration of energy). This is contrary to our experience. A gas mixture does not spontaneously separate into its components. A colored solution does not spontaneously concentrate all of its color in a small volume. A truck cannot be driven along the street, even in reverse gear, so that it sucks up $\mathrm{CO}_{2}$, water vapor, and other substances to produce fuel and oxygen.
+
+If the entropy of a system increases during a process, the spontaneity of the process is favored but not required. The Second Law of Thermodynamics says that the entropy of the universe (not the system) increases during a spontaneous process, that is,
+
+> [!equation] Second law (entropy change of the universe)
+> $$
+> \Delta S_{\text {universe }}=\Delta S_{\text {system }}+\Delta S_{\text {surroundings }}>0 \quad \text { (spontaneous process) }
+> $$
+
+Of the two ideal gas samples in Figure 15-10, the more ordered arrangement (Figure 15-10a) has lower entropy than the randomly mixed arrangement with the same volume (Figure 15-10b). Because these ideal gas samples mix without absorbing or releasing heat and without a change in total volume, they do not interact with the surroundings, so the entropy of the surroundings does not change. In this case
+
+> [!equation] Special case: $\Delta S_{\text{surroundings}}=0$
+> $$
+> \Delta S_{\text {universe }}=\Delta S_{\text {system }}
+> $$
+
+If we open the stopcock between the two bulbs in Figure 15-10a, we expect the gases to mix spontaneously, with an increase in the disorder of the system, that is, $\Delta S_{\text {system }}$ is positive.
+
+$$
+\text { unmixed gases ⟶ mixed gases } \quad \Delta S_{\text {universe }}=\Delta S_{\text {system }}>0
+$$
+
+We do not expect the more homogeneous sample in Figure 15-10b to spontaneously "unmix" to give the arrangement in Figure 15-10a (which would correspond to a decrease in $\Delta S_{\text {system }}$ ).
+
+$$
+\text { mixed gases } \longrightarrow \text { unmixed gases } \quad \Delta S_{\text {universe }}=\Delta S_{\text {system }}<0
+$$
+
+The entropy of a system can decrease during a spontaneous process or increase during a nonspontaneous process, depending on the accompanying $\Delta S_{\text {surr }}$. If $\Delta S_{\text {sys }}$ is negative (decrease in disorder), then $\Delta S_{\text {univ }}$ may still be positive (overall increase in disorder) if $\Delta S_{\text {surr }}$ is more positive than $\Delta S_{\text {sys }}$ is negative. A refrigerator provides an illustration. It removes heat from inside the box (the system) and ejects that heat, plus the heat generated by the compressor, into the room (the surroundings). The entropy of the system decreases because the air molecules inside the box move more slowly. But the increase in the entropy of the surroundings more than makes up for that, so the entropy of the universe (refrigerator + room) increases.
+
+Similarly, if $\Delta S_{\text {sys }}$ is positive but $\Delta S_{\text {surr }}$ is even more negative, then $\Delta S_{\text {univ }}$ is still negative. Such a process will be nonspontaneous.
+
+Let's consider the entropy changes that occur when a liquid solidifies at a temperature below its freezing (melting) point (Figure 15-20a). $\Delta S_{\text {sys }}$ is negative because a solid forms from its liquid, yet we know that this is a spontaneous process. A liquid releases heat to its surroundings (atmosphere) as it crystallizes. The released heat increases the motion (more disorder, greater dispersal of matter) of the molecules of the surroundings, so $\Delta S_{\text {surr }}$ is positive. As the temperature decreases, the $\Delta S_{\text {surr }}$ contribution becomes more important. When the temperature is low enough (below the freezing point), the positive $\Delta S_{\text {surr }}$ outweighs the negative $\Delta S_{\text {sys }}$. Then $\Delta S_{\text {univ }}$ becomes positive, and the freezing process becomes spontaneous.
+
+The situation is reversed when a liquid is boiled or a solid is melted (Figure 15-20b). For example, at temperatures above its melting point, a solid spontaneously melts, the system becomes more disordered (greater dispersal of matter), and $\Delta S_{\text {sys }}$ is positive. The heat absorbed when the solid (system) melts comes from its surroundings. This decreases the motion of the molecules of the surroundings. Thus, $\Delta S_{\text {surr }}$ is negative (the surroundings become less disordered). The positive $\Delta S_{\text {sys }}$ is greater in magnitude than the negative $\Delta S_{\text {surr }}$, however, so $\Delta S_{\text {univ }}$ is positive and the process is spontaneous.
+
+Above the melting point, $\Delta S_{\text {univ }}$ is positive for melting. Below the melting point, $\Delta S_{\text {univ }}$ is positive for freezing. At the melting point, $\Delta S_{\text {surr }}$ is equal in magnitude and opposite in sign to $\Delta S_{\text {sys }}$. Then $\Delta S_{\text {univ }}$ is zero for both melting and freezing; the system is at equilibrium. Table 15-6 lists the entropy effects for these changes of physical state.
+
+We have said that $\Delta S_{\text {univ }}$ is positive for all spontaneous (product-favored) processes. Unfortunately, it is not possible to make direct measurements of $\Delta S_{\text {univ }}$ Consequently, entropy changes accompanying physical and chemical changes are reported in terms of $\Delta S_{\text {sys }}$. The subscript "sys" for system is usually omitted. The symbol $\Delta S$ refers to the change in entropy of the reacting system, just as $\Delta H$ refers to the change in enthalpy of the reacting system.
+
+We abbreviate these subscripts as follows: system = sys, surroundings = surr, and universe = univ.
+
+Can you develop a comparable table for boiling (liquid → gas) and condensation (gas → liquid)? (Study Table 15-6 carefully.)
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-40.jpg?height=247&width=496&top_left_y=1901&top_left_x=223)
+> (a) Freezing below mp
+> 
+> $$
+> S_{\text {surr }} \square \text { so } \square S_{\text {surr }}<0
+> $$
+> 
+> SYSTEM
+> $S_{\text {sys }} \square$ so
+> $\square S_{\text {sys }}>0$
+> 
+> SURROUNDINGS
+> 
+> (b) Melting above mp
+> 
+> Figure 15-20 A schematic representation of heat flow and entropy changes for (a) freezing and (b) melting of a pure substance.
+
+Table 15-6 Entropy Effects Associated with Melting and Freezing
+
+| Change | $T$ vs. mp | $\Delta S_{\text{sys}}$ | $\Delta S_{\text{surr}}$ | Compare $|\Delta S_{\text{sys}}|$ and $|\Delta S_{\text{surr}}|$ | $\Delta S_{\text{univ}}$ | Spontaneity |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| Melting (solid $\rightarrow$ liquid) | $T > \text{mp}$ | $+$ | $-$ | $>$ | $> 0$ | Spontaneous |
+| Melting (solid $\rightarrow$ liquid) | $T = \text{mp}$ | $+$ | $-$ | $=$ | $= 0$ | Equilibrium |
+| Melting (solid $\rightarrow$ liquid) | $T < \text{mp}$ | $+$ | $-$ | $<$ | $< 0$ | Nonspontaneous |
+| Freezing (liquid $\rightarrow$ solid) | $T > \text{mp}$ | $-$ | $+$ | $>$ | $< 0$ | Nonspontaneous |
+| Freezing (liquid $\rightarrow$ solid) | $T = \text{mp}$ | $-$ | $+$ | $=$ | $= 0$ | Equilibrium |
+| Freezing (liquid $\rightarrow$ solid) | $T < \text{mp}$ | $-$ | $+$ | $<$ | $> 0$ | Spontaneous |
+
+
+# 15-16 Free Energy Change, $\Delta G$, and Spontaneity
+
+Energy is the capacity to do work. If heat is released in a chemical reaction ( $\Delta H$ is negative), some of the heat energy may be converted into useful work. If $\Delta S$ is negative, some of the energy must be expended to increase the order of the system. If the system becomes more disordered ( $\Delta S>0$ ), however, more useful energy becomes available than indicated by $\Delta H$ alone. J. Willard Gibbs (1839-1903), a prominent 19th-century American professor of mathematics and physics, formulated the relationship between enthalpy and entropy in terms of another state function that we now call the Gibbs free energy, $\boldsymbol{G}$. It is defined as
+
+> [!equation] Gibbs free energy (definition)
+> $$
+> G=H-T S
+> $$
+
+The Gibbs free energy change, $\boldsymbol{\Delta} \boldsymbol{G}$, at constant temperature and pressure, is
+
+This is often called simply the Gibbs energy change or the free energy change.
+
+> [!equation] Gibbs free energy change (constant $T$, $P$)
+> $$
+> \Delta G=\Delta H-T \Delta S \quad(\text { constant } T \text { and } P)
+> $$
+
+The amount by which the Gibbs free energy decreases is the maximum useful energy obtainable in the form of work from a given process at constant temperature and pressure. It is also the indicator of spontaneity of a reaction or physical change at constant $T$ and $P$. If there is a net decrease of useful energy, $\Delta G$ is negative and the process is spontaneous (product-favored). We see from the equation that $\Delta G$ becomes more negative as (1) $\Delta H$ becomes more negative (the process gives off more heat) and (2) $\Delta S$ becomes more positive (the process results in greater disorder); both factors are favorable so the process must be spontaneous.
+
+
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-41.jpg?height=657&width=901&top_left_y=1730&top_left_x=708)
+> (a) The entropy of an organism decreases (unfavorable) when new cells are formed. The energy to sustain animal life is provided by the metabolism of food. This energy is released when the chemical bonds in the food are broken. Exhalation of gases and excretion of waste materials increase the entropy of the surroundings enough so that the entropy of the universe increases and the overall process can occur. (b) Stored chemical energy can later be transformed by the organism to the mechanical energy for muscle contraction, to the electrical energy for brain function, or to another needed form.
+
+If there is a net increase in free energy of the system during a process, $\Delta G$ is positive and the process is nonspontaneous (reactant-favored). This means that the reverse process is spontaneous under the given conditions. When $\Delta G=0$, there is no net transfer of free energy; both the forward and reverse processes are equally favorable. Thus, $\Delta G=0$ describes a system at equilibrium.
+
+The relationship between $\Delta G$ and spontaneity may be summarized as follows.
+
+| $\Delta G$ | Spontaneity of Reaction (constant $T$ and $P$ ) |  |
+| :--- | :--- | :--- |
+|  |  |  |
+| $\Delta G$ is positive |  | Reaction is nonspontaneous (reactant-favored) |
+| $\Delta G$ is zero |  | System is at equilibrium |
+| $\Delta G$ is negative |  | Reaction is spontaneous (product-favored) |
+| - | 0 + |  |
+| $\Delta G<0$ |  | $\Delta G>0$ |
+| Reaction is spontaneous |  | Reaction is not spontaneous |
+| Product-favored reaction |  | Reactant-favored reaction |
+| Forward reaction is favored |  | Reverse reaction is favored |
+
+The free energy content of a system depends on temperature and pressure (and, for mixtures, on concentrations). The value of $\Delta G$ for a process depends on the states and the concentrations of the various substances involved. It also depends strongly on temperature, because the equation $\Delta G=\Delta H-T \Delta S$ includes temperature. Just as for other thermodynamic variables, we choose some set of conditions as a standard state reference. The standard state for $\Delta G^{0}$ is the same as for $\Delta H^{0} ; 1 \mathrm{~atm}$ and the specified temperature, usually $25^{\circ} \mathrm{C}(298 \mathrm{~K})$. Values of standard molar free energy of formation, $\Delta G_{\mathrm{f}}^{0}$, for many substances are tabulated in Appendix K. For elements in their standard states, $\Delta G_{\mathrm{f}}^{0}=0$. The values of $\Delta G_{\mathrm{f}}^{0}$ may be used to calculate the standard free energy change of a reaction at 298 $K$ by using the following relationship.
+
+> [!equation] Standard reaction Gibbs energy from formation free energies (298 K, 1 atm)
+> $$
+> \Delta G_{\mathrm{rxn}}^{0}=\sum n \Delta G_{\mathrm{f} \text { products }}^{0}-\sum n \Delta G_{\mathrm{f} \text { reactants }}^{0} \quad(1 \mathrm{~atm} \text { and } 298 \mathrm{~K} \text { only })
+> $$
+
+The value of $\Delta G_{\mathrm{rxn}}^{0}$ allows us to predict the spontaneity of a very special hypothetical reaction that we call the standard reaction.
+
+In the standard reaction, the numbers of moles of reactants shown in the balanced equation, all at standard conditions, are completely converted to the numbers of moles of products shown in the balanced equation, all at standard conditions.
+
+We must remember that it is $\Delta G$, and not $\Delta G^{0}$, that is the general criterion for spontaneity. $\Delta G$ depends on concentrations of reactants and products in the mixture. For most reactions, there is an equilibrium mixture of reactant and product concentrations that is more stable than either all reactants or all products. In Chapter 17 we will study the concept of equilibrium and see how to find $\Delta G$ for mixtures.
+
+We want to know which are more stable at standard conditions-the reactants or the products.
+
+For the reverse reaction at 298 K , $\Delta G_{\mathrm{rxn}}^{0}=-173.1 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}$. So the reverse reaction is product-favored but very slow at room temperature. The NO formed in automobile engines is oxidized to even more harmful $\mathrm{NO}_{2}$ much more rapidly than it decomposes to $\mathrm{N}_{2}$ and $\mathrm{O}_{2}$. Thermodynamic spontaneity does not guarantee that a process occurs at an observable rate. The oxides of nitrogen in the atmosphere represent a major environmental problem.
+
+> [!example] Example 15-19: Spontaneity of Standard Reaction
+> 
+> Diatomic nitrogen and oxygen molecules make up about $99 \%$ of all the molecules in reasonably "unpolluted" dry air. Evaluate $\Delta G^{0}$ for the following reaction at 298 K , using $\Delta G_{\mathrm{f}}^{0}$ values from Appendix K. Is the standard reaction spontaneous?
+> 
+> $$
+> \mathrm{N}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{NO}(\mathrm{~g}) \quad \text { (nitrogen oxide) }
+> $$
+
+**Plan**
+
+The reaction conditions are 1 atm and 298 K , so we can use the tabulated values of $\Delta G_{\mathrm{f}}^{0}$ for each substance in Appendix K to evaluate $\Delta G_{\mathrm{rxn}}^{0}$ in the preceding equation. The treatment of units for calculation of $\Delta G^{0}$ is the same as that for $\Delta H^{0}$ in Example 15-9.
+
+**Solution**
+
+We obtain the following values of $\Delta G_{\mathrm{f}}^{0}$ from Appendix K:
+
+|  | $\mathrm{N}_{2}(\mathrm{~g})$ | $\mathrm{O}_{2}(\mathrm{~g})$ | $\mathrm{NO}(\mathrm{g})$ |
+| :---: | :---: | :---: | :---: |
+| $\Delta G_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}:$ | 0 | 0 | 86.57 |
+
+$$
+\begin{aligned}
+\Delta G_{\mathrm{rxn}}^{0} & =\Sigma n \Delta G_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta G_{\mathrm{f} \text { reactants }}^{0} \\
+& =2 \Delta G_{\mathrm{fNO}(\mathrm{~g})}^{0} \quad-\left[\Delta G_{\mathrm{fN}_{2}(\mathrm{~g})}^{0}+\Delta G_{\mathrm{f}_{2}(\mathrm{~g})}^{0}\right] \\
+& =2(86.57) \quad-[0+0] \\
+\Delta G_{\mathrm{rxn}}^{0} & =+173.1 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn} \quad \text { for the reaction as written }
+\end{aligned}
+$$
+
+Because $\Delta G^{0}$ is positive, the reaction is nonspontaneous at 298 K under standard state conditions.
+
+**You should now work Exercise 111.**
+
+The value of $\Delta G^{0}$ can also be calculated by the equation
+
+$$
+\Delta G^{0}=\Delta H^{0}-T \Delta S^{0} \quad(\text { constant } T \text { and } P)
+$$
+
+Strictly, this last equation applies to standard conditions; however, $\Delta H^{0}$ and $\Delta S^{0}$ often do not vary much with temperature, so the equation can often be used to estimate free energy changes at other temperatures.
+
+> [!tip] Problem-Solving Tip: Common pitfalls in calculating $\Delta G_{\mathrm{rxn}}^{0}$
+> Be careful of these points when you carry out calculations that involve $\Delta G^{0}$:
+> 
+> 1. The calculation of $\Delta G_{\mathrm{rxn}}^{0}$ from tabulated values of $\Delta G_{\mathrm{f}}^{0}$ is valid only if the reaction is at $25^{\circ} \mathrm{C}(298 \mathrm{~K})$ and one atmosphere.
+> 2. Calculations with the equation $\Delta G^{0}=\Delta H^{0}-T \Delta S^{0}$ must be carried out with the temperature in kelvins.
+> 3. The energy term in $\Delta S^{0}$ is usually in joules, whereas that in $\Delta H^{0}$ is usually in kilojoules; remember to convert one of these so that units are consistent before you combine them.
+
+
+> [!example] Example 15-20: Spontaneity of Standard Reaction
+> 
+> Make the same determination as in Example 15-19, using heats of formation and absolute
+
+**Plan**
+
+First we calculate $\Delta H_{\mathrm{rxn}}^{0}$ and $\Delta S_{\mathrm{rxn}}^{0}$. We use the relationship $\Delta G^{0}=\Delta H^{0}-T \Delta S^{0}$ to evaluate the free energy change under standard state conditions at 298 K .
+
+**Solution**
+
+The values we obtain from Appendix K are
+
+\[
+
+\]
+
+Now we use the relationship $\Delta G^{0}=\Delta H^{0}-T \Delta S^{0}$, with $T=298 \mathrm{~K}$, to evaluate the free energy change under standard state conditions at 298 K .
+
+$$
+\begin{aligned}
+\Delta G_{\mathrm{rxn}}^{0} & =\Delta H_{\mathrm{rxn}}^{0} \quad-T \Delta S_{\mathrm{rxn}}^{0} \\
+& =180.5 \mathrm{~kJ} / \mathrm{mol}-(298 \mathrm{~K})(0.0249 \mathrm{~kJ} / \mathrm{mol} \cdot \mathrm{~K}) \\
+& =180.5 \mathrm{~kJ} / \mathrm{mol}-7.42 \mathrm{~kJ} / \mathrm{mol} \\
+\Delta G_{\mathrm{rxn}}^{0} & =+173.1 \mathrm{~kJ} / \mathrm{mol} \text { rxn, the same value obtained in Example 15-19. }
+\end{aligned}
+$$
+
+**You should now work Exercise 113.**
+
+
+# 15-17 The Temperature Dependence of Spontaneity
+
+The methods developed in Section 15-16 can also be used to estimate the temperature at which a process is in equilibrium. When a system is at equilibrium, $\Delta G=0$. Thus,
+
+$$
+\Delta G_{\mathrm{rxn}}=\Delta H_{\mathrm{rxn}}-T \Delta S_{\mathrm{rxn}} \quad \text { or } \quad 0=\Delta H_{\mathrm{rxn}}-T \Delta S_{\mathrm{rxn}}
+$$
+
+so
+
+$$
+\Delta H_{\mathrm{rxn}}=T \Delta S_{\mathrm{rxn}} \quad \text { or } \quad T=\frac{\Delta H_{\mathrm{rxn}}}{\Delta S_{\mathrm{rxn}}} \quad \text { (at equilibrium) }
+$$
+
+> [!example] Example 15-21: Estimation of Boiling Point
+> 
+> Use the thermodynamic data in Appendix K to estimate the normal boiling point of bromine, $\mathrm{Br}_{2}$. Assume that $\Delta H$ and $\Delta S$ do not change with temperature.
+
+**Plan**
+
+The process we must consider is
+
+$$
+\mathrm{Br}_{2}(\ell) \longrightarrow \mathrm{Br}_{2}(\mathrm{~g})
+$$
+
+By definition, the normal boiling point of a liquid is the temperature at which pure liquid and pure gas coexist in equilibrium at 1 atm . Therefore, $\Delta G=0$ for the process as written. We assume that $\Delta H_{\ldots \ldots}=\Delta H_{\ldots \ldots}^{0}$ and $\Delta S_{\ldots \ldots}=\Delta S_{\ldots \ldots}^{0}$. We can evaluate these two quantities, substitute them in
+
+> [!note] Stop and Think
+> 
+> 
+> Remember to use the same energy units in $\Delta S^{0}$ and $\Delta H^{0}$ !
+
+Actually, both $\Delta H_{\mathrm{rxn}}^{0}$ and $\Delta S_{\mathrm{rxn}}^{0}$ vary with temperature, but usually not enough to introduce significant errors for modest temperature changes. The value of $\Delta G_{\mathrm{rxn}}^{0}$, on the other hand, is stronalv dependent on
+
+> [!note] Stop and Think
+> As with all calculations of $\Delta G$, you should be careful to make the energy units in $\Delta H$ and $\Delta S$ consistent-either both in J or both in kJ .
+> 
+
+
+**Solution**
+
+The required values (Appendix K) are as follows:
+
+\[
+
+\]
+
+We can now solve for the temperature at which the system is in equilibrium, that is, the boiling point of $\mathrm{Br}_{2}$.
+
+$$
+\begin{aligned}
+\Delta G_{\mathrm{rxn}} & =\Delta H_{\mathrm{rxn}}-T \Delta S_{\mathrm{rxn}}=0 \quad \text { so } \quad \Delta H_{\mathrm{rxn}}=T \Delta S_{\mathrm{rxn}} \\
+T & =\frac{\Delta H_{\mathrm{rxn}}}{\Delta S_{\mathrm{rxn}}}=\frac{30.91 \mathrm{~kJ} / \mathrm{mol}}{0.0932 \mathrm{~kJ} / \mathrm{mol} \cdot \mathrm{~K}}=332 \mathrm{~K}\left(59^{\circ} \mathrm{C}\right)
+\end{aligned}
+$$
+
+This is the temperature at which the reactant (liquid) is in equilibrium with the product (gas), that is, the boiling point of $\mathrm{Br}_{2}$. The value listed in a handbook of chemistry and physics is $58.78^{\circ} \mathrm{C}$.
+
+**You should now work Exercise 122.**
+
+The free energy change and spontaneity of a reaction depend on both enthalpy and entropy changes. Both $\Delta H$ and $\Delta S$ may be either positive or negative, so we can group reactions in four classes with respect to spontaneity (Figure 15-21).
+
+| $\Delta G=\Delta H-T \Delta S$ |  | (constant temperature and pressure) |
+| :--- | :--- | :--- |
+| 1. $\Delta H=-$ (favorable) | $\Delta S=+($ favorable $)$ | Reactions are product-favored at all temperatures |
+| 2. $\Delta H=-$ (favorable) | $\Delta S=-($ unfavorable $)$ | Reactions become product-favored below a definite temperature |
+| 3. $\Delta H=+$ (unfavorable) | $\Delta S=+($ favorable $)$ | Reactions become product-favored above a definite temperature |
+| 4. $\Delta H=+$ (unfavorable) | $\Delta S=-($ unfavorable $)$ | Reactions are reactant-favored at all temperatures |
+
+When $\Delta H$ and $\Delta S$ have opposite signs (classes 1 and 4), they act in the same direction, so the direction of spontaneous change does not depend on temperature. When $\Delta H$ and $\Delta S$ have the same signs (classes 2 and 3), their effects oppose one another, so changes in temperature can cause one factor or the other to dominate, and spontaneity depends on temperature. For class 2, decreasing the temperature decreases the importance of the unfavorable $T \Delta S$ term, so the reaction becomes product-favored at lower temperatures. For class 3 , increasing the temperature increases the importance of the favorable $T \Delta S$ term, so the reaction becomes product-favored at higher temperatures.
+
+The temperature at which $\Delta G_{\text {rxn }}^{0}=0$ is the temperature limit of spontaneity. The sign of $\Delta S_{\mathrm{rxn}}^{0}$ tells us whether the reaction is spontaneous below or above this limit (Table 15-7). We can estimate the temperature range over which a chemical reaction in class 2 or 3 is spontaneous by evaluating $\Delta H_{\mathrm{rxn}}^{0}$ and $\Delta S_{\mathrm{rxn}}^{0}$ from tabulated data.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-46.jpg?height=850&width=715&top_left_y=299&top_left_x=493)
+Active Figure 15-21 A graphical representation of the dependence of $\Delta G$ and spontaneity on temperature for each of the four classes of reactions listed in the text and in Table 15-7. Visit this book's companion website at www .cengage.com/chemistry/whitten to test your understanding of the concepts in this figure.
+
+Table 15-7 Thermodynamic Classes of Reactions
+
+| Class | Example reaction | $\Delta H$ (kJ/mol) | $\Delta S$ $\left(\mathrm{J}\,\mathrm{mol}^{-1}\,\mathrm{K}^{-1}\right)$ | Temperature range of spontaneity |
+| :---: | :--- | ---: | ---: | :--- |
+| 1 | $2\,\mathrm{H}_{2}\mathrm{O}_{2}(\ell) \longrightarrow 2\,\mathrm{H}_{2}\mathrm{O}(\ell) + \mathrm{O}_{2}(\mathrm{g})$ | -196 | +126 | All temperatures |
+| 1 | $\mathrm{H}_{2}(\mathrm{g}) + \mathrm{Br}_{2}(\ell) \longrightarrow 2\,\mathrm{HBr}(\mathrm{g})$ | -72.8 | +114 | All temperatures |
+| 2 | $\mathrm{NH}_{3}(\mathrm{g}) + \mathrm{HCl}(\mathrm{g}) \longrightarrow \mathrm{NH}_{4}\mathrm{Cl}(\mathrm{s})$ | -176 | -285 | Lower temperatures ($< 619\,\mathrm{K}$) |
+| 2 | $2\,\mathrm{H}_{2}\mathrm{S}(\mathrm{g}) + \mathrm{SO}_{2}(\mathrm{g}) \longrightarrow 3\,\mathrm{S}(\mathrm{s}) + 2\,\mathrm{H}_{2}\mathrm{O}(\ell)$ | -233 | -424 | Lower temperatures ($< 550\,\mathrm{K}$) |
+| 3 | $\mathrm{NH}_{4}\mathrm{Cl}(\mathrm{s}) \longrightarrow \mathrm{NH}_{3}(\mathrm{g}) + \mathrm{HCl}(\mathrm{g})$ | +176 | +285 | Higher temperatures ($> 619\,\mathrm{K}$) |
+| 3 | $\mathrm{CCl}_{4}(\ell) \longrightarrow \mathrm{C}(\text{graphite}) + 2\,\mathrm{Cl}_{2}(\mathrm{g})$ | +135 | +235 | Higher temperatures ($> 517\,\mathrm{K}$) |
+| 4 | $2\,\mathrm{H}_{2}\mathrm{O}(\ell) + \mathrm{O}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{H}_{2}\mathrm{O}_{2}(\ell)$ | +196 | -126 | Nonspontaneous (all temperatures) |
+| 4 | $3\,\mathrm{O}_{2}(\mathrm{g}) \longrightarrow 2\,\mathrm{O}_{3}(\mathrm{g})$ | +285 | -137 | Nonspontaneous (all temperatures) |
+
+
+
+> [!example] Example 15-22: Temperature Range of Spontaneity
+> 
+> Mercury(II) sulfide is a dark red mineral called cinnabar. Metallic mercury is obtained by roasting the sulfide in a limited amount of air. Estimate the temperature range in which the standard reaction is product-favored.
+> 
+> $$
+> \mathrm{HgS}(\mathrm{~s})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{Hg}(\ell)+\mathrm{SO}_{2}(\mathrm{~g})
+> $$
+
+**Plan**
+
+We evaluate $\Delta H_{\mathrm{rxn}}^{0}$ and $\Delta S_{\mathrm{rxn}}^{0}$ and assume that these values are independent of temperature. Each of these values allows us to assess its contribution to spontaneity.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-47.jpg?height=617&width=455&top_left_y=324&top_left_x=113)
+Heating red HgS in air produces liquid Hg. Gaseous SO2 escapes. Cinnabar, an important ore of mercury, contains HgS .
+
+> [!note] Stop and Think
+> When $\Delta H^{0}$ and $\Delta S^{0}$ are both favorable, we know without further calculation that $\Delta G^{0}$ must be negative and the reaction must be product-favored (spontaneous) at all temperatures. When $\Delta H^{0}$ and $\Delta S^{0}$ are both unfavorable, we know without further calculation that $\Delta G^{0}$ must be positive and the reaction must be reactantfavored (nonspontaneous) at all temperatures.
+
+**Solution**
+
+From Appendix K:
+
+|  | $\mathrm{HgS}(\mathrm{s})$ | $\mathrm{O}_{2}$ | $\mathrm{Hg}(\ell)$ | $\mathrm{SO}_{2}(\mathrm{~g})$ |
+| :---: | :---: | :---: | :---: | :---: |
+| $\Delta H_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}:$ | -58.2 | 0 | 0 | -296.8 |
+| $S^{0}, \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}:$ | 82.4 | 205.0 | 76.0 | 248.1 |
+| $\Delta H_{\mathrm{rxn}}^{0}$ | $=\Delta H_{\mathrm{fHg}(\ell)}^{0}+\Delta H_{\mathrm{fSO}_{2}(\mathrm{~g})}^{0}-\left[\Delta H_{\mathrm{fHgS}(\mathrm{s})}^{0}+\Delta H_{\mathrm{fO}_{2}(\mathrm{~g})}^{0}\right]$ |  |  |  |
+| $=$ | $0-296.8 \quad-[-58.2+0]=-238.6 \mathrm{~kJ} / \mathrm{mol}$ |  |  |  |
+| $\Delta S_{\mathrm{rxn}}^{0}=$ | $S_{\mathrm{Hg}(\ell)}^{0}+S_{\mathrm{SO}_{2}(\mathrm{~g})}^{0}-\left[S_{\mathrm{HgS}(\mathrm{s})}^{0}+S_{\mathrm{O}_{2}(\mathrm{~g})}^{0}\right]$ |  |  |  |
+| $=$ | $76.02+248.1-[82.4+205.0]=+36.7 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ |  |  |  |
+
+When $\Delta H_{\mathrm{rxn}}^{0}$ is negative (favorable to spontaneity) and $\Delta S_{\mathrm{rxn}}^{0}$ is positive, (favorable to spontaneity) the reaction must be product-favored (spontaneous) at all temperatures; no further calculation is necessary. The reverse reaction is, therefore, nonspontaneous at all temperatures.
+
+The fact that a reaction is product-favored at all temperatures does not mean that the reaction occurs rapidly enough to be useful at all temperatures. As a matter of fact, $\mathrm{Hg}(\ell)$ can be obtained from $\mathrm{HgS}(\mathrm{s})$ by this reaction at a reasonable rate only at high temperatures.
+
+
+> [!example] Example 15-23: Temperature Range of Spontaneity
+> 
+> Estimate the temperature range for which the following standard reaction is product-favored.
+> 
+> $$
+> \mathrm{SiO}_{2}(\mathrm{~s})+2 \mathrm{C}(\text { graphite })+2 \mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow \mathrm{SiCl}_{4}(\mathrm{~g})+2 \mathrm{CO}(\mathrm{~g})
+> $$
+
+**Plan**
+
+When we proceed as in Example 15-22, we find that $\Delta S_{\mathrm{rxn}}^{0}$ is favorable to spontaneity, whereas $\Delta H_{\mathrm{rxn}}^{0}$ is unfavorable. Thus, we know that the reaction becomes product-favored above some temperature. We can set $\Delta G^{0}$ equal to zero in the equation $\Delta G^{0}=\Delta H^{0}-T \Delta S^{0}$ and solve for the temperature at which the system is at equilibrium. This will represent the temperature above which the reaction would be product-favored.
+
+**Solution**
+
+From Appendix K:
+
+$$
+\begin{array}{rlccc} 
+& \mathrm{SiO}_{2}(\mathrm{~s}) & \mathrm{C}(\text { graphite }) & \mathrm{Cl}_{2}(\mathrm{~g}) & \mathrm{SiCl}_{4}(\mathrm{~g}) \\
+\Delta H_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}: & -910.9 & 0 & 0 & -657.0 \\
+S^{0}, \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}: & 41.84 & 5.740 & 223.0 & 330.6 \\
+\Delta H_{\mathrm{rxn}}^{0} & =\left[\Delta H_{\mathrm{f} \mathrm{SiCl}_{4}(\mathrm{~g})}^{0}+2 \Delta H_{\mathrm{fCO}(\mathrm{~g})}^{0}\right]-\left[\Delta H_{\mathrm{f} \mathrm{SiO}_{2}(\mathrm{~s})}^{0}+2 \Delta H_{\mathrm{fC}(\mathrm{graphite})}^{0}+2 \Delta H_{\mathrm{fl} 2(\mathrm{~g})}^{0}\right] \\
+& =[(-657.0)+2(-110.5)]-[(-910.9)+2(0) & +2(0)] \\
+& =+32.9 \mathrm{~kJ} / \mathrm{mol}(\text { unfavorable to spontaneity }) & \\
+\Delta S_{\mathrm{rxn}}^{0} & =S_{\mathrm{SiCl}_{4}(\mathrm{~g})}^{0}+2 S_{\mathrm{CO}(\mathrm{~g})}^{0} \quad-\left[S_{\mathrm{SiO}_{2}(\mathrm{~s})}^{0}+2 S_{\mathrm{C}(\mathrm{graphite})}^{0}+2 S_{\mathrm{Cl}_{2}(\mathrm{~g})}^{0}\right] & \\
+& =[330.6+2(197.6)]-[41.84+2(5.740)+2(223.0)] & \\
+& =226.5 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}=0.2265 \mathrm{~kJ} / \mathrm{mol} \cdot \mathrm{~K} \text { (favorable to spontaneity) }
+\end{array}
+$$
+
+At the temperature at which $\Delta G^{0}=0$, neither the forward nor the reverse reaction is favored and the system is at equilibrium. Let's find this temperature.
+
+$$
+\begin{aligned}
+0 & =\Delta G^{0}=\Delta H^{0}-T \Delta S^{0} \\
+\Delta H^{0} & =T \Delta S^{0} \\
+\boldsymbol{T} & -\underline{\Delta H^{0}}-+32.9 \mathrm{~kJ} / \mathrm{mol}-\mathbf{1 4 5} \mathbf{~ K}
+\end{aligned}
+$$
+
+
+# Abstract
+
+At temperatures above 145 K , the $T \Delta S^{0}$ term would be greater ( $-T \Delta S^{0}$ would be more negative) than the $\Delta H^{0}$ term, which would make $\Delta G^{0}$ negative; so the reaction would be producd-favored above 145 K . At temperatures below 145 K , the $T \Delta S^{0}$ term would be smaller than the $\Delta H^{0}$ term, which would make $\Delta G^{0}$ positive; so the reaction would be reactant-favored below 145 K .
+
+However, $145 \mathrm{~K}\left(-128^{\circ} \mathrm{C}\right)$ is a very low temperature. For all practical purposes, the reaction is product-favored at all but very low temperatures. In practice, it is carried out at $800^{\circ} \mathrm{C}$ to $1000^{\circ} \mathrm{C}$ because of the greater reaction rate at these higher temperatures. This gives a useful and economical rate of production of $\mathrm{SiCl}_{4}$, an important industrial chemical.
+
+
+You should now work Exercises 116 and 120.
+
+# Key Terms
+
+Absolute entropy (of a substance) The entropy of a substance relative to its entropy in a perfectly ordered crystalline form at 0 K (where its entropy is zero).
+Bomb calorimeter A device used to measure the heat transfer between system and surroundings at constant volume.
+Bond energy The amount of energy necessary to break one mole of bonds in a gaseous substance to form gaseous products at the same temperature and pressure.
+Calorimeter A device used to measure the heat transfer that accompanies a physical or chemical change.
+Dispersal of energy The degree to which the total energy of a system can be distributed among its particles.
+Dispersal of matter The degree to which the particles of a sample can be distributed in space; also called disorder.
+Endothermic process A process that absorbs heat.
+Enthalpy change, $\Delta \boldsymbol{H}$ The quantity of heat transferred into or out of a system as it undergoes a chemical or physical change at constant temperature and pressure.
+Entropy, $\boldsymbol{S}$ A thermodynamic state property that measures the dispersal of energy and the dispersal of matter (disorder) of a system.
+Equilibrium A state of dynamic balance in which the rates of forward and reverse processes (reactions) are equal; the state of a system when neither the forward nor the reverse process is thermodynamically favored.
+Exothermic process A process that gives off (releases) heat.
+First Law of Thermodynamics The total amount of energy in the universe is constant (also known as the Law of Conservation of Energy); energy is neither created nor destroyed in ordinary chemical reactions and physical changes.
+Gibbs free energy, $\boldsymbol{G}$ The thermodynamic state function of a system that indicates the amount of energy available for the system to do useful work at constant $T$ and $P$. It is defined as $G=H-T S$; also called free energy.
+Gibbs free energy change, $\boldsymbol{\Delta} \boldsymbol{G}$ The indicator of spontaneity of a process at constant $T$ and $P . \Delta G=\Delta H-T \Delta S$. If $\Delta G$ is negative, the process is product-favored (spontaneous); also called free energy change.
+Heat of formation See Standard molar enthalpy of formation.
+Hess's Law of Heat Summation The enthalpy change for a reaction is the same whether it occurs in one step or a series of steps.
+Internal energy, $\boldsymbol{E}$ All forms of energy associated with a specific
+
+Kinetic energy The energy of motion. The kinetic energy of an object is equal to one half its mass times the square of its velocity.
+Law of Conservation of Energy Energy cannot be created or destroyed in a chemical reaction or in a physical change; it may be changed from one form to another; see First Law of Thermodynamics.
+Mole of reaction (mol rxn) The amount of reaction that corresponds to the number of moles of each substance shown in the balanced equation.
+Nonspontaneous change See Reactant-favored change.
+Potential energy The energy that a system or object possesses by virtue of its position or composition.
+Pressure-volume work Work done by a gas when it expands against an external pressure, or work done on a system as gases are compressed or consumed in the presence of an external pressure.
+Product-favored change A change for which the collection of products is more stable than the collection of reactants under the given conditions; also called spontaneous change.
+Reactant-favored change A change for which the collection of reactants is more stable than the collection of products under the given conditions; also called nonspontaneous change.
+Second Law of Thermodynamics The universe tends toward a state of greater disorder in spontaneous processes.
+Spontaneous change See Product-favored change.
+Standard enthalpy change, $\Delta \boldsymbol{H}^{0}$ The enthalpy change in which the number of moles of reactants specified in the balanced chemical equation, all at standard states, is converted completely to the specified number of moles of products, all at standard states.
+Standard entropy change, $\Delta \boldsymbol{S}^{\mathbf{0}}$ The entropy change in which the number of moles of reactants specified in the balanced chemical equation, all at standard states, is converted completely to the specified number of moles of products, all at standard states.
+Standard molar enthalpy of formation, $\Delta H_{\mathrm{f}}^{0}$ (of a substance) The enthalpy change for the formation of one mole of a substance in a specified state from its elements in their standard states; also called standard molar heat of formation or just heat of formation.
+Standard molar heat of formation See Standard molar enthalpy of formation
+
+Standard molar entropy, $S^{0}$ (of a substance) The absolute entropy of a substance in its standard state at 298 K .
+Standard reaction A reaction in which the numbers of moles of reactants shown in the balanced equation, all in their standard states, are completely converted to the numbers of moles of products shown in the balanced equation, also all at their standard states.
+Standard state (of a substance) See Thermodynamic standard state of a substance.
+State function A variable that defines the state of a system; a function that is independent of the pathway by which a process occurs.
+Surroundings Everything in the environment of the system.
+System The substances of interest in a process; the part of the universe under investigation.
+Thermochemical equation A balanced chemical equation together with a designation of the corresponding value of $\Delta H_{\mathrm{rxn}}$. Sometimes used with changes in other thermodynamic quantities.
+
+Thermochemistry The observation, measurement, and prediction of energy changes for both physical changes and chemical reactions.
+Thermodynamics The study of the energy transfers accompanying physical and chemical processes.
+Thermodynamic state of a system A set of conditions that completely specifies all of the properties of the system.
+Thermodynamic standard state of a substance The most stable state of the substance at one atmosphere pressure and at some specific temperature ( $25^{\circ} \mathrm{C}$ unless otherwise specified).
+Third Law of Thermodynamics The entropy of a hypothetical pure, perfect, crystalline substance at absolute zero temperature is zero.
+Universe The system plus the surroundings.
+Work The application of a force through a distance; for physical changes or chemical reactions at constant external pressure, the work done on the system is $-P \Delta V$; for chemical reactions that involve gases, the work done on the system can be expressed as $-(\Delta n) R T$.
+
+# Problems
+
+## Exercises
+
+**Symbol Key**
+
+Molecular Reasoning exercises
+
+- More challenging exercises
+- Exercises assignable in OWL
+
+Blue-numbered Exercises solved in the Student Solutions Manual
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-49.jpg?height=71&width=189&top_left_y=1091&top_left_x=956)
+
+Sign in at www.cengage.com/owl to:
+
+- View tutorials and simulations, develop problem-solving skills, and complete online homework assigned by your professor.
+- For quick review, download Go Chemistry mini-lecture modules (or purchase them at www.ichapters.com)
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-49.jpg?height=50&width=193&top_left_y=1306&top_left_x=1015)
+
+
+**General Concepts**
+
+1. State precisely the meaning of each of the following terms. You may need to review Chapter 1 to refresh your memory concerning terms introduced there. (a) energy; (b) kinetic energy; (c) potential energy; (d) joule.
+2. State precisely the meaning of each of the following terms. You may need to review Chapter 1 to refresh your memory about terms introduced there. (a) heat; (b) temperature; (c) system; (d) surroundings; (e) thermodynamic state of system; (f) work.
+3. (a) Give an example of the conversion of heat into work.
+(b) Give an example of the conversion of work into heat.
+4. (a) Give an example of heat being given off by the system.
+(b) Give an example of work being done on the system.
+5. (a) Give an example of heat being added to the system.
+(b) Give an example of work being done by the system.
+6. Distinguish between endothermic and exothermic processes. If we know that a reaction is endothermic in one direction, what can be said about the reaction in the reverse direction?
+7. According to the First Law of Thermodynamics, the total amount of energy in the universe is constant. Why, then, do we say that we are experiencing a declining supply of energy?
+8. Use the First Law of Thermodynamics to describe what occurs when an incandescent light is turned on.
+9. Define enthalpy and give an example of a reaction that has a negative enthalpy change.
+10. Which of the following are examples of state
+(c) your weight; (d) the heat lost by perspiration during a climb up a mountain along a fixed path.
+11. What is a state function? Would Hess's Law be a law if enthalpy were not a state function?
+
+**Enthalpy and Changes in Enthalpy**
+
+12. (a) Distinguish between $\Delta H$ and $\Delta H^{0}$ for a reaction.
+(b) Distinguish between $\Delta H_{\mathrm{rxn}}^{0}$ and $\Delta H_{\mathrm{f}}^{0}$.
+13. A reaction is characterized by $\Delta H_{\mathrm{rxn}}=+450 \mathrm{~kJ} /$ mol. Does the reaction mixture absorb heat from the surroundings or release heat to them?
+14. For each of the following reactions, (a) does the enthalpy increase or decrease; (b) is $H_{\text {reactants }}>H_{\text {products }}$ or is $H_{\text {products }}>H_{\text {reactants }}$; (c) is $\Delta H$ positive or negative?
+(i) $\mathrm{Al}_{2} \mathrm{O}_{3}(\mathrm{~s}) \longrightarrow 2 \mathrm{Al}(\mathrm{s})+\frac{3}{2} \mathrm{O}_{2}(\mathrm{~g})$ (endothermic)
+(ii) $\mathrm{Sn}(\mathrm{s})+\mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow \mathrm{SnCl}_{2}(\mathrm{~s}) \quad$ (exothermic)
+15. (a) The combustion of 0.0222 g of isooctane vapor, $\mathrm{C}_{8} \mathrm{H}_{18}(\mathrm{~g})$, at constant pressure raises the temperature of a calorimeter $0.400^{\circ} \mathrm{C}$. The heat capacity of the calorimeter and water combined is $2.48 \mathrm{~kJ} /{ }^{\circ} \mathrm{C}$. Find the molar heat of combustion of gaseous isooctane.
+
+$$
+\mathrm{C}_{8} \mathrm{H}_{18}(\mathrm{~g})+12 \frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 8 \mathrm{CO}_{2}(\mathrm{~g})+9 \mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+(b) How many grams of $\mathrm{C}_{8} \mathrm{H}_{18}(\mathrm{~g})$ must be burned to obtain 495 kJ of heat energy?
+16. Methanol, $\mathrm{CH}_{3} \mathrm{OH}$, is an efficient fuel with a high octane rating.
+(a) Find the heat evolved when $115.0 \mathrm{~g} \mathrm{CH}_{3} \mathrm{OH}(\mathrm{g})$ burns in excess oxygen. (b) What mass of $\mathrm{O}_{2}$ is consumed when 925 kJ of heat is given off?
+17. How much heat is liberated when 0.113 mole of sodium reacts with excess water according to the following equation?
+
+$$
+\begin{aligned}
+& 2 \mathrm{Na}(\mathrm{~s})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{H}_{2}(\mathrm{~g})+2 \mathrm{NaOH}(\mathrm{aq}) \\
+& \Delta H=-368 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+\end{aligned}
+$$
+
+18. What is $\Delta H$ for the reaction
+
+$$
+\mathrm{PbO}(\mathrm{~s})+\mathrm{C}(\mathrm{~s}) \longrightarrow \mathrm{Pb}(\mathrm{~s})+\mathrm{CO}(\mathrm{~g})
+$$
+
+if 5.95 kJ must be supplied to convert 13.43 g lead(II) oxide to lead?
+19. From the data in Appendix K, determine the form that represents the standard state for each of the following elements: iodine, oxygen, sulfur.
+20. Why is the standard molar enthalpy of formation, $\Delta H_{\mathrm{f}}^{0}$ for liquid water different than $\Delta H_{\mathrm{f}}^{0}$ for water vapor, both at $25^{\circ} \mathrm{C}$ ? Which formation reaction is more exothermic? Does your answer indicate that $\mathrm{H}_{2} \mathrm{O}(\ell)$ is at a higher or lower enthalpy than $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ ?
+21. Methylhydrazine is burned with dinitrogen tetroxide in the attitude-control engines of the space shuttles.
+
+$$
+\mathrm{CH}_{6} \mathrm{~N}_{2}(\ell)+\frac{5}{4} \mathrm{~N}_{2} \mathrm{O}_{4}(\ell) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell)+\frac{9}{4} \mathrm{~N}_{2}(\mathrm{~g})
+$$
+
+The two substances ignite instantly on contact, producing a flame temperature of 3000 K . The energy liberated per 0.100 g of $\mathrm{CH}_{6} \mathrm{~N}_{2}$ at constant atmospheric pressure after the products are cooled back to $25^{\circ} \mathrm{C}$ is 750 . J. (a) Find $\Delta H$ for the reaction as written. (b) How many kilojoules are liberated when 87.5 g of $\mathrm{N}_{2}$ is produced?
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-50.jpg?height=429&width=376&top_left_y=1458&top_left_x=362)
+22. Which is more exothermic, the combustion of one mole of methane to form $\mathrm{CO}_{2}(\mathrm{~g})$ and liquid water or the combustion of one mole of methane to form $\mathrm{CO}_{2}(\mathrm{~g})$ and steam? Why? (No calculations are necessary.)
+23. Which is more exothermic, the combustion of one mole of gaseous benzene, $\mathrm{C}_{6} \mathrm{H}_{6}$, or the combustion of one mole of liquid benzene? Why? (No calculations are necessary.)
+
+**Thermochemical Equations, $\boldsymbol{\Delta} \boldsymbol{H}_{\boldsymbol{f}}^{\boldsymbol{0}}$, and Hess's Law**
+
+24. Explain the meaning of the phrase "thermodynamic standard state of a substance."
+25. From the data in Appendix K, determine the form that represents the standard state for each of the following elements: (a) chlorine, (b) chromium, (c) bromine, (d) iodine, (e) sulfur, (f) nitrogen.
+26. From the data in Appendix K, determine the form that represents the standard state for each of the following elements: (a) oxygen, (b) carbon, (c) phosphorus, (d) rubidium, (e) mercury, (f) tin.
+27. Write the balanced chemical equation whose $\Delta H_{\text {rxn }}^{0}$ value is equal to $\Delta H_{\mathrm{f}}^{0}$ for each of the following substances: (a) calcium hydroxide, $\mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{~s})$; (b) benzene, $\mathrm{C}_{6} \mathrm{H}_{6}(\ell)$; (c) sodium bicarbonate, $\mathrm{NaHCO}_{3}$ (s); (d) calcium fluoride, $\mathrm{CaF}_{2}(\mathrm{~s})$; (e) phosphine, $\mathrm{PH}_{3}(\mathrm{~g})$; (f) propane, $\mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})$; $(\mathrm{g})$ atomic sulfur, $\mathrm{S}(\mathrm{g})$; (h) water, $\mathrm{H}_{2} \mathrm{O}(\ell)$.
+28. Write the balanced chemical equation for the formation of one mole of each of the following substances from its elements in the standard state (the equation whose $\Delta H_{\mathrm{rxn}}^{0}$ value is equal to $\Delta H_{\mathrm{f}}^{0}$ for the substance): hydrogen peroxide $\left[\mathrm{H}_{2} \mathrm{O}_{2}(\ell)\right]$, calcium fluoride $\left[\mathrm{CaF}_{2}(\mathrm{~s})\right]$, ruthenium(III) hydroxide $\left[\mathrm{Ru}(\mathrm{OH})_{3}(\mathrm{~s})\right]$.
+29. a We burn 3.47 g of lithium in excess oxygen at constant atmospheric pressure to form $\mathrm{Li}_{2} \mathrm{O}$. Then we bring the reaction mixture back to $25^{\circ} \mathrm{C}$. In this process 146 kJ of heat is given off. What is the standard molar enthalpy of formation of $\mathrm{Li}_{2} \mathrm{O}$ ?
+30. $\Delta$ We burn 8.10 g of magnesium in excess nitrogen at constant atmospheric pressure to form $\mathrm{Mg}_{3} \mathrm{~N}_{2}$. Then we bring the reaction mixture back to $25^{\circ} \mathrm{C}$. In this process 76.83 kJ of heat is given off. What is the standard molar enthalpy of formation of $\mathrm{Mg}_{3} \mathrm{~N}_{2}$ ?
+31. From the following enthalpies of reaction,
+
+$$
+\begin{aligned}
+& 4 \mathrm{HCl}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\ell)+2 \mathrm{Cl}_{2}(\mathrm{~g}) \\
+& \qquad \begin{array}{l}
+\Delta H=-202.4 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\
+\frac{1}{2} \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{~F}_{2}(\mathrm{~g}) \longrightarrow \mathrm{HF}(\ell)
+\end{array} \\
+& \qquad \begin{aligned}
+& \Delta H=-600.0 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\
+& \mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{H}_{2} \mathrm{O}(\ell) \\
+& \Delta H=-285.8 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+\end{aligned} \\
+& \text { find } \Delta H_{\mathrm{rxn}} \text { for } 2 \mathrm{HCl}(\mathrm{~g})+\mathrm{F}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HF}(\ell)+\mathrm{Cl}_{2}(\mathrm{~g}) \text {. }
+\end{aligned}
+$$
+
+33. From the following enthalpies of reaction,
+
+$$
+\begin{aligned}
+\mathrm{CaCO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{CaO}(\mathrm{~s})+\mathrm{CO}_{2}(\mathrm{~g}) \\
+\Delta H=-178.1 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\
+\mathrm{CaO}(\mathrm{~s})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{~s}) \\
+\Delta H=-65.3 \mathrm{~kJ} / \mathrm{mol} \text { rxn } \\
+\mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{~s}) \longrightarrow \mathrm{Ca}^{2+}(\mathrm{aq})+2 \mathrm{OH}^{-}(\mathrm{aq}) \\
+\Delta H=-16.2 \mathrm{~kJ} / \mathrm{mol} \text { rxn }
+\end{aligned}
+$$
+
+calculate $\Delta H_{\mathrm{rxn}}$ for
+
+$$
+\mathrm{Ca}^{2+}(\mathrm{aq})+2 \mathrm{OH}^{-}(\mathrm{aq})+\mathrm{CO}_{2}(\mathrm{~g}) \longrightarrow \longrightarrow \mathrm{CaCO}_{3}(\mathrm{~s})+\mathrm{H}_{2} \mathrm{O}(\ell)
+$$
+
+34. Given that
+
+$$
+\begin{aligned}
+& \mathrm{S}(\mathrm{~s})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{SO}_{2}(\mathrm{~g}) \\
+& \mathrm{S}(\mathrm{~s})+\frac{3}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{SO}_{3}(\mathrm{~g}) \Delta H=-296.8 \mathrm{~kJ} / \mathrm{mol} \\
+& \Delta H=-395.6 \mathrm{~kJ} / \mathrm{mol}
+\end{aligned}
+$$
+
+determine the enthalpy change for the decomposition reaction
+35. Evaluate $\Delta H_{\mathrm{rxn}}^{0}$ for the reaction below at $25^{\circ} \mathrm{C}$, using the heats of formation.
+
+$$
+\begin{aligned}
+\mathrm{Fe}_{3} \mathrm{O}_{4}(\mathrm{~s})+\mathrm{CO}(\mathrm{~g}) & \longrightarrow 3 \mathrm{FeO}(\mathrm{~s})+\mathrm{CO}_{2}(\mathrm{~g}) \\
+\Delta H_{\mathrm{f}}^{0}, \mathrm{~kJ} / \mathrm{mol}:-1118-110.5 & -272-393.5
+\end{aligned}
+$$
+
+36. Given that
+
+$$
+\begin{aligned}
+& 2 \mathrm{H}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\ell) \\
+& \Delta H=-571.6 \mathrm{~kJ} / \mathrm{mol} \\
+& \mathrm{C}_{3} \mathrm{H}_{4}(\mathrm{~g})+4 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 3 \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \\
+& \Delta H=-1937 \mathrm{~kJ} / \mathrm{mol} \\
+& \mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})+5 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 3 \mathrm{CO}_{2}(\mathrm{~g})+4 \mathrm{H}_{2} \mathrm{O}(\ell) \\
+& \Delta H=-2220 . \mathrm{kJ} / \mathrm{mol}
+\end{aligned}
+$$
+
+determine the heat of the hydrogenation reaction
+
+$$
+\mathrm{C}_{3} \mathrm{H}_{4}(\mathrm{~g})+2 \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})
+$$
+
+37. Determine the heat of formation of liquid hydrogen peroxide at $25^{\circ} \mathrm{C}$ from the following thermochemical equations.
+
+$$
+\begin{aligned}
+\mathrm{H}_{2}(\mathrm{~g})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{H}_{2} \mathrm{O}(\mathrm{~g}) & \\
+2 \mathrm{H}(\mathrm{~g})+\mathrm{O}(\mathrm{~g}) \longrightarrow \mathrm{H}_{2} \mathrm{O}(\mathrm{~g}) & \Delta H^{0}=-241.82 \mathrm{~kJ} / \mathrm{mol} \\
+& \Delta H^{0}=-926.92 \mathrm{~kJ} / \mathrm{mol} \\
+2 \mathrm{H}(\mathrm{~g})+2 \mathrm{O}(\mathrm{~g}) \longrightarrow \mathrm{H}_{2} \mathrm{O}_{2}(\mathrm{~g}) & \\
+& \Delta H^{0}=-1070.60 \mathrm{~kJ} / \mathrm{mol} \\
+2 \mathrm{O}(\mathrm{~g}) \longrightarrow \mathrm{O}_{2}(\mathrm{~g}) & \Delta H^{0}=-498.34 \mathrm{~kJ} / \mathrm{mol} \\
+\mathrm{H}_{2} \mathrm{O}_{2}(\ell) \longrightarrow \mathrm{H}_{2} \mathrm{O}_{2}(\mathrm{~g}) & \Delta H^{0}=51.46 \mathrm{~kJ} / \mathrm{mol}
+\end{aligned}
+$$
+
+38. Use data in Appendix K to find the enthalpy of reaction for
+(a) $\mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{N}_{2} \mathrm{O}(\mathrm{g})+2 \mathrm{H}_{2} \mathrm{O}(\ell)$
+(b) $2 \mathrm{FeS}_{2}(\mathrm{~s})+\frac{11}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{Fe}_{2} \mathrm{O}_{3}(\mathrm{~s})+4 \mathrm{SO}_{2}(\mathrm{~g})$
+(c) $\mathrm{SiO}_{2}(\mathrm{~s})+3 \mathrm{C}$ (graphite) $\longrightarrow \mathrm{SiC}(\mathrm{s})+2 \mathrm{CO}(\mathrm{g})$
+39. Repeat Exercise 38 for
+(a) $\mathrm{CaCO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{CaO}(\mathrm{s})+\mathrm{CO}_{2}(\mathrm{~g})$
+(b) $2 \mathrm{HI}(\mathrm{g})+\mathrm{F}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HF}(\mathrm{g})+\mathrm{I}_{2}(\mathrm{~s})$
+(c) $\mathrm{SF}_{6}(\mathrm{~g})+3 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow 6 \mathrm{HF}(\mathrm{g})+\mathrm{SO}_{3}(\mathrm{~g})$
+40. The internal combustion engine uses heat produced during the burning of a fuel. Propane, $\mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})$, is sometimes used as the fuel. Gasoline is the most commonly used fuel. Assume that the gasoline is pure octane, $\mathrm{C}_{8} \mathrm{H}_{18}(\ell)$, and the fuel and oxygen are completely converted into $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$. For each of these fuels, determine the heat released per gram of fuel burned.
+41. Write the balanced equation for the complete combustion (in excess $\mathrm{O}_{2}$ ) of kerosene. Assume that kerosene is $\mathrm{C}_{10} \mathrm{H}_{22}(\ell)$ and that the products are $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$.
+Calculate $\Delta H_{\mathrm{rxn}}^{0}$ at $25^{\circ} \mathrm{C}$ for this reaction.
+$\Delta H_{\mathrm{f}}^{0} \mathrm{C}_{10} \mathrm{H}_{22}(\ell)=-249.6 \mathrm{~kJ} / \mathrm{mol}$
+$\Delta H_{\mathrm{f}}^{0} \mathrm{CO}_{2}(\mathrm{~g})=-393.5 \mathrm{~kJ} / \mathrm{mol}$
+$\Delta H_{\mathrm{f}}^{0} \mathrm{H}_{2} \mathrm{O}(\ell)=-285.8 \mathrm{~kJ} / \mathrm{mol}$
+42. The thermite reaction, used for welding iron, is the reaction of $\mathrm{Fe}_{3} \mathrm{O}_{4}$ with Al .
+
+$$
+8 \mathrm{Al}(\mathrm{~s})+3 \mathrm{Fe}_{3} \mathrm{O}_{4}(\mathrm{~s}) \longrightarrow 4 \mathrm{Al}_{2} \mathrm{O}_{3}(\mathrm{~s})+9 \mathrm{Fe}(\mathrm{~s})
+$$
+
+
+Sucrose, $\mathrm{C}_{12} \mathrm{H}_{22} \mathrm{O}_{11}$
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-51.jpg?height=193&width=206&top_left_y=1660&top_left_x=1399)
+Tristearin, $\mathrm{C}_{57} \mathrm{H}_{110} \mathrm{O}_{6}$
+
+Because this large amount of heat cannot be rapidly dissipated to the surroundings, the reacting mass may reach temperatures near $3000 .^{\circ} \mathrm{C}$. How much heat is released by the reaction of 27.6 g of Al with 69.12 g of $\mathrm{Fe}_{3} \mathrm{O}_{4}$ ?
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-51.jpg?height=712&width=488&top_left_y=467&top_left_x=1129)
+43. When a welder uses an acetylene torch, the combustion of acetylene liberates the intense heat needed for welding metals together. The equation for this combustion reaction is
+
+$$
+2 \mathrm{C}_{2} \mathrm{H}_{2}(\mathrm{~g})+5 \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 4 \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\mathrm{~g})
+$$
+
+The heat of combustion of acetylene is $-1255.5 \mathrm{~kJ} / \mathrm{mol}$ of $\mathrm{C}_{2} \mathrm{H}_{2}$. How much heat is liberated when 1.731 kg of $\mathrm{C}_{2} \mathrm{H}_{2}$ is burned?
+44. \$ Write balanced equations for the oxidation of sucrose (a carbohydrate) and tristearin (a fat). Assume that each reacts with $\mathrm{O}_{2}(\mathrm{~g})$, producing $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$.
+
+Use tabulated bond energies to estimate $\Delta H_{\mathrm{rxn}}^{0}$ for each reaction in $\mathrm{kJ} / \mathrm{mol}$ (ignoring phase changes). Convert to $\mathrm{kJ} / \mathrm{g}$ and $\mathrm{kcal} / \mathrm{g}$. Which has the greater energy density?
+45. Natural gas is mainly methane, $\mathrm{CH}_{4}(\mathrm{~g})$. Assume that gasoline is octane, $\mathrm{C}_{8} \mathrm{H}_{18}(\ell)$, and that kerosene is $\mathrm{C}_{10} \mathrm{H}_{22}(\ell)$. (a) Write the balanced equations for the combustion of each of these three hydrocarbons in excess $\mathrm{O}_{2}$. The products are $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$. (b) Calculate at $25^{\circ} \mathrm{C}$ for each combustion reaction. $\Delta H_{\mathrm{f}}^{0}$ for $\mathrm{C}_{10} \mathrm{H}_{22}$ is $-300.9 \mathrm{~kJ} / \mathrm{mol}$. (c) When burned at standard conditions, which of these three fuels would produce the most heat per mole? (d) When burned at standard conditions, which of the three would produce the most heat per gram?
+
+**Bond Energies**
+
+46. (a) How is the heat released or absorbed in a gas phase reaction related to bond energies of products and reactants?
+(b) Hess's Law states that
+
+$$
+\Delta H_{\mathrm{rxn}}^{0}=\Sigma n \Delta H_{\mathrm{f} \text { products }}^{0}-\Sigma n \Delta H_{\mathrm{f} \text { reactants }}^{0}
+$$
+
+The relationship between $\Delta H_{\mathrm{rxn}}^{0}$ and bond energies for a gas phase reaction is
+$\Delta H_{\mathrm{rxn}}^{0}=\Sigma$ bond energies ${ }_{\text {reactants }}-\Sigma$ bond energies ${ }_{\text {products }}$
+It is not true, in general, that $\Delta H_{\mathrm{f}}^{0}$ for a substance is equal to the negative of the sum of the bond energies of the substance. Why?
+47. (a) Suggest a reason for the fact that different amounts of energy are required for the successive removal of the three hydrogen atoms of an ammonia molecule, even though all $\mathrm{N}-\mathrm{H}$ bonds in ammonia are equivalent. (b) Suggest why the $\mathrm{N}-\mathrm{H}$ bonds in different compounds such as ammonia, $\mathrm{NH}_{3}$; methylamine, $\mathrm{CH}_{3} \mathrm{NH}_{2}$; and ethylamine, $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{NH}_{2}$, have slightly different bond energies.
+48. Use tabulated bond energies to estimate the enthalpy of reaction for each of the following gas phase reactions.
+(a) $\mathrm{H}_{2} \mathrm{C}=\mathrm{CH}_{2}+\mathrm{Br}_{2} \longrightarrow \mathrm{BrH}_{2} \mathrm{C}-\mathrm{CH}_{2} \mathrm{Br}$
+(b) $\mathrm{H}_{2} \mathrm{O}_{2} \longrightarrow \mathrm{H}_{2} \mathrm{O}+\frac{1}{2} \mathrm{O}_{2}$
+49. Use tabulated bond energies to estimate the enthalpy of reaction for each of the following gas phase reactions.
+(a) $\mathrm{N}_{2}+3 \mathrm{H}_{2} \longrightarrow 2 \mathrm{NH}_{3}$
+(b) $\mathrm{CH}_{4}+\mathrm{Cl}_{2} \longrightarrow \mathrm{CH}_{3} \mathrm{Cl}+\mathrm{HCl}$
+(c) $\mathrm{CO}+\mathrm{H}_{2} \mathrm{O} \longrightarrow \mathrm{CO}_{2}+\mathrm{H}_{2}$
+50. Use the bond energies listed in Table 15-2 to estimate the heat of reaction for
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-52.jpg?height=155&width=742&top_left_y=1425&top_left_x=172)
+51. Estimate $\Delta H$ for the burning of one mole of butane, using the bond energies listed in Tables 15-2 and 15-3.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-52.jpg?height=146&width=602&top_left_y=1686&top_left_x=227)
+
+$$
+4 \mathrm{O}=\mathrm{C}=\mathrm{O}(\mathrm{~g})+5 \mathrm{H}-\mathrm{O}-\mathrm{H}(\mathrm{~g})
+$$
+
+52. (a) Use the bond energies listed in Table 15-2 to estimate the heats of formation of $\mathrm{HCl}(\mathrm{g})$ and $\mathrm{HF}(\mathrm{g})$. (b) Compare your answers to the standard heats of formation in Appendix K.
+53. (a) Use the bond energies listed in Table 15-2 to estimate the heats of formation of $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ and $\mathrm{O}_{3}(\mathrm{~g})$. (b) Compare your answers to the standard heats of formation in Appendix K.
+54. Using data in Appendix K, calculate the average $\mathrm{P}-\mathrm{Cl}$ bond energy in $\mathrm{PCl}_{3}(\mathrm{~g})$.
+55. Using data in Appendix K, calculate the average $\mathrm{P}-\mathrm{H}$ bond energy in $\mathrm{PH}_{3}(\mathrm{~g})$.
+56. Using data in Appendix K, calculate the average $\mathrm{P}-\mathrm{Cl}$ bond energy in $\mathrm{PCl}_{5}(\mathrm{~g})$. Compare your answer with the
+57. A Methane undergoes several different exothermic reactions with gaseous chlorine. One of these forms chloroform, $\mathrm{CHCl}_{3}(\mathrm{~g})$.
+
+$$
+\begin{aligned}
+\mathrm{CH}_{4}(\mathrm{~g})+3 \mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CHCl}_{3}(\mathrm{~g})+3 \mathrm{HCl}(\mathrm{~g}) & \\
+\Delta H_{\mathrm{rxn}}^{0} & =-305.2 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+Average bond energies per mole of bonds are: $\mathrm{C}-\mathrm{H}= 413 \mathrm{~kJ} ; \mathrm{Cl}-\mathrm{Cl}=242 \mathrm{~kJ} ; \mathrm{H}-\mathrm{Cl}=432 \mathrm{~kJ}$. Use these to calculate the average $\mathrm{C}-\mathrm{Cl}$ bond energy in chloroform. Compare this with the value in Table 15-2.
+58. A Ethylamine undergoes an endothermic gas phase dissociation to produce ethylene (or ethene) and ammonia.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-52.jpg?height=191&width=711&top_left_y=741&top_left_x=1020)
+
+The following average bond energies per mole of bonds are given: $\mathrm{C}-\mathrm{H}=413 \mathrm{~kJ} ; \mathrm{C}-\mathrm{C}=346 \mathrm{~kJ} ; \mathrm{C}=\mathrm{C}=602 \mathrm{kJ} ; \mathrm{N}-\mathrm{H}=391 \mathrm{~kJ}$. Calculate the $\mathrm{C}-\mathrm{N}$ bond energy in ethylamine. Compare this with the value in Table 15-2.
+
+**Calorimetry**
+
+59. What is a coffee-cup calorimeter? How do coffee-cup calorimeters give us useful information?
+60. A calorimeter contained 75.0 g of water at $16.95^{\circ} \mathrm{C}$. A $93.3-\mathrm{g}$ sample of iron at $65.58^{\circ} \mathrm{C}$ was placed in it, giving a final temperature of $19.68^{\circ} \mathrm{C}$ for the system. Calculate the heat capacity of the calorimeter. Specific heats are $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$ for $\mathrm{H}_{2} \mathrm{O}$ and $0.444 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$ for Fe .
+61. A student wishes to determine the heat capacity of a coffee-cup calorimeter. After she mixes 100.0 g of water at $58.5^{\circ} \mathrm{C}$ with 100.0 g of water, already in the calorimeter, at $22.8^{\circ} \mathrm{C}$, the final temperature of the water is $39.7^{\circ} \mathrm{C}$.
+(a) Calculate the heat capacity of the calorimeter in $\mathrm{J} /{ }^{\circ} \mathrm{C}$.
+
+Use $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$ as the specific heat of water. (b) Why is it more useful to express the value in $\mathrm{J} /{ }^{\circ} \mathrm{C}$ rather than units of $\mathrm{J} /\left(\mathrm{g}\right.$ calorimeter $\left.\cdot{ }^{\circ} \mathrm{C}\right)$ ?
+62. A coffee-cup calorimeter is used to determine the specific heat of a metallic sample. The calorimeter is filled with 50.0 mL of water at $25.0^{\circ} \mathrm{C}$ (density $=0.997 \mathrm{~g} / \mathrm{mL}$ ). A 36.5-gram sample of the metallic material is taken from water boiling at $100.0^{\circ} \mathrm{C}$ and placed in the calorimeter. The equilibrium temperature of the water and sample is $32.5^{\circ} \mathrm{C}$. The calorimeter constant is known to be $1.87 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. Calculate the specific heat of the metallic material.
+63. A 5.1-gram piece of gold jewelry is removed from water at $100.0^{\circ} \mathrm{C}$ and placed in a coffee-cup calorimeter containing 16.9 g of water at $22.5^{\circ} \mathrm{C}$. The equilibrium temperature of the water and jewelry is $23.2^{\circ} \mathrm{C}$. The calorimeter constant is known from calibration experiments to be $1.54 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. What is the specific heat of this piece of jewelry? The specific heat of pure gold is $0.129 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$. Is the jewelry pure gold?
+64. A coffee-cup calorimeter having a heat capacity of $472 \mathrm{~J} /{ }^{\circ} \mathrm{C}$ is used to measure the heat evolved when the following aqueous solutions, both initially at $22.6^{\circ} \mathrm{C}$, are mixed: 100. g of solution containing 6.62 g of lead(II)
+of sodium iodide, NaI . The final temperature is $24.2^{\circ} \mathrm{C}$. Assume that the specific heat of the mixture is the same as that for water, $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$. The reaction is
+$\mathrm{Pb}\left(\mathrm{NO}_{3}\right)_{2}(\mathrm{aq})+2 \mathrm{NaI}(\mathrm{aq}) \longrightarrow \mathrm{PbI}_{2}(\mathrm{~s})+2 \mathrm{NaNO}_{3}(\mathrm{aq})$
+(a) Calculate the heat evolved in the reaction. (b) Calculate the $\Delta H$ for the reaction under the conditions of the experiment.
+65. A coffee-cup calorimeter is used to determine the heat of reaction for the acid-base neutralization
+
+$$
+\mathrm{CH}_{3} \mathrm{COOH}(\mathrm{aq})+\mathrm{NaOH}(\mathrm{aq}) \underset{\mathrm{NaCH}_{3} \mathrm{COO}(\mathrm{aq})+\mathrm{H}_{2} \mathrm{O}(\ell)}{\longrightarrow}
+$$
+
+When we add 20.00 mL of $0.625 M \mathrm{NaOH}$ at $21.400^{\circ} \mathrm{C}$ to 30.00 mL of $0.500 M \mathrm{CH}_{3} \mathrm{COOH}$ already in the calorimeter at the same temperature, the resulting temperature is observed to be $24.347^{\circ} \mathrm{C}$. The heat capacity of the calorimeter has previously been determined to be $27.8 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. Assume that the specific heat of the mixture is the same as that of water, $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$, and that the density of the mixture is $1.02 \mathrm{~g} / \mathrm{mL}$. (a) Calculate the amount of heat given off in the reaction. (b) Determine $\Delta H$ for the reaction under the conditions of the experiment.
+66. In a bomb calorimeter compartment surrounded by 945 g of water, the combustion of 1.048 g of benzene, $\mathrm{C}_{6} \mathrm{H}_{6}(\ell)$, raised the temperature of the water from $23.640^{\circ} \mathrm{C}$ to $32.692^{\circ} \mathrm{C}$. The heat capacity of the calorimeter is $891 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. (a) Write the balanced equation for the combustion reaction, assuming that $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$ are the only products. (b) Use the calorimetric data to calculate $\Delta E$ for the combustion of benzene in $\mathrm{kJ} / \mathrm{g}$ and in $\mathrm{kJ} / \mathrm{mol}$.
+67. A 2.00-g sample of hydrazine, $\mathrm{N}_{2} \mathrm{H}_{4}$, is burned in a bomb calorimeter that contains $6.40 \times 10^{3} \mathrm{~g}$ of $\mathrm{H}_{2} \mathrm{O}$, and the temperature increases from $25.00^{\circ} \mathrm{C}$ to $26.17^{\circ} \mathrm{C}$. The heat capacity of the calorimeter is $3.76 \mathrm{~kJ} /{ }^{\circ} \mathrm{C}$. Calculate $\Delta E$ for the combustion of $\mathrm{N}_{2} \mathrm{H}_{4}$ in $\mathrm{kJ} / \mathrm{g}$ and in $\mathrm{kJ} / \mathrm{mol}$.
+68. A A strip of magnesium metal having a mass of 1.22 g dissolves in $100 . \mathrm{mL}$ of $6.02 M \mathrm{HCl}$, which has a specific gravity of 1.10 . The hydrochloric acid is initially at $23.0^{\circ} \mathrm{C}$, and the resulting solution reaches a final temperature of $45.5^{\circ} \mathrm{C}$. The heat capacity of the calorimeter in which the reaction occurs is $562 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. Calculate $\Delta H$ for the reaction under the conditions of the experiment, assuming the specific heat of the final solution is the same as that for water, $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$.
+
+$$
+\mathrm{Mg}(\mathrm{~s})+2 \mathrm{HCl}(\mathrm{aq}) \longrightarrow \mathrm{MgCl}_{2}(\mathrm{aq})+\mathrm{H}_{2}(\mathrm{~g})
+$$
+
+69. When 3.16 g of salicylic acid, $\mathrm{C}_{7} \mathrm{H}_{6} \mathrm{O}_{3}$, is burned in a bomb calorimeter containing 5.00 kg of water originally at $23.00^{\circ} \mathrm{C}, 69.3 \mathrm{~kJ}$ of heat is evolved. The calorimeter constant is $3255 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. Calculate the final temperature.
+70. A $6.620-\mathrm{g}$ sample of decane, $\mathrm{C}_{10} \mathrm{H}_{22}(\ell)$, was burned in a bomb calorimeter whose heat capacity had been determined to be $2.45 \mathrm{~kJ} /{ }^{\circ} \mathrm{C}$. The temperature of 1250.0 g of water rose from $24.6^{\circ} \mathrm{C}$ to $26.4^{\circ} \mathrm{C}$. Calculate $\Delta E$ for the reaction in joules per gram of decane and in kilojoules per mole of decane. The specific heat of water is $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$.
+71. A nutritionist determines the caloric value of a $10.00-\mathrm{g}$ sample of beef fat by burning it in a bomb calorimeter. The calorimeter held 2.500 kg of water, the heat capacity of the
+increased from $25.0^{\circ} \mathrm{C}$ to $56.9^{\circ} \mathrm{C}$. (a) Calculate the number of joules released per gram of beef fat. (b) One nutritional Calorie is 1 kcal or 4184 joules. What is the dietary, caloric value of beef fat, in nutritional Calories per gram?
+
+**Internal Energy and Changes in Internal Energy**
+
+72. (a) What are the sign conventions for $q$, the amount of heat added to or removed from a system? (b) What are the sign conventions for $w$, the amount of work done on or by a system?
+73. What happens to $\Delta E$ for a system during a process in which (a) $q<0$ and $w<0$, (b) $q=0$ and $w>0$, and (c) $q>0$ and $w<0$.
+74. Ammonium nitrate, commonly used as a fertilizer, decomposes explosively:
+
+$$
+2 \mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s}) \longrightarrow 2 \mathrm{~N}_{2}(\mathrm{~g})+4 \mathrm{H}_{2} \mathrm{O}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})
+$$
+
+(This reaction has been responsible for several major explosions.) For this reaction:
+(a) Is work (w) positive, negative, or 0?
+(b) If $w<0$, is work done on the system or by the system?
+75. A system performs 720.L. atm of pressure-volume work $(1 \mathrm{~L} \cdot \mathrm{~atm}=101.325 \mathrm{~J})$ on its surroundings and absorbs 5750. J of heat from its surroundings. What is the change in internal energy of the system?
+76. A system receives 96 J of electrical work, performs 257 J of pressure-volume work, and releases 175 J of heat. What is the change in internal energy of the system?
+77. For each of the following chemical and physical changes carried out at constant pressure, state whether work is done by the system on the surroundings or by the surroundings on the system, or whether the amount of work is negligible.
+(a) $\mathrm{C}_{6} \mathrm{H}_{6}(\ell) \longrightarrow \mathrm{C}_{6} \mathrm{H}_{6}(\mathrm{~g})$
+(b) $\frac{1}{2} \mathrm{~N}_{2}(\mathrm{~g})+\frac{3}{2} \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{NH}_{3}(\mathrm{~g})$
+(c) $\mathrm{SiO}_{2}(\mathrm{~s})+3 \mathrm{C}(\mathrm{s}) \longrightarrow \mathrm{SiC}(\mathrm{s})+2 \mathrm{CO}(\mathrm{g})$
+78. Repeat Exercise 77 for
+(a) $2 \mathrm{SO}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{SO}_{3}(\mathrm{~g})$
+(b) $\mathrm{CaCO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{CaO}(\mathrm{s})+\mathrm{CO}_{2}(\mathrm{~g})$
+(c) $\mathrm{CO}_{2}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\ell)+\mathrm{CaCO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{Ca}^{2+}(\mathrm{aq})+2 \mathrm{HCO}_{3}{ }^{-}(\mathrm{aq})$
+79. Assuming that the gases are ideal, calculate the amount of work done (in joules) in each of the following reactions. In each case, is the work done on or by the system? (a) A reaction in the Mond process for purifying nickel that involves formation of the gas nickel(0) tetracarbonyl at $50-100^{\circ} \mathrm{C}$. Assume one mole of nickel is used and a constant temperature of $75^{\circ} \mathrm{C}$ is maintained.
+
+$$
+\mathrm{Ni}(\mathrm{~s})+4 \mathrm{CO}(\mathrm{~g}) \longrightarrow \mathrm{Ni}(\mathrm{CO})_{4}(\mathrm{~g})
+$$
+
+(b) The conversion of mene mole of brown nitrogen dioxide into colorless dinitrogen tetroxide at $8.0^{\circ} \mathrm{C}$.
+
+$$
+2 \mathrm{NO}_{2}(\mathrm{~g}) \longrightarrow \mathrm{N}_{2} \mathrm{O}_{4}(\mathrm{~g})
+$$
+
+80. Assuming that the gases are ideal, calculate the amount of work done (in joules) in each of the following reactions. In each case, is the work done on or $b y$ the system? (a) The oxidation of one mole of $\mathrm{HCl}(\mathrm{g})$ at $200^{\circ} \mathrm{C}$.
+(b) The decomposition of one mole of nitric oxide (an air pollutant) at $300 .{ }^{\circ} \mathrm{C}$.
+
+$$
+2 \mathrm{NO}(\mathrm{~g}) \longrightarrow \mathrm{N}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})
+$$
+
+81. $\Delta$ When an ideal gas expands at constant temperature, there is no change in molecular kinetic energy (kinetic energy is proportional to temperature), and there is no change in potential energy due to intermolecular attractions (these are zero for an ideal gas). Thus for the isothermal (constant temperature) expansion of an ideal gas, $\Delta E=0$. Suppose we allow an ideal gas to expand isothermally from 2.50 L to 5.50 L in two steps: (a) against a constant external pressure of 3.50 atm until equilibrium is reached, then (b) against a constant external pressure of 2.50 atm until equilibrium is reached. Calculate $q$ and $w$ for this two-step expansion.
+
+**Entropy and Entropy Changes**
+
+82. A car uses gasoline as a fuel. Describe the burning of the fuel in terms of chemical and physical changes. Relate your answer to the Second Law of Thermodynamics.
+83. State the Second Law of Thermodynamics. Why can't we use $\Delta S_{\text {univ }}$ directly as a measure of the spontaneity of a reaction?
+84. State the Third Law of Thermodynamics. What does it mean?
+85. Explain why $\Delta S$ may be referred to as a contributor to spontaneity.
+86. Suppose you flip a coin. (a) What is the probability that it will come up heads? (b) What is the probability that it will come up heads two times in a row? (c) What is the
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-54.jpg?height=188&width=150&top_left_y=1589&top_left_x=337)
+A
+
+probability that it will come up heads ten times in a row?
+87. Consider two equal-sized flasks connected as shown in the figure.
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-54.jpg?height=188&width=146&top_left_y=1589&top_left_x=556)
+B
+
+(a) Suppose you put one molecule inside. What is the probability that the molecule will be in flask A? What is the probability that it will be in flask B?
+(b) If you put 100 molecules into the two-flask system, what is the most likely distribution of molecules? Which distribution corresponds to the highest entropy?
+(c) Write a mathematical expression for the probability that all 100 molecules in part (b) will be in flask A. (You do not need to evaluate this expression.)
+88. Suppose you have two identical red molecules labeled A and B , and two identical blue molecules labeled C and D. Draw a simple two-flask diagram as in the figure for Exercise 87, and then draw all possible arrangements of the four molecules in the two flasks.
+(a) How many different arrangements are possible?
+(h) How many of the arranopments have a mixture of
+(c) What is the probability that at least one of the flasks contains a mixture of unlike molecules?
+(d) What is the probability that the gases are not mixed (each flask contains only like molecules)?
+89. For each process, tell whether the entropy change of the system is positive or negative. (a) Water vapor (the system) condenses as droplets on a cold windowpane.
+(b) Water boils. (c) A can of carbonated beverage loses its fizz. (Consider the beverage, but not the can, as the system. What happens to the entropy of the dissolved gas?)
+90. For each process, tell whether the entropy change of the system is positive or negative. (a) A glassblower heats glass (the system) to its softening temperature. (b) A teaspoon of sugar dissolves in a cup of coffee. (The system consists of both sugar and coffee.) (c) Calcium carbonate precipitates out of water in a cave to form stalactites and stalagmites. (Consider only the calcium carbonate to be the system.)
+91. For each of the following processes, tell whether the entropy of the universe increases, decreases, or remains constant: (a) melting one mole of ice to water at $0 .{ }^{\circ} \mathrm{C}$;
+(b) freezing one mole of water to ice at $0 .{ }^{\circ} \mathrm{C}$; (c) freezing one mole of water to ice at $-15^{\circ} \mathrm{C}$; (d) freezing one mole of water to ice at $0 .{ }^{\circ} \mathrm{C}$ and then cooling it to $-15^{\circ} \mathrm{C}$.
+92. A In which of the following changes is there an increase in entropy?
+(a) The freezing of water
+(b) The condensation of steam
+(c) The sublimation of dry ice, solid $\mathrm{CO}_{2}$
+(d) The separation of salts and pure water from seawater
+93. When solid sodium chloride is cooled from $25^{\circ} \mathrm{C}$ to $0 .{ }^{\circ} \mathrm{C}$, the entropy change is $-4.4 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$. Is this an increase or decrease in randomness? Explain this entropy change in terms of what happens in the solid at the molecular level.
+94. When a one-mole sample of argon gas at $0 .{ }^{\circ} \mathrm{C}$ is compressed to one half its original volume, the entropy change is $-5.76 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$. Is this an increase or a decrease in dispersal of energy? Explain this entropy change in terms of what happens in the gas at the molecular level.
+95. Which of the following processes are accompanied by an increase in entropy of the system? (No calculation is necessary.) (a) Dry ice, $\mathrm{CO}_{2}(\mathrm{~s})$, sublimes at $-78^{\circ} \mathrm{C}$ and then the resulting $\mathrm{CO}_{2}(\mathrm{~g})$ is warmed to $0^{\circ} \mathrm{C}$. (b) Water vapor forms snowflakes, $\mathrm{H}_{2} \mathrm{O}(\mathrm{s})$. (c) Iodine sublimes, $\mathrm{I}_{2}(\mathrm{~s}) \longrightarrow \mathrm{I}_{2}(\mathrm{~g})$. (d) White silver sulfate, $\mathrm{Ag}_{2} \mathrm{SO}_{4}$, precipitates from a solution containing silver ions and sulfate ions. (e) A partition is removed to allow two gases to mix.
+96. $\Delta$ Which of the following processes are accompanied by an increase in entropy of the system? (No calculation is necessary.) (a) Solid NaCl is dissolved in water at room temperature. (b) A saturated solution of NaCl is cooled, causing some solid NaCl to precipitate. (c) Water freezes.
+(d) Carbon tetrachloride, $\mathrm{CCl}_{4}$, evaporates. (e) The reaction $\mathrm{PCl}_{5}(\mathrm{~g}) \longrightarrow \mathrm{PCl}_{3}(\mathrm{~g})+\mathrm{Cl}_{2}(\mathrm{~g})$ occurs. (f) The reaction $\mathrm{PCl}_{3}(\mathrm{~g})+\mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow \mathrm{PCl}_{5}(\mathrm{~g})$ occurs.
+97. For each pair, tell which would have the greater absolute entropy per mole (standard molar entropy) at the same temperature. Give the reasons for your choice.
+(a) $\mathrm{NaCl}(\mathrm{s})$ or $\mathrm{CaO}(\mathrm{s})$
+(c) $\mathrm{AsH}_{3}(\mathrm{~g})$ or $\mathrm{Kr}(\mathrm{g})$
+(d) $\mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s})$ or $\mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{aq})$
+(e) $\mathrm{Ga}(\mathrm{s})$ or $\mathrm{Ga}(\ell)$
+98. For each pair, tell which would have the greater absolute entropy per mole (standard molar entropy) at the same temperature. Give the reasons for your choice.
+(a) $\mathrm{NaF}(\mathrm{s})$ or $\mathrm{MgO}(\mathrm{s})$
+(b) $\mathrm{Au}(\mathrm{s})$ or $\mathrm{Hg}(\ell)$
+(c) $\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$ or $\mathrm{H}_{2} \mathrm{~S}(\mathrm{~g})$
+(d) $\mathrm{CH}_{3} \mathrm{OH}(\ell)$ or $\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)$
+(e) $\mathrm{NaOH}(\mathrm{s})$ or $\mathrm{NaOH}(\mathrm{aq})$
+99. (a) For which change would the entropy change by the greatest amount: (i) condensation of mone mole of water vapor to make one mole of liquid water, or (ii) deposition of one mole of water vapor to make one mole of ice?
+(b) Would the entropy changes for the changes in (a) be positive or negative? Give reasons for your answer.
+100. Without doing a calculation predict whether the entropy change will be positive or negative when each reaction occurs in the direction it is written.
+(a) $\mathrm{C}_{3} \mathrm{H}_{6}(\mathrm{~g})+\mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{C}_{3} \mathrm{H}_{8}(\mathrm{~g})$
+(b) $\mathrm{N}_{2}(\mathrm{~g})+3 \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{NH}_{3}(\mathrm{~g})$
+(c) $\mathrm{CaCO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{CaO}(\mathrm{s})+\mathrm{CO}_{2}(\mathrm{~g})$
+(d) $\mathrm{Mg}(\mathrm{s})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{MgO}(\mathrm{s})$
+(e) $\mathrm{Ag}^{+}(\mathrm{aq})+\mathrm{Cl}^{-}(\mathrm{aq}) \longrightarrow \mathrm{AgCl}(\mathrm{s})$
+101. Without doing a calculation predict whether the entropy change will be positive or negative when each reaction occurs in the direction it is written.
+(a) $\mathrm{CH}_{3} \mathrm{OH}(\ell)+\frac{3}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\mathrm{g})$
+(b) $\mathrm{Br}_{2}(\ell)+\mathrm{H}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{HBr}(\mathrm{g})$
+(c) $\mathrm{Na}(\mathrm{s})+\frac{1}{2} \mathrm{~F}_{2}(\mathrm{~g}) \longrightarrow \mathrm{NaF}(\mathrm{s})$
+(d) $\mathrm{CO}_{2}(\mathrm{~g})+2 \mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CH}_{3} \mathrm{OH}(\ell)$
+(e) $\mathrm{NH}_{3}(\mathrm{~g}) \longrightarrow \mathrm{N}_{2}(\mathrm{~g})+3 \mathrm{H}_{2}(\mathrm{~g})$
+102. △ Consider the boiling of a pure liquid at constant pressure. Is each of the following greater than, less than, or equal to zero? (a) $\Delta S_{\text {sys }}$; (b) $\Delta H_{\text {sys }}$; (c) $\Delta T_{\text {sys }}$.
+103. Use $S^{0}$ data from Appendix K to calculate the value of $\Delta S_{298}^{0}$ for each of the following reactions. Compare the signs and magnitudes for these $\Delta S_{298}^{0}$ values and explain your observations.
+(a) $2 \mathrm{NO}(\mathrm{g})+\mathrm{H}_{2}(\mathrm{~g}) \longrightarrow \mathrm{N}_{2} \mathrm{O}(\mathrm{g})+\mathrm{H}_{2} \mathrm{O}(\mathrm{g})$
+(b) $2 \mathrm{~N}_{2} \mathrm{O}_{5}(\mathrm{~g}) \longrightarrow 4 \mathrm{NO}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})$
+(c) $\mathrm{NH}_{4} \mathrm{NO}_{3}(\mathrm{~s}) \longrightarrow \mathrm{N}_{2} \mathrm{O}(\mathrm{g})+2 \mathrm{H}_{2} \mathrm{O}(\mathrm{g})$
+104. Use $S^{0}$ data from Appendix K to calculate the value of $\Delta S_{298}^{0}$ for each of the following reactions. Compare the signs and magnitudes for these $\Delta S_{298}^{0}$ values and explain your observations.
+(a) $4 \mathrm{HCl}(\mathrm{g})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{Cl}_{2}(\mathrm{~g})+2 \mathrm{H}_{2} \mathrm{O}(\mathrm{g})$
+(b) $\mathrm{PCl}_{3}(\mathrm{~g})+\mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow \mathrm{PCl}_{5}(\mathrm{~g})$
+(c) $2 \mathrm{~N}_{2} \mathrm{O}(\mathrm{g}) \longrightarrow 2 \mathrm{~N}_{2}(\mathrm{~g})+\mathrm{O}_{2}(\mathrm{~g})$
+
+**Gibbs Free Energy Changes and Spontaneity**
+
+105. (a) What are the two factors that favor spontaneity of a process? (b) What is Gibbs free energy? What is change in Gibbs free energy? (c) Most spontaneous reactions are exothermic, but some are not. Explain. (d) Explain how the signs and magnitudes of $\Delta H$ and $\Delta S$ are related to the spontaneity of a process.
+or (c) spontaneous or nonspontaneous depending on the temperature and magnitudes of $\Delta H$ and $\Delta S$ ? (i) $\Delta H>0$, $\Delta S>0$; (ii) $\Delta H>0, \Delta S<0$; (iii) $\Delta H<0, \Delta S>0$; (iv) $\Delta H<0, \Delta S>0$
+106. Calculate $\Delta G^{\circ}$ at $45^{\circ} \mathrm{C}$ for reactions for which
+(a) $\Delta H^{\circ}=293 \mathrm{~kJ} ; \Delta S^{\circ}=-695 \mathrm{~J} / \mathrm{K}$.
+(b) $\Delta H^{\circ}=-1137 \mathrm{~kJ} ; \Delta S^{\circ}=0.496 \mathrm{~kJ} / \mathrm{K}$.
+(c) $\Delta H^{\circ}=-86.6 \mathrm{~kJ} ; \Delta S^{\circ}=-382 \mathrm{~J} / \mathrm{K}$.
+107. Evaluate $\Delta S^{0}$ at $25^{\circ} \mathrm{C}$ and 1 atm for the reaction:
+$\mathrm{S}^{0}, \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}: \underset{204.5}{\mathrm{SiH}_{4}(\mathrm{~g})}+\underset{205.0}{2 \mathrm{O}_{2}(\mathrm{~g})} \longrightarrow \underset{41.84}{\mathrm{SiO}_{2}(\mathrm{~s})}+\underset{69.91}{2 \mathrm{H}_{2} \mathrm{O}(\ell)}$
+108. The standard Gibbs free energy of formation is -286.06 $\mathrm{kJ} / \mathrm{mol}$ for $\mathrm{NaI}(\mathrm{s}),-261.90 \mathrm{~kJ} / \mathrm{mol}$ for $\mathrm{Na}^{+}(\mathrm{aq})$, and -51.57 $\mathrm{kJ} / \mathrm{mol}$ for $\mathrm{I}^{-}(\mathrm{aq})$ at $25^{\circ} \mathrm{C}$. Calculate $\Delta G^{0}$ for the reaction
+
+$$
+\mathrm{NaI}(\mathrm{~s}) \xrightarrow{\mathrm{H}_{2} \mathrm{O}} \mathrm{Na}^{+}(\mathrm{aq})+\mathrm{I}^{-}(\mathrm{aq})
+$$
+
+110. A Use the following equations to find $\Delta G_{\mathrm{f}}^{0}$ for $\operatorname{HBr}(\mathrm{g})$ at $25^{\circ} \mathrm{C}$.
+
+$$
+\begin{array}{ll}
+\mathrm{Br}_{2}(\ell) \longrightarrow \mathrm{Br}_{2}(\mathrm{~g}) & \Delta G^{0}=3.14 \mathrm{~kJ} / \mathrm{mol} \\
+\mathrm{HBr}(\mathrm{~g}) \longrightarrow \mathrm{H}(\mathrm{~g})+\mathrm{Br}(\mathrm{~g}) & \Delta G^{0}=339.09 \mathrm{~kJ} / \mathrm{mol} \\
+\mathrm{Br}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{Br}(\mathrm{~g}) & \Delta G^{0}=161.7 \mathrm{~kJ} / \mathrm{mol} \\
+\mathrm{H}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{H}(\mathrm{~g}) & \Delta G^{0}=406.494 \mathrm{~kJ} / \mathrm{mol}
+\end{array}
+$$
+
+111. Use values of standard free energy of formation, $\Delta G_{\mathrm{f}}^{0}$, from Appendix K to calculate the standard free energy change for each of the following reactions at $25^{\circ} \mathrm{C}$ and 1 atm .
+(a) $3 \mathrm{NO}_{2}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow 2 \mathrm{HNO}_{3}(\ell)+\mathrm{NO}(\mathrm{g})$
+(b) $\mathrm{SnO}_{2}(\mathrm{~s})+2 \mathrm{CO}(\mathrm{g}) \longrightarrow 2 \mathrm{CO}_{2}(\mathrm{~g})+\mathrm{Sn}(\mathrm{s})$
+(c) $2 \mathrm{Na}(\mathrm{s})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow 2 \mathrm{NaOH}(\mathrm{aq})+\mathrm{H}_{2}(\mathrm{~g})$
+112. Make the same calculations as in Exercise 111, using values of standard enthalpy of formation and absolute entropy instead of values of $\Delta G_{\mathrm{f}}^{0}$.
+113. Calculate $\Delta G^{0}$ at 298 K for the reaction:
+
+$$
+\begin{array}{ccc}
+\mathrm{P}_{4} \mathrm{O}_{10}(\mathrm{~s})+6 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow & 4 \mathrm{H}_{3} \mathrm{PO}_{4}(\mathrm{~s}) \\
+-2984 & -285.8 & -1281 \\
+228.9 & 69.91 & 110.5
+\end{array}
+$$
+
+**Temperature Range of Spontaneity**
+
+114. Are the following statements true or false? Justify your answers. (a) An exothermic reaction is always spontaneous. (b) If $\Delta H$ and $\Delta S$ are both positive, then $\Delta G$ will decrease when the temperature increases. (c) A reaction for which $\Delta S_{\text {sys }}$ is positive is spontaneous.
+115. For the reaction
+
+$$
+\mathrm{C}(\mathrm{~s})+\mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}_{2}(\mathrm{~g})
+$$
+
+$\Delta H^{0}=-393.51 \mathrm{~kJ} / \mathrm{mol}$ and $\Delta S^{0}=2.86 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ at
+$25^{\circ} \mathrm{C}$. (a) Does this reaction become more or less favorable as the temperature increases? (b) For the reaction
+
+$$
+\mathrm{C}(\mathrm{~s})+\frac{1}{2} \mathrm{O}_{2}(\mathrm{~g}) \longrightarrow \mathrm{CO}(\mathrm{~g})
+$$
+
+$\Delta H^{0}=-110.52 \mathrm{~kJ} / \mathrm{mol}$ and $\Delta S^{0}=89.36 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{K}$ at $25^{\circ} \mathrm{C}$. Does this reaction become more or less favorable as the temperature increases? (c) Compare the temperature dependencies of these reactions.
+116. (a) Calculate $\Delta H^{0}, \Delta G^{0}$, and $\Delta S^{0}$ for the reaction
+
+$$
+2 \mathrm{H}_{2} \mathrm{O}_{2}(\ell) \longrightarrow 2 \mathrm{H}_{2} \mathrm{O}(\ell)+\mathrm{O}_{2}(\mathrm{~g}) \text { at } 25^{\circ} \mathrm{C} .
+$$
+
+117. When is it true that $\Delta S=\frac{\Delta H}{T}$ ?
+118. Dissociation reactions are those in which molecules break apart. Why do high temperatures favor the spontaneity of most dissociation reactions?
+119. Estimate the temperature range over which each of the following standard reactions is spontaneous.
+(a) $2 \mathrm{Al}(\mathrm{s})+3 \mathrm{Cl}_{2}(\mathrm{~g}) \longrightarrow 2 \mathrm{AlCl}_{3}(\mathrm{~s})$
+(b) $2 \mathrm{NOCl}(\mathrm{g}) \longrightarrow 2 \mathrm{NO}(\mathrm{g})+\mathrm{Cl}_{2}(\mathrm{~g})$
+(c) $4 \mathrm{NO}(\mathrm{g})+6 \mathrm{H}_{2} \mathrm{O}(\mathrm{g}) \longrightarrow 4 \mathrm{NH}_{3}(\mathrm{~g})+5 \mathrm{O}_{2}(\mathrm{~g})$
+(d) $2 \mathrm{PH}_{3}(\mathrm{~g}) \longrightarrow 3 \mathrm{H}_{2}(\mathrm{~g})+2 \mathrm{P}(\mathrm{g})$
+120. Estimate the temperature range over which each of the following standard reactions is spontaneous. (a) The reaction by which sulfuric acid droplets from polluted air convert water-insoluble limestone or marble (calcium carbonate) to slightly soluble calcium sulfate, which is slowly washed away by rain:
+$\mathrm{CaCO}_{3}(\mathrm{~s})+\mathrm{H}_{2} \mathrm{SO}_{4}(\ell) \longrightarrow \mathrm{CaSO}_{4}(\mathrm{~s})+\mathrm{H}_{2} \mathrm{O}(\ell)+\mathrm{CO}_{2}(\mathrm{~g})$
+(b) The reaction by which Antoine Lavoisier achieved the first laboratory preparation of oxygen in the late eighteenth century: the thermal decomposition of the red-orange powder, mercury(II) oxide, to oxygen and the silvery liquid metal, mercury:
+
+$$
+2 \mathrm{HgO}(\mathrm{~s}) \longrightarrow 2 \mathrm{Hg}(\ell)+\mathrm{O}_{2}(\mathrm{~g})
+$$
+
+(c) The reaction of coke (carbon) with carbon dioxide to form the reducing agent, carbon monoxide, which is used to reduce some metal ores to metals:
+
+$$
+\mathrm{CO}_{2}(\mathrm{~g})+\mathrm{C}(\mathrm{~s}) \longrightarrow 2 \mathrm{CO}(\mathrm{~g})
+$$
+
+(d) The reverse of the reaction by which iron rusts:
+
+$$
+2 \mathrm{Fe}_{2} \mathrm{O}_{3}(\mathrm{~s}) \longrightarrow 4 \mathrm{Fe}(\mathrm{~s})+3 \mathrm{O}_{2}(\mathrm{~g})
+$$
+
+121. Estimate the normal boiling point of pentacarbonyliron( 0 ), $\mathrm{Fe}(\mathrm{CO})_{5}$, at 1 atm pressure, using Appendix K .
+122. (a) Estimate the normal boiling point of water, at 1 atm pressure, using Appendix K. (b) Compare the temperature obtained with the known boiling point of water. Can you explain the discrepancy?
+123. Sublimation and subsequent deposition onto a cold surface are a common method of purification of $I_{2}$ and other solids that sublime readily. Estimate the sublimation temperature (solid to vapor) of the dark violet solid iodine, $\mathrm{I}_{2}$, at 1 atm pressure, using the data of Appendix K.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-56.jpg?height=349&width=387&top_left_y=1922&top_left_x=307)
+124. Some metal oxides can be decomposed to the metal and oxygen under reasonable conditions. Is the decomposition of nickel(II) oxide product-favored at $25^{\circ} \mathrm{C}$ ?
+
+If not, can it become so if the temperature is raised? At what temperature does the reaction become product-favored?
+125. Calculate $\Delta H^{\circ}$ and $\Delta S^{\circ}$ for the reaction of tin(IV) oxide with carbon.
+
+$$
+\mathrm{SnO}_{2}(\mathrm{~s})+\mathrm{C}(\mathrm{~s}) \longrightarrow \mathrm{Sn}(\mathrm{~s})+\mathrm{CO}_{2}(\mathrm{~g})
+$$
+
+(a) Is the reaction spontaneous under standard conditions at 298 K ?
+(b) Is the reaction predicted to be spontaneous at higher temperatures?
+126. Calculate $\Delta S^{\circ}$ system at $25^{\circ} \mathrm{C}$ for the reaction
+
+$$
+\mathrm{C}_{2} \mathrm{H}_{4}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\mathrm{~g}) \longrightarrow \mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}(\ell)
+$$
+
+Can you tell from the result of this calculation whether this reaction is product-favored? If you cannot tell, what additional information do you need? Obtain that information and determine whether the reaction is product-favored.
+
+## Mixed Exercises
+
+127. An ice calorimeter, shown below, can be used to measure the amount of heat released or absorbed by a reaction that is carried out at a constant temperature of $0 .{ }^{\circ} \mathrm{C}$. If heat is transferred from the system to the bath, some of the ice melts. A given mass of liquid water has a smaller volume than the same mass of ice, so the total volume of the ice and water mixture decreases. Measuring the volume decrease using the scale at the left indicates the amount of heat released by the reacting system. As long as some ice remains in the bath, the temperature remains at $0 .{ }^{\circ} \mathrm{C}$. In Example 15-2 we saw that the reaction
+$\mathrm{CuSO}_{4}(\mathrm{aq})+2 \mathrm{NaOH}(\mathrm{aq}) \longrightarrow \mathrm{Cu}(\mathrm{OH})_{2}(\mathrm{~s})+\mathrm{Na}_{2} \mathrm{SO}_{4}(\mathrm{aq})$
+releases 846 J of heat at constant temperature and pressure when 50.0 mL of $0.400 M \mathrm{CuSO}_{4}$ solution and 50.0 mL of $0.600 M \mathrm{NaOH}$ solution are allowed to react. (Because no gases are involved in the reaction, the volume change of the reaction mixture is negligible.) Calculate the change in volume of the ice and water mixture that would be observed if we carried out the same experiment in an ice calorimeter. The density of $\mathrm{H}_{2} \mathrm{O}(\ell)$ at $0 .{ }^{\circ} \mathrm{C}$ is 0.99987 $\mathrm{g} / \mathrm{mL}$ and that of ice is $0.917 \mathrm{~g} / \mathrm{mL}$. The heat of fusion of ice at $0^{\circ} \mathrm{C}$ is $334 \mathrm{~J} / \mathrm{g}$.
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-56.jpg?height=496&width=435&top_left_y=1918&top_left_x=1129)
+128. It is difficult to prepare many compounds directly from their elements, so $\Delta H_{\mathrm{f}}^{0}$ values for these compounds cannot be measured directly. For many organic compounds, it is easier to measure the standard enthalpy of combustion by reaction of the compound with excess $\mathrm{O}_{2}(\mathrm{~g})$ to form $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$. From the following standard enthalpies of combustion at $25^{\circ} \mathrm{C}$, determine $\Delta H_{\mathrm{f}}^{0}$ for the compound. (a) cyclohexane, $\mathrm{C}_{6} \mathrm{H}_{12}(\ell)$, a useful organic solvent: $\Delta H_{\text {combustion }}^{0}=-3920 . \mathrm{kJ} / \mathrm{mol}$; (b) phenol, $\mathrm{C}_{6} \mathrm{H}_{5} \mathrm{OH}(\mathrm{s})$, used as a disinfectant and in the production of thermo-setting plastics: $\Delta H_{\text {combustion }}^{0}=-3053 \mathrm{~kJ} / \mathrm{mol}$.
+129. A Standard entropy changes cannot be measured directly in the laboratory. They are calculated from experimentally obtained values of $\Delta G^{0}$ and $\Delta H^{0}$. From the data given here, calculate $\Delta S^{0}$ at 298 K for each of the following reactions.
+(a) $\mathrm{OF}_{2}(\mathrm{~g})+\mathrm{H}_{2} \mathrm{O}(\mathrm{g}) \longrightarrow \mathrm{O}_{2}(\mathrm{~g})+2 \mathrm{HF}(\mathrm{g})$
+
+$$
+\Delta H^{0}=-323.2 \mathrm{~kJ} / \mathrm{mol} \quad \Delta G^{0}=-358.4 \mathrm{~kJ} / \mathrm{mol}
+$$
+
+(b) $\mathrm{CaC}_{2}(\mathrm{~s})+2 \mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{~s})+\mathrm{C}_{2} \mathrm{H}_{2}(\mathrm{~g})$
+$\Delta H^{0}=-125.4 \mathrm{~kJ} / \mathrm{mol} \quad \Delta G^{0}=-145.4 \mathrm{~kJ} / \mathrm{mol}$
+(c) $\mathrm{CaO}(\mathrm{s})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{aq})$
+$\Delta H^{0}=81.5 \mathrm{~kJ} / \mathrm{mol} \quad \Delta G^{0}=-26.20 \mathrm{~kJ} / \mathrm{mol}$
+130. $\Delta$ Calculate $q, w$, and $\Delta E$ for the vaporization of 12.5 g of liquid ethanol $\left(\mathrm{C}_{2} \mathrm{H}_{5} \mathrm{OH}\right)$ at 1.00 atm at $78.0^{\circ} \mathrm{C}$, to form gaseous ethanol at 1.00 atm at $78.0^{\circ} \mathrm{C}$. Make the following simplifying assumptions: (a) the density of liquid ethanol at $78.0^{\circ} \mathrm{C}$ is $0.789 \mathrm{~g} / \mathrm{mL}$, and (b) gaseous ethanol is adequately described by the ideal gas equation. The heat of vaporization of ethanol is $855 \mathrm{~J} / \mathrm{g}$.
+131. We add 0.100 g of $\mathrm{CaO}(\mathrm{s})$ to $125 \mathrm{~g} \mathrm{H}_{2} \mathrm{O}$ at $23.6^{\circ} \mathrm{C}$ in a coffee-cup calorimeter. The following reaction occurs. What will be the final temperature of the solution?
+
+$$
+\begin{aligned}
+\mathrm{CaO}(\mathrm{~s})+\mathrm{H}_{2} \mathrm{O}(\ell) \longrightarrow \mathrm{Ca}(\mathrm{OH})_{2}(\mathrm{aq}) & \\
+\Delta H^{0} & =81.5 \mathrm{~kJ} / \mathrm{mol} \mathrm{rxn}
+\end{aligned}
+$$
+
+132. (a) The accurately known molar heat of combustion of naphthalene, $\mathrm{C}_{10} \mathrm{H}_{8}(\mathrm{~s}), \Delta H=-5156.8 \mathrm{~kJ} / \mathrm{mol} \mathrm{C}_{10} \mathrm{H}_{8}$, is used to calibrate calorimeters. The complete combustion of 0.01520 g of $\mathrm{C}_{10} \mathrm{H}_{8}$ at constant pressure raises the temperature of a calorimeter by $0.212^{\circ} \mathrm{C}$. Find the heat capacity of the calorimeter. (b) The initial temperature of the calorimeter (part a) is $22.102^{\circ} \mathrm{C} ; 0.1040 \mathrm{~g}$ of $\mathrm{C}_{8} \mathrm{H}_{18}(\ell)$, octane (molar heat of combustion $\Delta H=-5451.4 \mathrm{~kJ} / \mathrm{mol} \mathrm{C}_{8} \mathrm{H}_{18}$,) is completely burned in the calorimeter. Find the final temperature of the calorimeter.
+
+**Conceptual Exercises**
+
+133. When a gas expands suddenly, it may not have time to absorb a significant amount of heat: $q=0$. Assume that $1.00 \mathrm{~mol} \mathrm{~N}_{2}$ expands suddenly, doing 3000. J of work. (a) What is $\Delta E$ for the process? (b) The heat capacity of $\mathrm{N}_{2}$ is $20.9 \mathrm{~J} / \mathrm{mol}$ ? ${ }^{\circ} \mathrm{C}$. How much does its temperature fall during this expansion? (This is the principle of most snow-making machines, which use compressed air mixed with water vapor.)
+134. As a rubber band is stretched, it gets warmer; when released, it gets cooler. To obtain the more nearly linear
+from the more random relaxed rubber band requires that there be rotation about carbon-carbon single bonds. Based on these data, give the sign of $\Delta G, \Delta H$, and $\Delta S$ for the stretching of a rubber band and for the relaxing of a stretched rubber band. What drives the spontaneous process?
+135. (a) The decomposition of mercury(II) oxide has been used as a method for producing oxygen, but this is not a recommended method. Why? (b) Write the balanced equation for the decomposition of mercury(II) oxide.
+(c) Calculate the $\Delta H^{0}, \Delta S^{0}$, and $\Delta G^{0}$ for the reaction.
+(d) Is the reaction spontaneous at room temperature?
+136. (a) A student heated a sample of a metal weighing 32.6 g to $99.83^{\circ} \mathrm{C}$ and put it into 100.0 g of water at $23.62^{\circ} \mathrm{C}$ in a calorimeter. The final temperature was $24.41^{\circ} \mathrm{C}$. The student calculated the specific heat of the metal, but neglected to use the heat capacity of the calorimeter. The specific heat of water is $4.184 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}$. What was his answer? The metal was known to be chromium, molybdenum, or tungsten. By comparing the value of the specific heat to those of the metals $\left(\mathrm{Cr}, 0.460 ; \mathrm{Mo}, 0.250 ; \mathrm{W}, 0.135 \mathrm{~J} / \mathrm{g} \cdot{ }^{\circ} \mathrm{C}\right)$, the student identified the metal. What was the metal? (b) A student at the next laboratory bench did the same experiment, obtained the same data, and used the heat capacity of the calorimeter in his calculations. The heat capacity of the calorimeter was $410 . \mathrm{J} /{ }^{\circ} \mathrm{C}$. Was his identification of the metal different?
+137. According to the Second Law of Thermodynamics what would be the ultimate state or condition of the universe?
+138. For each of the following changes, estimate the signs (positive, negative, or 0 ) of $\Delta S$ and $\Delta G$.
+(a) The growth of a crystal from a supersaturated solution
+(b) Sugar cube + cup of hot tea ⟶ cup of hot, sweetened tea
+(c) $\mathrm{H}_{2} \mathrm{O}(\mathrm{s}) \longrightarrow \mathrm{H}_{2} \mathrm{O}(\ell)$
+139. Estimate the boiling point of tin(IV) chloride, $\mathrm{SnCl}_{4}$, at one atmosphere pressure:
+
+$$
+\begin{gathered}
+\mathrm{SnCl}_{4}(\ell) \leftrightharpoons \mathrm{SnCl}_{4}(\mathrm{~g}) \\
+\mathrm{SnCl}_{4}(\ell): \Delta H_{\mathrm{f}}^{0}=-511.3 \mathrm{~kJ} / \mathrm{mol}, S^{0}=258.6 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K} \\
+\mathrm{SnCl}_{4}(\mathrm{~g}): \Delta H_{\mathrm{f}}^{0}=-471.5 \mathrm{~kJ} / \mathrm{mol}, S^{0}=366 \mathrm{~J} / \mathrm{mol} \cdot \mathrm{~K}
+\end{gathered}
+$$
+
+**Building Your Knowledge**
+
+140. A Energy to power muscular work is produced from stored carbohydrates (glycogen) or fat (triglycerides). Metabolic consumption and production of energy are described with the nutritional "Calorie," which is equal to 1 kilocalorie. Average energy output per minute for various activities follows: sitting, 1.7 kcal ; walking, level, 3.5 mph , 5.5 kcal ; cycling, level, 13 mph , 10. kcal; swimming, 8.4 kcal; running, 10. mph, 19 kcal. Approximate energy values of some common foods are also given: large apple, 100. kcal; 8 -oz cola drink, 105 kcal ; malted milkshake, $500 . \mathrm{kcal}$; $\frac{3}{4}$ cup pasta with tomato sauce and cheese, 195 kcal ; hamburger on bun with sauce, 350 . kcal; 10.-oz sirloin steak, including fat, 1000. kcal. To maintain body weight,
+showing (a) each given food, (b) its fuel value, and (c) the minutes of each activity that would balance the kcal of each food.
+141. From its heat of fusion, calculate the entropy change associated with the melting of one mole of ice at its melting point. From its heat of vaporization, calculate the entropy change associated with the boiling of one mole of water at its boiling point. Are your calculated values consistent with the simple model that we use to describe order in solids, liquids, and gases?
+142. The energy content of dietary fat is $39 \mathrm{~kJ} / \mathrm{g}$, and for protein and carbohydrates it is 17 and $16 \mathrm{~kJ} / \mathrm{g}$, respectively. A $70.0-\mathrm{kg}(155-\mathrm{lb})$ person utilizes $335 \mathrm{~kJ} / \mathrm{h}$ while resting and $1250 . \mathrm{kJ} / \mathrm{h}$ while walking $6 \mathrm{~km} / \mathrm{h}$. How many hours would the person need to walk per day instead of resting if he or she consumed 100 . g (about $\frac{1}{4} \mathrm{lb}$ ) of fat instead of 100. g of protein in order to not gain weight?
+143. The enthalpy change for melting one mole of water at 273 K is $\Delta H_{273}^{0}=6010 \mathrm{~J} / \mathrm{mol}$, whereas that for vaporizing a mole of water at 373 K is $\Delta H_{273}^{0}=40,660 \mathrm{~J} / \mathrm{mol}$. Why is the second value so much larger?
+144. A $43.6-\mathrm{g}$ chunk of lead was removed from a beaker of boiling water, quickly dried, and dropped into a polystyrene cup containing 50.0 g of water at $25.0^{\circ} \mathrm{C}$. As the system reached equilibrium, the water temperature rose to $26.8^{\circ} \mathrm{C}$. The heat capacity of the polystyrene cup had previously been determined to be $18.6 \mathrm{~J} /{ }^{\circ} \mathrm{C}$. Calculate the molar heat capacity and the specific heat of lead.
+145. Methane, $\mathrm{CH}_{4}(\mathrm{~g})$, is the main constituent of natural gas. In excess oxygen, methane burns to form $\mathrm{CO}_{2}(\mathrm{~g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$, whereas in limited oxygen, the products are $\mathrm{CO}(\mathrm{g})$ and $\mathrm{H}_{2} \mathrm{O}(\ell)$. Which would result in a higher temperature: a gas-air flame or a gas-oxygen flame? How can you tell?
+
+![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-58.jpg?height=381&width=471&top_left_y=1519&top_left_x=290)
+A methane flame
+
+146. A $0.483-\mathrm{g}$ sample of butter was burned in a bomb calorimeter whose heat capacity was $4572 \mathrm{~J} /{ }^{\circ} \mathrm{C}$, and the temperature was observed to rise from 24.76 to $27.93^{\circ} \mathrm{C}$. Calculate the fuel value of butter in (a) $\mathrm{kJ} / \mathrm{g}$; (b) nutritional Calories/g (one nutritional Calorie is equal to one kilocalorie); (c) nutritional Calories/5-gram pat.
+
+## Beyond the Textbook
+
+NOTE: Whenever the answer to an exercise depends on information obtained from a source other than this textbook, the source must be included, as an essential part of the answer: These questions, with appropriate hot links included, can be found on this book's companion website at www.cengage.com/chemistry/whitten
+
+Go to www.chemistry.co.nz/hess_law.htm or another suitable site and find the answers to the next two questions about Germain Henri Hess.
+147. Hess's Law is also known as the Law of $\_\_\_\_$
+$\_\_\_\_$ .
+148. Before he became a professor of chemistry at 28 years of age, what career did Germain Hess pursue?
+149. Go to www-groups.dcs.st-andrews.ac.uk/~history/ Mathematicians/Gibbs.html or another site that describes the events in the life of Josiah Willard Gibbs. (a) In what way was the doctorate degree granted to Gibbs, from whom Gibbs free energy gets its name, a first? (b) At what university did he spend nearly all his academic career?
+150. Use the Handbook of Chemistry and Physics or another suitable reference to find the heats of formation of the following hydrocarbons: methane, ethane, propane, and $n$-butane. (a) What are the units of the values you have found? (b) Is there a trend when you compare the formula weight of each hydrocarbon with its heat of formation?
+151. Why does $\mathrm{Al}_{2} \mathrm{O}_{3}(\mathrm{~s})$ have a lower entropy than $\mathrm{Fe}_{2} \mathrm{O}_{3}(\mathrm{~s})$ ? There are two primary qualitative reasons for this. You may have to use the chemistry library or some other source to get more information on the properties of these two common compounds to answer the question.
+152. Steel is made by the high-temperature reaction of iron oxide $\left(\mathrm{Fe}_{2} \mathrm{O}_{3}\right)$ with coke (a form of carbon) to produce metallic iron and $\mathrm{CO}_{2}$. This same reaction can NOT be done with alumina $\left(\mathrm{Al}_{2} \mathrm{O}_{3}\right)$ and carbon to make metallic Al and $\mathrm{CO}_{2}$. Why not? Explain fully and give thermodynamic reasons for your answer. You may need to obtain further information from outside sources on the properties of the substances involved.
+
+
+[^0]:    *IUPAC has changed the standard pressure from 1 atm to 1 bar . Because 1 bar is equal to 0.987 atm , the differences in thermodynamic calculations are negligible except in work of very high precision. Many tables of thermodynamic data are still based on a standard pressure of 1 atm , so we use that pressure in this text.
+
+
+
+
+# 15 Chemical Thermodynamics
+
+## Outline
+
+**Heat Changes and Thermochemistry**
+
+- 15-1 The First Law of Thermodynamics
+- 15-2 Some Thermodynamic Terms
+- 15-3 Enthalpy Changes
+- 15-4 Calorimetry
+- 15-5 Thermochemical Equations
+- 15-6 Standard States and Standard Enthalpy Changes
+- 15-7 Standard Molar Enthalpies of Formation, $\Delta H_{\mathrm{f}}^{0}$
+- 15-8 Hess's Law
+- 15-9 Bond Energies
+- 15-10 Changes in Internal Energy, $\Delta E$
+- 15-11 Relationship between $\Delta H$ and $\Delta E$
+
+**Spontaneity of Physical and Chemical Changes**
+
+- 15-12 The Two Aspects of Spontaneity
+- 15-13 Dispersal of Energy and Matter
+- 15-14 Entropy, $S$, and Entropy Change, $\Delta S$
+- 15-15 The Second Law of Thermodynamics
+- 15-16 Free Energy Change, $\Delta G$, and Spontaneity
+- 15-17 The Temperature Dependence of Spontaneity
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-01.jpg?height=1023&width=1007&top_left_y=1079&top_left_x=35)
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-01.jpg?height=307&width=351&top_left_y=2099&top_left_x=33)
+> The thermite reaction is a highly exothermic reaction of aluminum powder and iron oxide to produce molten steel (iron) and aluminum oxide. It is being used here to weld steel rails together for a new light rail line in Salt Lake City. (© Steve Griffin/The Salt Lake Tribune)
+
+
+
+## Objectives
+
+**After you have studied this chapter, you should be able to:**
+
+- Understand the terminology of thermodynamics, and the meaning of the signs of changes
+- Use the concept of state functions
+- Carry out calculations of calorimetry to determine changes in energy and enthalpy
+- Use Hess's Law to find the enthalpy change, $\Delta H$, for a reaction by combining thermochemical equations with known $\Delta H$ values
+- Use Hess's Law to find the enthalpy change, $\Delta H$, for a reaction by using tabulated values of standard molar enthalpies of formation
+- Use Hess's Law to find the enthalpy of formation given $\Delta H$ for a reaction and the known enthalpies of formation of the other substances in the reaction
+- Use the First Law of Thermodynamics to relate heat, work, and energy changes
+- Relate the work done on or by a system to changes in its volume
+- Use bond energies to estimate heats of reaction for gas phase reactions; use $\Delta H$ values for gas phase reactions to find bond energies
+- Understand what is meant by a productfavored (spontaneous) process and by a reactant-favored (nonspontaneous) process
+- Understand the relationship of entropy to the dispersal of energy and dispersal of matter (disorder) in a system
+- Use tabulated values of absolute entropies to calculate the entropy change, $\Delta S$
+- Understand how the spontaneity of a process is related to entropy changes-the Second Law of Thermodynamics
+- Calculate changes in Gibbs free energy, $\Delta G$, by two methods: (a) from values of $\Delta H$ and $\Delta S$ and (b) from tabulated values of standard molar free energies of formation; know when to use each type of calculation
+- Use $\Delta G$ to predict whether a process is product-favored (spontaneous) at constant $T$ and $P$
+- Understand how changes in temperature can affect the spontaneity of a process
+- Predict the temperature range of spontaneity of a chemical or physical process
+
+Energy is very important in every aspect of our daily lives. The food we eat supplies the energy to sustain life with all of its activities and concerns. The availability of (still) relatively inexpensive energy is an important factor in our technological society. This is seen in the costs of fuel, heating and cooling of our homes and workplaces, and electricity to power our lights, appliances, and computers. It is also seen in the costs of goods and services we purchase because a substantial part of the cost of production is for energy in one form or another. We must understand the scientific basis of the storage and use of energy to learn how to decrease our dependence on consumable oil and natural gas as our main energy sources. Such understanding will have profound ramifications, ranging from our daily lifestyles to international relations.
+
+The concept of energy is at the very heart of science. All physical and chemical processes, including those in all living systems, are accompanied by the transfer of energy. Because energy cannot be created or destroyed, we must understand how to do the "accounting" of energy transfers from one body or one substance to another, or from one form of energy to another.
+
+In thermodynamics we study the energy changes that accompany physical and chemical processes. These energy changes usually involve beat-hence the "thermo-" part of the term. In this chapter we study the two main aspects of thermodynamics. The first is thermochemistry. This practical subject is concerned with how we observe, measure, and predict energy changes for both physical changes and chemical reactions. The second part of the chapter addresses a more fundamental aspect of thermodynamics. There we will learn to use energy changes to tell whether or not a given process can occur under specified conditions to give predominantly products (or reactants) and how to make a process more (or less) favorable.
+
+> [!note] Online resources
+> OWLSign in to OWL at www.cengage.com/owl to view tutorials and simulations, develop problem-solving skills, and complete online homework assigned by your professor.
+> 
+> Chemistry mini-lecture videos for key concept review and exam prep from OWL or purchase them from www.ichapters.com Companion Website Work online quizzes, view and test yourself on Active Figures, and view Beyond the Textbook questions at www.cengage .com/chemistry/whitten
+
+
+Some forms of energy are potential, kinetic, electrical, nuclear, heat, and light.
+
+> [!figure]
+> ![](https://cdn.mathpix.com/cropped/eb1b0ed4-5994-4be8-8a1a-04e4127a367d-03.jpg?height=598&width=440&top_left_y=408&top_left_x=111)
+> As matter falls from a higher to a lower level, its gravitational potential energy is converted into kinetic energy. A hydroelectric power plant converts the kinetic energy of falling water into electrical (potential) energy.
+
+A hydrocarbon is a binary compound of only hydrogen and carbon. Hydrocarbons may be gaseous, liquid, or solid. All burn.
+
+The amount of heat shown in such an equation always refers to the reaction for the number of moles of reactants and products specified by the coefficients. We call this one mole of reaction.
+
+> [!note] Stop and Think
+> 
+> It is important to specify the physical states of all substances because different physical states have different energy contents.
+
+
+**Heat Changes and Thermochemistry**
