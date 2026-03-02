@@ -14,13 +14,21 @@ The **cathodic limiting current** $i_{\mathrm{L,c}}$ is the transport-limited pl
 
 The **cell Nernst equation** is the relation $E_{\text{cell}}=E_{\text{cell}}^\circ-(RT/nF)\ln\mathcal{Q}$ that connects a cell’s measured voltage to the reaction quotient $\mathcal{Q}$ for the net cell reaction, under reversible, activity-based thermodynamic bookkeeping.
 
-## chemical reversibility
+## charge transfer
 
-In these chapters, **chemical reversibility** is the condition that any coupled homogeneous chemistry (before, after, or concurrent with electron transfer) is fast enough, and sufficiently backward-capable, that the overall chemical system can return to its initial composition on the experimental time scale (for example, on the reverse scan in cyclic voltammetry). In voltammetry, chemical irreversibility often appears as suppression of the reverse-scan feature because products are removed (or transformed) by follow-up chemistry.
+In these chapters, **charge transfer** is the interfacial electron-transfer step at the electrode/solution boundary that changes the oxidation state (and therefore the chemical identity) of an electroactive species, e.g., $\mathrm{O}+ne^- \rightleftharpoons \mathrm{R}$. Charge transfer occurs at the interface and is conceptually distinct from mass transport in the solution phase.
 
 ## charging current
 
 **charging current** is the transient current that flows when the electrode/solution interface accumulates or releases charge in response to a change in applied potential, analogous to charging a capacitor. In non-faradaic windows, charging current (also called **capacitive current**) can dominate the measured current even when no net charge-transfer reaction proceeds.
+
+## chemical potential
+
+The **chemical potential** $\mu_i$ is the partial molar Gibbs free energy of species $i$, defined by $\mu_i=(\partial G/\partial n_i)_{T,P,n_{j\neq i}}$. It is the thermodynamic driving-force measure that tracks how composition (through activities) changes free energy in reactions and in mass transfer.
+
+## chemical reversibility
+
+In these chapters, **chemical reversibility** is the condition that any coupled homogeneous chemistry (before, after, or concurrent with electron transfer) is fast enough, and sufficiently backward-capable, that the overall chemical system can return to its initial composition on the experimental time scale (for example, on the reverse scan in cyclic voltammetry). In voltammetry, chemical irreversibility often appears as suppression of the reverse-scan feature because products are removed (or transformed) by follow-up chemistry.
 
 ## current-controlled mode
 
@@ -37,6 +45,14 @@ The **diffusion-layer (film) approximation** is a simplified transport model for
 ## diffusion-layer thickness
 
 The **diffusion-layer thickness** $\delta$ is the effective thickness used in the diffusion-layer (film) approximation to represent the near-electrode region over which most of the concentration drop occurs. It is not a sharp physical boundary; it depends on time scale, hydrodynamics, geometry, and the transport regime being modeled.
+
+## diffusion-limited condition
+
+The **diffusion-limited condition** is the transport-controlled limit in which the reactant concentration at the electrode surface is effectively depleted (often idealized as $C(x=0)\approx 0$ for a species being consumed at the electrode). Once this condition is reached, further changes in potential do not significantly increase the concentration gradient, so the faradaic current approaches a limiting plateau.
+
+## diffusion-limited current
+
+The **diffusion-limited current** is the limiting-current plateau obtained when diffusion (more broadly, mass transport through the electrolyte) controls the rate rather than interfacial charge-transfer kinetics. In film-type descriptions it is obtained by taking $C(x=0)\approx 0$ for the reactant so that the maximum sustainable flux is set by the bulk-to-surface concentration drop across an effective transport length scale.
 
 ## double-layer capacitance
 
@@ -68,7 +84,7 @@ An **equivalent circuit** is an electrical-network model (built from idealized c
 
 ## faradaic process
 
-A **faradaic process** is an interfacial process in which charge crosses the electrode/solution interface by an oxidation–reduction (electron-transfer) reaction. Faraday’s law connects the amount of electron transfer to the charge passed.
+A **faradaic process** is an interfacial process in which net charge crosses an interface in a stoichiometric way tied to a chemical or mass-transfer event, so that the charge passed can be related to an amount of species transfer (a Faraday-type relation). At a metal/solution electrode this is most often an oxidation–reduction (electron-transfer) reaction; at an interface between immiscible electrolyte solutions it can be transfer of an ion between phases.
 
 ## flux
 
@@ -90,17 +106,45 @@ An **ideally polarizable electrode (IPE)** is an idealized electrode/solution in
 
 The **inner Helmholtz plane (IHP)** is an idealized plane near the electrode surface associated with the compact, inner-layer structure, including the closest approach of specifically adsorbed ions at the interface.
 
+## inner potential
+
+See **Galvani potential**.
+
 ## inner-sphere electron transfer
 
 An **inner-sphere electron transfer** is an electron-transfer process that involves a specifically adsorbed intermediate or bond-forming interaction with the electrode (or a bridging ligand), so that the electrode material and surface chemistry can strongly influence the reaction pathway and kinetics.
+
+## interface between two immiscible electrolyte solutions (ITIES)
+
+An **interface between two immiscible electrolyte solutions (ITIES)** is a boundary between two liquid electrolyte phases (for example, water and nitrobenzene) that remain macroscopically immiscible but can exchange ions across the interface under an applied interfacial potential difference.
+
+## interfacial Galvani potential difference
+
+The **interfacial Galvani potential difference** $\Delta\phi_{W}^{NB}$ is the Galvani-potential difference between two phases at an ITIES, defined (for organic $NB$ relative to aqueous $W$) as $\Delta\phi_{W}^{NB}=\phi^{NB}-\phi^{W}$.
+
+## ion-transfer reaction
+
+An **ion-transfer reaction** is an interfacial process in which an ion moves from one liquid phase to another across an ITIES without undergoing an electron-transfer (redox) transformation.
 
 ## limiting current
 
 The **limiting current** $i_{\mathrm{L}}$ is the plateau magnitude of faradaic current reached when mass transport limits the supply (or removal) of an electroactive species at the electrode surface, so that further changes in potential do not increase the reaction rate. In diffusion-controlled film models, it scales as $i_{\mathrm{L}}\propto nFA\,m\,C^*$ with $m=D/\delta$.
 
+## mass transport
+
+In these chapters, **mass transport** is the physical movement of species through the electrolyte that supplies reactant to, and removes product from, the electrode vicinity. It can include diffusion (driven by concentration gradients), migration (driven by electric fields), and convection (driven by fluid motion); which contributions matter depends on the experimental conditions and the approximations being used.
+
 ## mass-transfer coefficient
 
 The **mass-transfer coefficient** $m$ is a lumped parameter that converts a bulk-to-surface concentration difference into a transport flux, typically written $J\approx m\,(C^*-C(x=0))$. In the diffusion-layer (film) approximation, $m=D/\delta$ and has units of m s$^{-1}$.
+
+## molar flux
+
+The **molar flux** $J$ is the rate at which moles of a species cross a unit area per unit time in a specified direction (units of mol m$^{-2}$ s$^{-1}$). At an electrode, the normal molar flux evaluated at the surface couples to faradaic current through $i=nFA\,J(x=0)$ under the usual sign conventions and stoichiometric bookkeeping.
+
+## Nernstian
+
+In these chapters, **Nernstian** behavior means that interfacial electron transfer is fast enough to maintain local equilibrium between oxidized and reduced forms at the electrode surface. As a result, the surface composition ratio is constrained by the Nernst equation at each applied potential, and changes in $E$ primarily shift the surface concentrations rather than being limited by charge-transfer kinetics.
 
 ## non-faradaic process
 
@@ -162,6 +206,10 @@ The **standard electrode potential** $E^\circ$ (for a specified half-reaction un
 
 The **standard Gibbs free energy of reaction** $\Delta G_r^\circ$ is the Gibbs free energy change per mole of reaction as written when all reactants and products are in their standard states. It is related to standard cell potential by $\Delta G_r^\circ=-nF E_{\text{cell}}^\circ$.
 
+## standard Gibbs free energy of transfer
+
+The **standard Gibbs free energy of transfer** $\Delta G_{\mathrm{tr}}^{\circ,W\to NB}$ is the standard-state free energy change for transferring a species from phase $W$ to phase $NB$, defined by $\Delta G_{\mathrm{tr}}^{\circ,W\to NB}=\mu_i^{\circ,NB}-\mu_i^{\circ,W}$. It captures (at standard state) the ion’s relative solvation preference between the two liquids and appears as the constant offset in ITIES Nernst-type relations.
+
 ## standard rate constant
 
 In these chapters, the **standard rate constant** $k^{0}$ is the kinetic parameter that sets the intrinsic speed of interfacial electron transfer under standard-state conditions, as it appears in electron-transfer rate laws. Larger $k^{0}$ corresponds to faster interfacial kinetics and therefore makes electrochemical reversibility easier to achieve on a given experimental time scale.
@@ -169,6 +217,10 @@ In these chapters, the **standard rate constant** $k^{0}$ is the kinetic paramet
 ## steady state (mass transport)
 
 In electrode mass transport, **steady state** means the concentration field near the electrode is time-independent over the measurement window ($\partial C/\partial t=0$ in the region of interest), so fluxes and the resulting transport-controlled current become time-independent.
+
+## steady-state voltammetry
+
+**steady-state voltammetry** is a mode of measurement in which each current value is recorded after the near-electrode concentration field has reached a steady state at the imposed potential. The resulting $i$–$E$ curve therefore reflects time-independent transport profiles (for each point) rather than transient diffusion-layer growth.
 
 ## time constant
 

@@ -55,6 +55,13 @@ This integrates current over time for the special case of a constant current, gi
 
 These are kinematic identities: current is the time derivative of stored charge, and charge is the time integral of current.
 
+> [!equation] Chemical potential (definition)
+> $$
+> \mu_i=\left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\neq i}}
+> $$
+
+This defines chemical potential as a partial molar Gibbs free energy: it is the change in $G$ per mole of species $i$ added while holding $T$, $P$, and all other amounts fixed.
+
 > [!equation] Chemical potential from activity
 > $$
 > \mu_i^\alpha=\mu_i^{\circ,\alpha}+RT\ln a_i^\alpha
@@ -82,6 +89,13 @@ This approximates the diffusive flux by assuming a linear concentration profile 
 > $$
 
 This states charge balance in the electric double layer: the total solution-side charge density (inner-layer plus diffuse-layer contributions) balances the metal-side charge density with opposite sign.
+
+> [!equation] Electrochemical potential (activity form)
+> $$
+> \bar{\mu}_i^\alpha=\mu_i^{\circ,\alpha}+RT\ln a_i^\alpha+z_iF\phi^\alpha
+> $$
+
+This expresses electrochemical potential in a form that is directly substituted into equilibrium conditions: a standard-state term plus an activity-dependent term plus an electrical work term.
 
 > [!equation] Electrochemical potential (definition)
 > $$
@@ -129,6 +143,20 @@ This converts a molar flux $J$ of an electroactive species at an electrode into 
 
 This links thermodynamic driving force to electrical driving force for a cell reaction: a positive $E_{\text{cell}}$ corresponds to $\Delta G<0$ for the spontaneous direction.
 
+> [!equation] Galvani potential (test-charge definition)
+> $$
+> \phi^\alpha=\frac{w}{q}
+> $$
+
+This defines the inner (Galvani) potential of a phase as reversible electrical work per unit positive test charge brought from infinity into the phase interior, making $\phi^\alpha$ an energy-per-charge quantity (units of volts).
+
+> [!equation] Half-wave potential (definition)
+> $$
+> i(E_{1/2})=\frac{1}{2}\,i_{\mathrm{L,c}}
+> $$
+
+This defines the half-wave potential $E_{1/2}$ operationally as the potential at which a steady-state cathodic wave reaches half of its limiting-current plateau $i_{\mathrm{L,c}}$.
+
 > [!equation] Half-wave potential (mass-transfer corrected)
 > $$
 > E_{1/2}=E^{0}+\frac{0.059}{n}\,\log_{10}\!\left(\frac{m_{\mathrm{R}}}{m_{\mathrm{O}}}\right)
@@ -142,6 +170,16 @@ This gives the steady-state half-wave potential including unequal mass-transfer 
 > $$
 
 This records the canonical hydrogen redox couple in reduction form, often used for reference-electrode and Nernst-equation discussions.
+
+> [!equation] Interfacial Galvani-potential difference across an ITIES (ion transfer)
+> $$
+> \Delta\phi_{W}^{NB}
+> =
+> \frac{\mu_{\mathrm{ACh}^+}^{\circ,W}-\mu_{\mathrm{ACh}^+}^{\circ,NB}}{F}
+> +\frac{RT}{F}\ln\!\left(\frac{a_{\mathrm{ACh}^+}^{W}}{a_{\mathrm{ACh}^+}^{NB}}\right)
+> $$
+
+This is the Nernst-type relation for ion transfer across an interface between two immiscible electrolyte solutions (ITIES): the required interfacial Galvani-potential difference depends on a standard-state offset (reflecting different solvation free energies) and on a logarithmic activity ratio across the two phases.
 
 > [!equation] Interfacial Galvani-potential drop for $\mathrm{Zn}^{2+}/\mathrm{Zn}$ (electrochemical-potential form)
 > $$
@@ -195,6 +233,13 @@ This is a base-10 specialization of the Nernst relation at 298 K written in term
 > $$
 
 This is the cell-level Nernst equation: the measured cell voltage differs from its standard value by a composition-dependent term involving the reaction quotient $\mathcal{Q}$ for the net cell reaction.
+
+> [!equation] Nernst equation (Zn/H$^+$ cell, activity form)
+> $$
+> E=E^\circ-\frac{RT}{2F}\ln\!\left(\frac{a_{\mathrm{Zn}^{2+}}^{S}a_{\mathrm{H_2}}^{g}}{(a_{\mathrm{H}^+}^{S})^2}\right)
+> $$
+
+This is the Nernst form for the net reaction $\mathrm{Zn}(s)+2\mathrm{H}^+ \rightleftharpoons \mathrm{Zn}^{2+}+\mathrm{H_2}$ written as a measurable terminal voltage: the activity dependence follows the reaction quotient with $n=2$ electrons.
 
 > [!equation] Nernst form for a metal/ion electrode (activity form)
 > $$
@@ -275,6 +320,13 @@ This relates steady-state current and potential for a reversible couple under ca
 > $$
 
 These express how steady-state flux balance links surface concentrations to current via mass-transfer coefficients for reduced and oxidized forms.
+
+> [!equation] Terminal potential difference between metal leads
+> $$
+> E\equiv \phi^{\mathrm{Cu}'}-\phi^{\mathrm{Cu}}
+> $$
+
+This defines a directly measurable cell voltage as a Galvani-potential difference between two metal terminals (leads); it is the quantity a voltmeter reads when connected across the leads.
 
 > [!equation] Voltage partition in the $R_{\mathrm{s}}$–$C_{\mathrm{d}}$ series model
 > $$
