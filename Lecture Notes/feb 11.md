@@ -2,21 +2,39 @@
 
 In most real-world experiments, the speed of your reaction is not limited by how fast the electrode can work, but by how fast the solution can deliver reactants to the surface. In this chapter, we will focus on the diffusion layer. By understanding the the movement of bulk species, we can describe the steady state: a condition where the rate of supply perfectly matches the rate of consumption. This balance manifests as the plateau in a voltammogram, a signature that the system has reached its physical speed limit.
 
-# Electron-Transfer Reactions at Electrode Interfaces
+# 1. Electron-Transfer Reactions at Electrode Interfaces
 
 Electrode reactions are often classified by whether the electron transfer can occur to a solvated species without forming (or breaking) a specific chemical bond to the electrode surface. This distinction—**outer-sphere** versus **inner-sphere** electron transfer—controls how strongly the observed thermodynamics and kinetics depend on the electrode material (e.g., Pt, Au, carbon).
 
-### Outer-sphere electron transfer: thermodynamics largely independent of electrode material
 
-In an **outer-sphere** reaction, the redox species in solution remains separated from the electrode by its solvation shell (and any specifically adsorbed layer). Electron transfer occurs “through” this interfacial region without the reactant forming a surface bond. Because the electrode does not participate as a chemical reactant, the equilibrium potential is set by the solution redox couple itself and is therefore the same on chemically inert conductors such as **Pt** and **Au** (i.e., the same ($E^\circ$) for a given couple).
+> [!definition] Outer-sphere electron transfer
+> A mechanism where the reactant and product do not bridge or bond to the electrode surface. The electron "tunnels" through the solvent layers, and the chemical identity of the electrode acts only as a source or sink of electrons.
+
+
+> [!definition] Inner-sphere electron transfer
+> A mechanism involving a specific chemical interaction or bond between the reactant and the electrode surface. The electrode acts as a catalyst, and the reaction energetics are heavily dependent on the surface's chemical nature.
+
+
+
+### 1.1 Outer-sphere electron transfer: thermodynamics largely independent of electrode material
+
+In an outer-sphere reaction, the redox species in solution remains separated from the electrode by its solvation shell (and any specifically adsorbed layer). Electron transfer occurs “through” this interfacial region without the reactant forming a surface bond. Because the electrode does not participate as a chemical reactant, the equilibrium potential is set by the solution redox couple itself and is therefore the same on chemically inert conductors such as Pt and Au (i.e., the same ($E^\circ$) for a given couple).
 
 A convenient generic representation is  
-$$
-\mathrm{O}+n e^- \rightleftharpoons \mathrm{R},  
-$$
+
+
+
+> [!equation] The General Redox Half-Reaction
+> $$
+> \mathrm{O}+n e^- \rightleftharpoons \mathrm{R},  
+> $$
+
 where ($\mathrm{O}$) is the oxidized form and ($\mathrm{R}$) is the reduced form.
 
-**Derivation Mode (Nernst form for an outer-sphere couple).**  
+
+Our goal here is to establish a mathematical link between the chemical energy stored in the concentration gradient of the redox species and the electrical potential measured at the electrode. By applying the principles of classical thermodynamics to a charged interface, we can predict the "zero-current" potential of a system based solely on the activities of the species present.
+
+
 At constant (T) and (p), the reaction Gibbs energy satisfies  
 $$
 \begin{aligned}  
@@ -40,13 +58,34 @@ E
 &= E^\circ -\frac{RT}{nF}\ln\!\left(\frac{a_{\mathrm{R}}}{a_{\mathrm{O}}}\right),  
 \end{aligned}  
 $$
-where ($E^\circ \equiv -\Delta G^\circ/(nF)$). In this outer-sphere setting, ($E^\circ$) is a property of the ($\mathrm{O}/\mathrm{R}$) couple (at the stated standard state) rather than a property of the electrode material, consistent with observing the _same_ ($E^\circ$) on Pt and Au.
+
+
+> [!Eqaution] The Nernst Equation (activity form)
+> $$E=E^{\circ}-\frac{R T}{n F} \ln \left(\frac{a_{\mathrm{R}}}{a_{\mathrm{O}}}\right)$$
+
+
+where ($E^\circ \equiv -\Delta G^\circ/(nF)$). 
+
+
+The Nernst Equation dictates that the electrode potential is a logarithmic function of the ratio of activities (effectively concentrations in dilute solutions) of the reduced and oxidized species. It tells us that for every ten-fold change in the concentration ratio, the potential shifts by approximately $59/n$ mV at room temperature. Crucially, it defines the "equilibrium" state: if the electrode is held at a potential other than $E$, a net current must flow to shift the concentrations until the equation is satisfied once more.
+
+In this outer-sphere setting, ($E^\circ$) is a property of the ($\mathrm{O}/\mathrm{R}$) couple (at the stated standard state) rather than a property of the electrode material, consistent with observing the _same_ ($E^\circ$) on Pt and Au.
 
 This does not imply that all electrodes give identical current–potential behavior for outer-sphere couples: kinetics can still vary through differences in interfacial structure, electronic density of states, surface cleanliness, and other factors. The key point is that the _equilibrium_ potential for ($\mathrm{O}/\mathrm{R}$) is not set by forming a distinct surface chemical intermediate.
 
-### Inner-sphere electron transfer: surface chemistry makes the reaction electrode-dependent
+
+
+
+## 1.2 Inner-sphere electron transfer: surface chemistry makes the reaction electrode-dependent
+
+
+
+
+> [!exercise]
+> Contrast the thermodynamic descriptions of outer-sphere and inner-sphere electron transfer by deriving the standard potential for a surface-coupled redox step. Specifically, using the hydrogen evolution reaction as a model, incorporate a surface site ($\ast$) and an adsorbed intermediate ($\mathrm{H}_{\mathrm{ads}}$) into your derivation of the standard reaction free energy. Use this mathematical framework to explain why $E^\circ$ remains essentially constant across different electrode materials for outer-sphere couples but leads to the observation that $E^\circ_{\text{surf}}(\text{Pt}) \neq E^\circ_{\text{surf}}(\text{C})$ for inner-sphere processes.
 
 In an **inner-sphere** reaction, electron transfer is coupled to a specific interaction with the electrode—most commonly adsorption—so that a surface-bound intermediate appears in the reaction pathway. Because adsorption energetics (and the availability/nature of surface sites) depend strongly on the electrode material, the effective thermodynamics associated with the interfacial step can differ between materials such as **carbon** and **Pt**, leading to **different apparent ($E^\circ$)** for the surface-coupled process.
+
 
 A canonical example is hydrogen evolution/oxidation, which overall can be written as  
 $$
@@ -60,7 +99,7 @@ $$
 $$
 Subsequent chemistry (e.g., combination or electrochemical desorption) produces ($\mathrm{H}_2$), while regenerating sites. The essential feature is that ($\mathrm{H}_{\mathrm{ads}}$) is a **surface species**, and its free energy depends on the electrode material.
 
-**Derivation Mode (why the interfacial “standard potential” can become material-dependent).**  
+
 For the surface-coupled step  
 $$
 \mathrm{H}^+ + e^- + \ast \rightleftharpoons \mathrm{H}_{\mathrm{ads}},  
@@ -85,7 +124,10 @@ E^\circ_{\text{surf}}(\text{Pt}) \neq E^\circ_{\text{surf}}(\text{C})
 $$
 in general. This is the sense in which an inner-sphere process can exhibit a **material-dependent** ($E^\circ$): the electrode is part of the chemistry through the surface intermediate.
 
+
 In contrast, outer-sphere couples lack such a surface chemical intermediate, so the standard potential is not “re-written” in terms that include electrode-specific surface free energies. This outer-sphere/inner-sphere distinction is one of the most practical ways to anticipate when changing the electrode material should leave the equilibrium potential essentially unchanged (outer-sphere) versus when it can shift the apparent thermodynamics and profoundly alter the interfacial behavior through adsorption and catalysis (inner-sphere).
+
+
 
 
 > [!figure] figure 1
