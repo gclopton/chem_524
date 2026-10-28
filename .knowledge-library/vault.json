@@ -1,1 +1,7 @@
-{"id":"72f596ed-73ba-4a27-9ded-481ae16050fe","library":"b084090a-6a67-46bf-8d16-085075ab9010"}
+{
+  "id": "72f596ed-73ba-4a27-9ded-481ae16050fe",
+  "library": "b084090a-6a67-46bf-8d16-085075ab9010",
+  "numbering": {
+    "titleMode": "source"
+  }
+}
